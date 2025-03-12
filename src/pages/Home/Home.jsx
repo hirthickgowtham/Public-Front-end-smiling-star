@@ -1,6 +1,3 @@
-import ParentsReview from "../../components/Home/ParentsReview/ParentsReview"
-
-
 
 export default function Home(){
 
@@ -9,7 +6,6 @@ export default function Home(){
         <>
         
         <h1>Home</h1>
-        <ParentsReview />
         </>
     )
 }
