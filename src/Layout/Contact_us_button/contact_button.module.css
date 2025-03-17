@@ -1,0 +1,20 @@
+/* contact continer styling */
+
+.contact_button{
+    list-style: none;
+    margin: 0em 1em;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+
+}
+
+.cont_btn{
+    padding:.7em 1em;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #3072FF;
+    font-weight: 500;
+}

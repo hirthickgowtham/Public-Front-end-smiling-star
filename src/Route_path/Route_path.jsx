@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Home from "../pages/Home/Home";
 import About_us from "../pages/About_us/About_us";
 import Daycare from "../pages/Programs/DayCare/DayCare";
@@ -8,13 +8,18 @@ import Hindi from "../pages/Programs/Hindi/Hindi";
 import Enquire_form from "../pages/Admission_Form/Admission_page";
 import Locate_us from "../pages/Locate_us/Locate_us";
 import React from 'react'
+import Nav_bar from "../Layout/Nav_bar/Nav_bar";
 
 export default function Route_path() {
 
     return(
-        
+        <>
          
+         <Nav_bar/>
         <Routes>
+
+
+            
 
             <Route path="/" element={<Home/>} />
             <Route path="/About_us" element={<About_us/>} />
@@ -29,7 +34,8 @@ export default function Route_path() {
             <Route path="/Locate_us" element={<Locate_us/>} />
 
         </Routes>
-      
+        
+       </>
     )
     
 }

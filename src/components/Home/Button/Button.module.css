@@ -1,0 +1,150 @@
+/* contact content styling */
+.button{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5em;
+    background-color: #fff;
+    border-radius: 100px;
+    transition: all .3s;
+}
+
+.ball{
+    height: 40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(54, 54, 255);
+    font-size: 1.5em;
+    color: #fff;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.664);
+    transition: all .3s;
+    position: relative;
+
+}
+
+.button_text{
+    font-family:"Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin:0em .4em;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: .7em;
+    position: relative;
+    
+}
+
+
+
+/* media query for button 1500px to 1900px*/
+@media (min-width:1500px) and (max-width:1900px){
+
+    .ball{
+        height: 45px;
+        width: 45px;
+        font-size: 1.3em;
+    }
+
+    .button_text{
+        font-size: 1em;
+    }
+    
+    .button{
+        padding: .4em;
+    }
+}
+
+
+/* media query for  button  1000px to 1500px */
+
+
+@media (min-width:1000px) and (max-width:1500px){
+
+    .ball{
+        height: 30px;
+        width: 30px;
+        font-size: 1.2em;
+    }
+
+    .button_text{
+        font-size: .7em;
+    }
+    
+    .button{
+        padding: .4em;
+    }
+
+
+}
+
+/* media query for  button  700px to 1000px */
+
+@media (min-width:700px) and (max-width:1000px){
+
+    .ball{
+        height: 45px;
+        width: 45px;
+        font-size: 1.3em;
+    }
+
+    .button_text{
+        font-size: 1em;
+    }
+    
+    .button{
+        padding: .4em;
+    }
+}
+
+
+/* media query for  button  500px to 700px */
+
+@media (min-width:500px) and (max-width:700px){
+
+
+    .ball{
+        height: 35px;
+        width: 35px;
+        font-size: 1em;
+    }
+
+    .button_text{
+        font-size: .8em;
+    }
+    
+    .button{
+        padding: .4em;
+    }
+
+
+}
+
+
+
+/* media query for  button  300px to 500px */
+
+@media (min-width:300px) and (max-width:500px){
+
+    .ball{
+        height: 25px;
+        width: 25px;
+        font-size: .8em;
+    }
+
+    .button_text{
+        font-size: .5em;
+    }
+    
+    .button{
+        padding: .4em;
+    }
+
+
+}

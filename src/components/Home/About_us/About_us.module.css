@@ -1,0 +1,221 @@
+
+/* styling for topic */
+.topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+/* styling for about continer */
+
+.about_continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* styling for image continer */
+
+.image_continer{
+    min-width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+    padding: 1em 2em;
+}
+
+.image_continer img{
+    margin: 1em 2em;
+    width: 85%;
+    
+}
+
+
+/* styling for text content  */
+
+.text_content{
+    padding:3em 1em;
+    margin:1em .5em;
+}
+
+.sub_topic{
+    padding:.4em 0em;
+}
+
+.sub_topic h2{
+    font-size: 3em;
+    font-family: "poppins";
+}
+
+.para{
+    padding:0em 1em;
+    font-size: 1.5em;
+    font-family: "poppins";
+    text-align: justify;
+
+}
+
+
+
+
+
+/* media query for about us component 1400px to 1700px*/
+
+@media(min-width:1400px) and (max-width:1700px){
+
+    .sub_topic h2{
+        font-size: 2.5em;
+    }
+
+    .para{
+        font-size: 1.3em;
+    }
+}
+
+
+/* media query for about us component 1000px to 1400px*/
+
+
+@media(min-width:1000px) and (max-width:1400px){
+
+    .sub_topic h2{
+        font-size: 2.2em;
+    }
+
+    .para{
+        font-size: 1em;
+    }
+    .topic{
+
+        font-size: 1.2em;
+    }
+}
+
+
+
+/* media query for about us component 1000px to 1400px*/
+
+
+@media(min-width:700px) and (max-width:1000px){
+
+    .about_continer{
+        flex-direction: column;
+    }
+
+    .image_continer{
+        max-width: 65%;
+        padding: .5em 1.5em;
+    }
+
+    .text_content{
+        padding:1em 1.5em;
+        margin: .5em;
+    }
+
+    .sub_topic h2{
+        font-size: 2em;
+    }
+
+    .para{
+        font-size: 1.3em;
+    }
+
+    .topic{
+
+        font-size: 1.2em;
+    }
+
+    .image_continer img{
+        margin: 1em 1.5em;
+        width:90%;
+    }
+
+}
+
+
+/* media query for about us component 400px to 700px*/
+
+
+@media(min-width:400px) and (max-width:700px){
+
+    .about_continer{
+        flex-direction: column;
+    }
+
+    .image_continer{
+        max-width: 80%;
+    }
+
+    .text_content{
+        padding:1em;
+        margin: .5em;
+    }
+
+    .sub_topic h2{
+        font-size: 1.5em;
+    }
+
+    .para{
+        font-size: .9em;
+    }
+
+    
+    .topic{
+
+        font-size: .75em;
+    }
+
+    .image_continer img{
+        margin: 1em;
+        width: 95%;
+    }
+
+}
+
+
+
+
+/* media query for about us component 300px to 400px*/
+
+
+
+@media(min-width:300px) and (max-width:400px){
+
+    .about_continer{
+        flex-direction: column;
+    }
+
+    .image_continer{
+        max-width: 80%;
+    }
+
+    .text_content{
+        padding:1em;
+        margin: .5em;
+    }
+
+    .sub_topic h2{
+        font-size: 1.3em;
+    }
+
+    .para{
+        font-size: .8em;
+    }
+
+    
+    .topic{
+
+        font-size: .6em;
+    }
+
+    .image_continer img{
+        margin: 1em;
+        width: 95%;
+    }
+
+}

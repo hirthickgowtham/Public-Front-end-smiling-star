@@ -1,0 +1,371 @@
+/* import font form google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+/* main continer styling */
+.main_continer{
+    padding:3em 6em;
+}
+
+
+
+
+
+
+/* content continer styling */
+.content_continer{
+    padding:1em 2.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+/* welcome continer styling */
+.welcome_content{
+    padding:1em .5em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1em .5em;
+    margin-right: 0;
+}
+
+
+
+
+
+
+/* para content stying */
+.para{
+    padding:.5em;
+    font-size: 4.1em;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    min-width:30% ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin:0em 2em;
+}
+
+
+/* contact continer styling */
+.contacts{
+    padding:0em .5em;
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+/* image continer styling */
+.image_continer{
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+    padding: 1em 2em;
+
+}
+
+
+.image_continer img{
+    margin: 1em 2em;
+    width: 85%;
+    
+}
+
+
+/* button text styling */
+.button_text{
+    font-family:"Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin:0em .4em;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: .7em;
+    position: relative;
+    
+}
+
+
+
+
+/* contact number styling */
+.button2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5em;
+    background-color:transparent;
+    border-radius: 100px;
+}
+
+.ball2{
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    color: #000000;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.664);
+    margin:0em .5em
+}
+
+.contact_number_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.button_small_text{
+    font-family:"Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 1em;
+    margin:.3em .4em;  
+    margin-left: .8em;
+    color: #575757;
+}
+
+
+
+/* Animation for enroll button */
+
+.button:hover{
+    background: rgb(111,88,240);
+    background: linear-gradient(90deg, rgba(111,88,240,1) 5%, rgba(111,88,240,1) 17%, rgba(44,135,240,1) 34%, rgba(44,135,240,1) 63%, rgba(30,135,240,1) 80%, rgba(30,135,240,1) 100%);
+    color: #fff;
+}
+
+.button:hover .ball{
+    color: #242323;
+    font-size: 1.5em;
+    left:115px;
+}
+
+.button:hover .button_text{
+    right:50px;
+}
+
+
+
+
+
+
+/* media query for all element in title card  1500px to 1900px */
+
+@media (min-width:1500px) and (max-width:1900px){
+
+
+.para{
+    font-size: 3em;
+}
+
+.ball2{
+    height: 45px;
+    width: 45px;
+    font-size: 1.3em;
+}
+
+.button_text{
+    font-size: 1em;
+}
+
+.button_small_text{
+    font-size: .9em;
+}
+
+}
+
+
+/* media query for all element in title card  1000px to 1500px */
+
+
+@media (min-width:1000px) and (max-width:1499px){
+
+
+    .para{
+        font-size: 1.8em;
+        margin:0em 1em;
+    }
+    
+    .ball2{
+        height: 35px;
+        width: 35px;
+        font-size: 1em;
+    }
+    
+    .button_text{
+        font-size: .7em;
+    }
+    
+    .button_small_text{
+        font-size: .6em;
+    }
+
+    .image_continer{
+        min-width: 45%;
+    }
+
+    }
+
+
+/* media query for all element in title card  700px to 1000px */
+
+
+@media (min-width:700px) and (max-width:1000px){
+
+    .main_continer{
+        padding:3em 4em;
+    }
+
+    .content_continer{
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        font-size: 3em;
+        margin: 0em ;
+    }
+    .contacts{
+        margin-left:0%;
+    }
+    .ball2{
+        height: 45px;
+        width: 45px;
+        font-size: 1.3em;
+    }
+    
+    .button_text{
+        font-size: 1em;
+    }
+    
+    .button_small_text{
+        font-size: .9em;
+    }
+
+    .image_continer{
+        padding: .8em 1em;
+    }
+
+    image_continer img{
+        margin: .8em 1em;
+        width:90%;
+    }
+}
+
+
+
+/* media query for all element in title card  500px to 700px */
+
+
+@media (min-width:500px) and (max-width:700px){
+
+    .main_continer{
+        padding:3em 1.5em;
+    }
+
+
+    .content_continer{
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        font-size: 1.8em;
+        margin: 0em ;
+    }
+    .contacts{
+        margin-left:0%;
+    }
+    .ball2{
+        height: 40px;
+        width: 40px;
+        font-size: 1em;
+    }
+    
+    .button_text{
+        font-size: .8em;
+    }
+    
+    .button_small_text{
+        font-size: .7em;
+    }
+
+    .image_continer{
+        padding: .8em 1em;
+    }
+
+    image_continer img{
+        margin: .8em 1em;
+        width:100%;
+    }
+
+}
+
+
+
+
+/* media query for all element in title card  300px to 500px */
+
+
+@media (min-width:300px) and (max-width:500px){
+
+    .main_continer{
+        padding:3em 1.5em;
+    }
+
+    .content_continer{
+        flex-direction: column-reverse;
+        padding: .5em ;
+    }
+
+    .para{
+        font-size: 1.4em;
+        margin: 0em ;
+    }
+    .contacts{
+        margin-left:0%;
+    }
+    .ball2{
+        height: 30px;
+        width: 30px;
+        font-size: .8em;
+    }
+    
+    .button_text{
+        font-size: .5em;
+    }
+    
+    .button_small_text{
+        font-size: .4em;
+    }
+
+    .image_continer{
+        padding: .4em ;
+    }
+
+    image_continer img{
+        margin: .4em ;
+        width:100%;
+    }
+
+}
