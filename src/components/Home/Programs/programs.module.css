@@ -1,34 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .programContainer{
-    /* border: 2px solid black; */
-    /* height: 90vh; */
     width: 100%;
     background: linear-gradient(360deg, #ffffff 0%, #c4b8ff 37%, #bfb1f2 52%, #c1b7fb 61%, #f7f7f7 100%);
     padding:2rem;
 }
-.heading{
-    /* border: 2px solid red; */
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.heading h3{
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    padding: 10px;
-    letter-spacing: 1px;
-}
+
+
 
 .programHeadrer{
-    /* border: 1px solid rgb(0, 255, 55); */
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: start;
-    /* flex-wrap: wrap;  Allow items to wrap if needed */
     gap: 1.5rem;
 }
 
@@ -37,7 +21,14 @@
         justify-content: space-between;
         flex-direction: column;
         align-items: start;
-        /* border: 2px solid yellow; */
+        padding: 1rem;
+        box-shadow: 0 0 0.5rem gray;
+        gap: 1rem;
+        border-radius: 10px;
+}
+.programs:hover{
+    transition: 0.7s;
+    box-shadow: 0 0 1rem black;
 }
 
 .program_img{
@@ -70,7 +61,7 @@
     margin-top: 1.5rem;
 }
 .programContent h1{
-    font-size: 1.5rem; /* Fixed size */
+    font-size: 1.3rem; /* Fixed size */
     margin: 10px 0 0 0; /* Removes extra spacing */
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -81,21 +72,33 @@
 
 }
 .programContent p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1024px){
 
     .programHeadrer{
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     
     .program_img img{
         width: 100%;
     }
     .programs{
-        width: 400px;
+        width: 300px;
+    }
+    .heading h3{
+        font-size: 1rem;
+    }
+    .programContent h1{
+        font-size: 1rem;
+    }
+    .programContent p{
+        font-size: 1rem;
+    }
+    .programContent *{
+        margin: 1rem;
     }
 }
 

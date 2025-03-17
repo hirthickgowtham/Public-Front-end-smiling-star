@@ -8,9 +8,7 @@ export default function Programs() {
     return(
         <>
             <div className={style.programContainer}>
-                <div className={style.heading}>
-                    <h3>Programs</h3>
-                </div>
+                
                 <div className={style.programHeadrer}>
                     {programs_content.map((item,index)=>(
                     <div key={index} className={style.programs}>
@@ -18,7 +16,6 @@ export default function Programs() {
                         <div className={style.programContent}>
                             <h1>{item.program_name}</h1>
                             <p>{item.content}</p>
-                            <p>{item.last}</p>
                         </div>
                     </div>
                     ))}

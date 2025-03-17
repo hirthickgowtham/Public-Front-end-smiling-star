@@ -1,3 +1,6 @@
+
+//used in Parent Review
+
 const images = [
     {
         img:"/assets/Parents Feedback/img1.png",
@@ -26,6 +29,7 @@ const images = [
 
 ]
 
+//used in number of programs
 
 const programs_content = [
         {
@@ -40,14 +44,8 @@ const programs_content = [
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
             last:"to explore the..."
         },
-        // {
-        //     img:"/assets/Programs/Hindi.png",
-        //     program_name:"Bharathanatyam ",
-        //     content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
-        //     last:"to explore the..."
-        // },
         {
-            img:"/public/assets/Programs/Hindi.png",
+            img:"/assets/Programs/Hindi.png",
             program_name:"Hindi",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
             last:"to explore the..."
@@ -61,4 +59,48 @@ const programs_content = [
 
 ]
 
-export {images,programs_content};
+//Footer
+
+
+const footerData = {
+    brand: {
+      logo: {
+        img:"/assets/footer/logo.png",
+        link:"/",
+      },
+      tagline: "Innovative solutions, proven success & growth",
+      button: {
+        text: "Contact Us",
+        link: "/contact",
+      },
+    },
+    links: [
+      {
+        title: "Quick Links",
+        items: [
+          { name: "Home", link: "/",target:"_self" },
+          { name: "About Us", link: "/" ,target:"_self"},
+          { name: "Contact Us", link: "/" ,target:"_self"},
+          { name: "404", link: "/",target:"_self" },
+        ],
+      },
+      {
+        title: "Main Pages",
+        items: [
+          { name: "About", link: "/" ,target:"_self"},
+          { name: "Programs", link: "/",target:"_self" },
+          { name: "Admission", link: "/ " ,target:"_self"},
+        ],
+      },
+      {
+        title: "Follow Us",
+        items: [
+          { name: "Twitter", link: "https://twitter.com",target:"_blank"},
+          { name: "LinkedIn", link: "https://linkedin.com",target:"_blank"},
+          { name: "Facebook", link: "https://facebook.com",target:"_blank"},
+        ],
+      },
+    ],
+  };
+
+export {images,programs_content,footerData};
