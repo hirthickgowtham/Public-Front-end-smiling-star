@@ -19,10 +19,6 @@ export default function ParentsReview() {
   
   return (
     <>
-
-        <div className={style.slide_head}>
-            <button>Parents review</button>
-        </div>
       <div className={style.slider_container}>
         <Marquee
           speed={50}
