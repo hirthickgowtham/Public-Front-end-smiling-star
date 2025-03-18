@@ -1,14 +1,15 @@
 import style from "./programs.module.css";
 import { programs_content } from "../../../content/Home";
 
-
+import Contact_button from "../../../Layout/Contact_us_button/contact_us_button";
 
 export default function Programs() {
 
     return(
         <>
+            
             <div className={style.programContainer}>
-                
+            <div className={style.heading}><Contact_button title={"Programs"}/></div>
                 <div className={style.programHeadrer}>
                     {programs_content.map((item,index)=>(
                     <div key={index} className={style.programs}>
