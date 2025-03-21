@@ -4,7 +4,6 @@ import ParentsReview from "../../components/Home/ParentsReview/ParentsReview";
 import Footer from "../../components/Home/Footer/Footer";
 import style from "./Home.module.css";
 
-
 // import Programs from "../../components/Home/Programs/Programs";
 
 export default function Home(){
@@ -15,7 +14,6 @@ export default function Home(){
         <div>
           
             <div className={style.gradent_continer}>
-            
                 <Title_Card/>
             </div>
                 <Programs />
