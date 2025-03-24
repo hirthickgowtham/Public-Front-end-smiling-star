@@ -1,0 +1,73 @@
+
+
+/* main continer styling  */
+
+.main_continer{
+    padding:1em;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* topic styling  */
+
+.topic{
+    display: flex;
+    justify-content: center;
+    padding: 2em 3em ;
+    width:60%;
+}
+
+
+.topic h2{
+
+    font-size: 4.5em;
+    background: rgb(101,101,102);
+    background: linear-gradient(90deg, rgba(101,101,102,1) 0%, rgba(86,85,87,0.8491771708683473) 13%, rgba(61,60,64,0.9556197478991597) 33%, rgba(54,54,58,1) 48%, rgba(86,86,88,0.9752275910364145) 63%, rgba(110,110,112,0.927608543417367) 77%, rgba(99,100,102,0.8435749299719888) 86%, rgba(175,175,177,1) 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    text-align: center;
+}
+
+
+
+
+/* greadient ball styling  */
+
+/* .ball{
+    position: absolute;
+    width:50%;
+    border-radius: 50%;
+    background-color: black;
+    height: 500px;
+    left:50px;
+} */
+
+
+/* ball merge continer styling  */
+
+.ball_merge_continer{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+/* question continer styling  */
+
+.question_continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    /* border:1px solid; */
+    padding: 2em 1em;
+  
+}

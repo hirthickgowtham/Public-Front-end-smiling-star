@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
     "framer-motion": "^12.5.0",
     "hamburger-react": "^2.5.2",
-    "framer-motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",
