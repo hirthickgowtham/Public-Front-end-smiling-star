@@ -4,10 +4,32 @@ import Contact_button from '../Contact_us_button/contact_us_button';
 import Resize from '../../hooks/Resize';
 import Hamburger from "hamburger-react";
 import { useEffect, useState } from 'react';
-
+import { motion } from 'framer-motion';
 
 export default function Nav_bar() {
 
+
+
+
+    const animation_prop = {
+      start:{
+        y:-100,
+        opacity:0
+    }
+,
+    end:{
+        y:0,
+        opacity:1
+    }
+    }
+
+    const trancition = {
+      duration:3,
+      ease: "easeInOut",
+      delay: 0.2, 
+      stiffness: 70,  
+      type: "spring"  
+    }
 
     const {width} = Resize();
     const [open, setopen] = useState(false)
@@ -49,7 +71,12 @@ export default function Nav_bar() {
         {
             width > 1000?(
 
-            <div className={style.main_continer}>
+            <motion.div
+            variants={animation_prop}
+            initial = "start"
+            animate = "end"
+            transition={ trancition}
+            className={style.main_continer}>
 
             <div className={style.content_continer}>
 
@@ -100,7 +127,7 @@ export default function Nav_bar() {
 
             </div>
 
-        </div>
+        </motion.div>
             )
             :(<> 
 
