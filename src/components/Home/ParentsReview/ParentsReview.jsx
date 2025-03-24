@@ -20,33 +20,33 @@ export default function ParentsReview() {
   
   return (
     <>
-     
-      <div className={style.main}>
-      <div className={style.heading}><Contact_button title={"Parents Review"}/></div>
-      <div className={style.slider_container}>
-        <Marquee
-          speed={50}
-          gradientWidth={100}
-          gradient={true}
-          autoFill={true}
-          direction={marqueeDirection} // Dynamic direction
-          className={style.marquee}
-        
-        >
-          {images.map((image, index) => (
-            <div key={index} className={style.main_slid}>
-              <img src={image.img} alt="Image Loading..." className={style.slid_img} />
-              <div className={style.slid_content}>
-                <h4>{image.content}</h4>
-                <div>
-                <p className={style.parent_name}>{image.author}</p>
-                <p>{image.professional}</p>
-                </div>
-              </div>
+     <div className={style.contain}>
+        <div className={style.main}>
+            <div className={style.heading}><Contact_button title={"Parents Review"}/></div>
+            <div className={style.slider_container}>
+                <Marquee
+                speed={50}
+                gradientWidth={100}
+                gradient={true}
+                autoFill={true}
+                direction={marqueeDirection} // Dynamic direction
+                className={style.marquee}
+                >
+                {images.map((image, index) => (
+                  <div key={index} className={style.main_slid}>
+                    <img src={image.img} alt="Image Loading..." className={style.slid_img} />
+                    <div className={style.slid_content}>
+                      <h4>{image.content}</h4>
+                      <div>
+                          <p className={style.parent_name}>{image.author}</p>
+                          <p>{image.professional}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                </Marquee>
             </div>
-          ))}
-        </Marquee>
-      </div>
+        </div>
       </div>
     </>
   );
