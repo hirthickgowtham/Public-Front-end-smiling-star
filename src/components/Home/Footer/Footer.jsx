@@ -25,7 +25,7 @@ export default function Footer(){
                         <button>{FD.brand.button.text}</button>
                     </div>
                     <div className={style.right}>
-                       {FD.links.map((sections,index)=>(
+                        {FD.links.map((sections,index)=>(
                         <div key={index} className={style.footLink}>
                             <h2>{sections.title}</h2>
                             {sections.items.map((sec,i)=>(
@@ -37,7 +37,7 @@ export default function Footer(){
                                 </div>
                             ))}
                         </div>
-                       ))}
+                        ))}
                     </div>
             </div>
            </div>

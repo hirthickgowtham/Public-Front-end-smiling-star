@@ -12,11 +12,16 @@
     width: 100%;
     background: linear-gradient(360deg, #ffffff 0%, #c4b8ff 37%, #bfb1f2 52%, #c1b7fb 61%, #f7f7f7 100%);
     padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .programHeadrer{
+    width: 75%;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -45,13 +50,11 @@
     align-items: center;
     width: 100%;
     border-radius: 1rem;
-
 }
 
 .program_img img{
     width: 100%;
     aspect-ratio: 4/3;
-    /* height: 200px; */
     overflow: hidden;
     border-radius: 1rem;
 }
@@ -69,7 +72,7 @@
     margin-top: 1.5rem;
 }
 .programContent h1{
-    font-size: 1.3rem; /* Fixed size */
+    font-size: 1rem; /* Fixed size */
     margin: 10px 0 0 0; /* Removes extra spacing */
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -80,7 +83,7 @@
 
 }
 .programContent p{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 1024px){
@@ -117,5 +120,6 @@
     .programHeadrer{
         justify-content: center;
         gap: 2rem;
+        width: 100%;
     }
   }
