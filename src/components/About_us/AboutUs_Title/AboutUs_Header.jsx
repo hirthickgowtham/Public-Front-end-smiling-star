@@ -6,7 +6,7 @@ export default function AboutUs_Header(){
             <>
                 <div className={style.main}>
                     <div className={style.bgimg}>
-                        <img src={aboutUsHeader[0].img} alt="bg img" />
+                        <img src={aboutUsHeader.images.img} alt="bg img" />
                     </div>
                     <div className={style.heading}>
                         <h1>
