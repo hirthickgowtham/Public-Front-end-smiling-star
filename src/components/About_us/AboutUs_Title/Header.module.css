@@ -1,11 +1,96 @@
 .main{
     border: 2px solid black;
-    background: linear-gradient(0deg, #62dbf9 0%, #ffffff 100%);
+    background-color: white;
+    position: relative;
 }
 .bgimg{
     width: 100%;
-    /* border: 2px solid red; */
+    height: 50vh;
 }
 .bgimg img{
     width: 100%;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+.heading h1{
+    padding: 1rem;
+    font-size: 5rem;
+}
+.sun_cloud{
+    position: absolute;
+    top: 0;
+    left: 80%;
+    animation: rotateSun 5s linear infinite;
+}
+.sun_cloud img{
+    width: 150px;
+    height: 150px;
+}
+.fly_bird{
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.fly_bird img{
+    height: 200px;
+    width: 400px;
+}
+.similing_star{
+    position: absolute;
+    top: 40%;
+    display: none;
+    left: 57%;
+    animation: wobble 2s ease-in-out infinite alternate;
+}
+.similing_star img{
+    width: 100px;
+    height: 100px;
+}
+
+.kite{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.kite img{
+    width: 250px;
+    height:250px;
+}
+.fly{
+    position: absolute;
+    top: 0;
+    left: 70%;
+}
+.fly img{
+    width: 100px;
+    height: 100px;
+   
+}
+.paperRocket{
+    position: absolute;
+    bottom: 20%;
+    left: 66%;
+}
+.paperRocket img{
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes rotateSun {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wobble {
+    0% { transform: rotate(-10deg); }
+    100% { transform: rotate(10deg); }
 }

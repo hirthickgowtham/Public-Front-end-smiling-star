@@ -4,7 +4,7 @@ import Programs from "../../components/Home/Programs/Programs";
 import ParentsReview from "../../components/Home/ParentsReview/ParentsReview";
 import FA_question from "../../components/Home/FA_question/FA_question";
 import Footer from "../../components/Home/Footer/Footer";
-
+import Banner from "../../components/Home/Banner/Banner";
 
 // import Programs from "../../components/Home/Programs/Programs";
 
@@ -21,6 +21,7 @@ export default function Home(){
                 <Programs/>
                 <ParentsReview/>
                 <FA_question/>
+                <Banner />
                 <Footer />
         </div>
         </>

@@ -59,9 +59,11 @@ const programs_content = [
 
 ]
 
+const Banner_img ={
+  images:"/assets/Banner/Banner2.png"
+}
+
 //Footer
-
-
 const footerData = {
     brand: {
       logo: {
@@ -103,4 +105,4 @@ const footerData = {
     ],
   };
 
-export {images,programs_content,footerData};
+export {images,programs_content,footerData,Banner_img};
