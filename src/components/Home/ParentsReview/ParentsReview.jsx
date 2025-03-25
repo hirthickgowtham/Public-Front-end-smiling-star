@@ -20,9 +20,10 @@ export default function ParentsReview() {
   
   return (
     <>
+    <div className={style.heading}><Contact_button title={"Parents Review"}/></div>
      <div className={style.contain}>
         <div className={style.main}>
-            <div className={style.heading}><Contact_button title={"Parents Review"}/></div>
+            
             <div className={style.slider_container}>
                 <Marquee
                 speed={50}

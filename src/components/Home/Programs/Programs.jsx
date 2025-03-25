@@ -7,9 +7,8 @@ export default function Programs() {
 
     return(
         <>
-            
+            <div className={style.heading}><Contact_button title={"Programs"}/></div>
             <div className={style.programContainer}>
-                <div className={style.heading}><Contact_button title={"Programs"}/></div>
                 <div className={style.programHeadrer}>
                     {programs_content.map((item,index)=>(
                     <div key={index} className={style.programs}>

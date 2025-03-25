@@ -11,13 +11,15 @@
   width: 70%;  
   border: 2px solid lightblue;
   border-radius: 1rem;
+  margin-top: .7rem;
   padding-bottom: 1.5rem;
 }
 
-.main .heading{
+.heading{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.3rem;
 }
 
 .slider_container{
@@ -136,9 +138,17 @@
  flex-direction: column;
  border: none;
 }
+.heading{
+  font-size: 10px;
+}
+
 }
 
 @media screen and (min-width:321px) and (max-width:376px) {
+  .heading{
+    font-size: 10px;
+  }
+  
   .slider_container{
      width: 90%;
      padding: 0;
@@ -187,6 +197,10 @@
 }
 
 @media screen and (min-width: 377px) and (max-width: 426px){
+  .heading{
+    font-size: 10px;
+  }
+ 
   .slider_container{
     height: 100%;
      width: 100%;
@@ -229,10 +243,17 @@
   margin-bottom: 2rem;  
   border: none;
  }
+ .heading{
+    font-size: 1rem;
+ }
      
 }
 
 @media screen and (min-width: 427px) and (max-width: 768px) {
+  .heading{
+    font-size: 1rem;
+  }
+  
   .slider_container{
     height: 700px;
      width: 100%;
@@ -278,7 +299,9 @@
 
 /* Large laptop viewe */
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    
+  .heading{
+    font-size: 1.1rem;
+  }
     .slider_container{
       height: 60vh;
     }
