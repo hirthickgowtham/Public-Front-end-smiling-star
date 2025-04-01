@@ -5,8 +5,21 @@
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .main img{
     width: 70%;
     height:90vh;
+}
+
+@media(min-width:427px) and (max-width:768px){
+    .main img{
+        height: 60vh;
+    }
+}
+
+@media(min-width:300px) and (max-width:426px){
+    .main img{
+        height: 30vh;
+    }
 }

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contain{
+    margin-top: 4rem;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+}
+
+.card{
+    border: 2px solid green;
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.LinkImage{
+    width: 80%; 
+    overflow: hidden;
+}
+
+.card div img{
+    width: 100%;
+    border-radius:1.2rem ;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius:40% ;
+}
+
+.card div h1{
+    font-size: 1.5rem;
+}
