@@ -232,7 +232,7 @@
 
 .apple{
     position: absolute;
-    right:0%;
+    right:2%;
     width:200px;
     transform: rotate(-45deg);
 }
