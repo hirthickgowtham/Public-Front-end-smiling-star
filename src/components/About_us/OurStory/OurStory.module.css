@@ -1,0 +1,92 @@
+.contain{
+    /* border: 2px solid black; */
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 70%;
+    /* border: 2px solid red; */
+    padding:0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width:300px) and (max-width:376px){
+            .main{
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+                overflow: hidden;
+                width: 90%;
+            }
+            .contain{
+                overflow: hidden;
+                border: 2px solid black;
+            }
+            .left div{
+                font-size:.7rem;
+            }
+            .left div h1{
+                font-size: 1.5rem;
+            }
+}
+@media screen and (min-width: 377px) and (max-width: 426px){
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        width: 90%;
+    }
+    .contain{
+        overflow: hidden;
+        border: 2px solid black;
+    }
+    .left div{
+        font-size:.7rem;
+    }
+    .left div h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        width: 90%;
+    }
+    .contain{
+        overflow: hidden;
+        border: 2px solid black;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .main{
+        width: 90%;
+    }
+    .left div h1{
+        font-size: 1.5rem;
+    }
+    .left div{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+}
+@media screen and (min-width: 1441px) and (max-width: 2767px){
+
+}

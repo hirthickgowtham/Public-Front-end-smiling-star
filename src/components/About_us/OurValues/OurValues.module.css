@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Boldonse&family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Boldonse&family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 75%;
+}
+
+.card{
+    border: 2px solid rgb(255, 160, 241);
+    box-shadow: 0 0 5px gray;
+    border-radius:1rem ;
+    width: 30%;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.card .Icon{
+    /* position: absolute; */
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
+
+.card .Icon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px solid black;
+}
+.card div h1{
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-style:inherit;
+}
+.content{
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 427px){
+        .main{
+            width: 100%;
+        }
+        .card{
+            width: 90%;
+        }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .card{
+        width: 60%;
+    }
+    .main{
+        width: 100%;
+        /* overflow: hidden; */
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+   .main{
+    width: 90%;
+   }
+   .card{
+    width: 45%;
+   }
+}

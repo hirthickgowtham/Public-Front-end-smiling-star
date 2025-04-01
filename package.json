@@ -12,13 +12,14 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
-    "framer-motion": "^12.5.0",
+    "framer-motion": "^12.6.2",
     "hamburger-react": "^2.5.2",
     "react": "^19.0.0",
     "react-bits": "^1.0.5",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
     "react-router-dom": "^7.3.0"
   },
   "devDependencies": {
