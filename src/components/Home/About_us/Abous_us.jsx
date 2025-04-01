@@ -13,8 +13,10 @@ export default function About_us(){
             </div>
             <div className={style.about_continer}>
 
+                <img src="images/Home_random/apple.png" alt="" className={style.apple}/>
+
                 <div className={style.image_continer}>
-                    <img src="images/about_us.png" alt="" />
+                    <img src="images/Home/about_us.png" alt="" />
                 </div>
 
                 <div className={style.text_content}>

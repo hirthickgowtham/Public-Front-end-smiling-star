@@ -6,7 +6,7 @@
 /* main continer styling */
 .main_continer{
     padding:3em 6em;
-    background-image: url("images/half_cloud.png");
+    background-image: url("images/Home/half_cloud.png");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -75,7 +75,7 @@
 
 /* image continer styling */
 .image_continer{
-    min-width: 50%;
+    min-width: 53%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@
 
 .image_continer img{
     margin: 1em 2em;
-    width: 90%;
+    width: 100%;
     z-index: 2;
 }
 
@@ -393,13 +393,13 @@
 
 /* cartoon positioning  */
 
-.apple{
+.man_um{
     position: absolute;
-    bottom:70%;
-    left:10%;
+    bottom:0%;
+    left:3%;
     z-index: 1;
-    width:150px;
-
+    width:200px;
+    transform: rotate(25deg);
 }
 
 .sun{
@@ -408,6 +408,7 @@
     right:10%;
     z-index: 1;
     width:150px;
+    
 
 }
 
@@ -418,4 +419,29 @@
     z-index: 1;
     width:250px;
     transform: rotate(25deg);
+}
+
+.bird{
+    position: absolute;
+    width:200px;
+    top:10%;
+    left:30%;
+}
+
+
+.paper_rocket{
+    position: absolute;
+    width:250px;
+    right:50%;
+    bottom:40%;
+    transform: rotate(50deg);
+}
+
+
+.butter_fly{
+    position: absolute;
+    width:150px;
+    bottom:10%;
+    right:3%;
+    transform: rotate(45deg);
 }

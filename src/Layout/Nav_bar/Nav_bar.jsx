@@ -83,7 +83,7 @@ export default function Nav_bar() {
                 <div className={style.logo}>
 
                     <div className={style.image_continer}>
-                        <img src="/images/logo.png" alt="Logo"   />
+                        <img src="/images/Home/logo.png" alt="Logo"   />
                     </div>
 
                     <div className={style.name}>

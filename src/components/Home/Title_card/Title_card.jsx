@@ -1,7 +1,7 @@
 import style from "./Title_card.module.css";
 import Button from "../Button/Button";
 import About_us from "../About_us/Abous_us.jsx";
-import { easeInOut, motion } from "framer-motion";
+import {  motion, spring } from "framer-motion";
 
 export default function Title_Card() {
     // 🌟 Parent container animation controls all children smoothly
@@ -31,11 +31,76 @@ export default function Title_Card() {
         visible: { rotate: 15, y: 0, x: 0 ,opacity: 1},
     };
 
+    const cloud_tansition = {
+        duration: 2,
+        ease: "easeInOut",
+        repeat: Infinity,
+        repeatType: "reverse",
+    }
+
+    // birds flying animation 
+
+    const bird = {
+        hidden: { opacity: 0, y: 75 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+                ease: "easeInOut",
+            },
+        },
+    }
+
     // ✏️ Pencil animation (fade-in + bounce loop)
     const pencilAnim = {
-        hidden: { y: 75, opacity: 0 },
-        visible: { y: 0, opacity: 1 },
+        hidden: { y: 1000, opacity: 0,x:1000 },
+        visible: { y:0,opacity:1,x:0},
     };
+
+    const movement = {
+        delay:.7,
+        duration: 3,
+        ease: "easeInOut",
+        type:spring
+    }
+
+
+    // paper rocket animation
+
+    const paper = {
+        hidden : {
+            rotate:20,opacity:0,y:100,x:-100
+        },
+        visible:{ 
+            rotate:0,opacity:1,y:0,x:0
+        }
+    }
+
+    const paper_transction = {
+        opacity:{
+            delay:.8,
+            duration: 3,
+            ease: "linear",
+         
+        },
+       rotate: {
+            delay:.5,
+            duration: 3,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "reverse",
+        },
+    y:{
+        delay:1,
+        duration: 3,
+        ease: "easeInOut",
+    },x:{
+        delay:1,
+        duration: 3,
+        ease: "easeInOut",
+    }
+    }
 
     return (
         <>
@@ -46,6 +111,23 @@ export default function Title_Card() {
                 animate="visible"
                 className={style.main_continer}
             >
+
+
+
+            <motion.img 
+            variants={paper}
+            transition={paper_transction}
+            src="images/Home_random/paper_rocket.png"
+             alt="" 
+             className={style.man_um}
+             />
+          
+            <motion.img
+            variants={bird}
+            src="images/Home_random/butter_fly_stright.png"
+            alt="" className={style.butter_fly}/>
+            
+
                 <div className={style.content_continer}>
                     <div className={style.welcome_content}>
                         {/* 🌞 Sun Rotation */}
@@ -61,34 +143,36 @@ export default function Title_Card() {
                                 opacity: { duration: 1, ease: "easeInOut" },
                             }}
                             className={style.sun}
-                            src="images/sunn.jpg.png"
+                            src="images/Home/sunn.jpg.png"
                             alt="Sun"
                         />
 
                         {/* 🌟 Star Cloud Floating */}
                         <motion.img
                             variants={starCloud}
-                            transition={{rotate:{
-                                duration: 2,
-                                ease: "easeInOut",
-                                repeat: Infinity,
-                                repeatType: "reverse",
-                            },
+                            transition={{rotate:cloud_tansition,
                             y:{
                               duration: 1, ease: "easeInOut"
                             },
-                            x:{
-                                duration: 2,
-                                ease: "easeInOut",
-                                repeat: Infinity,
-                                repeatType: "reverse",
-                            },
+                            x:cloud_tansition,
                             opacity: { duration: 1, ease: "easeInOut" },
                         }}
                             className={style.star}
-                            src="images/star_cloud.png"
+                            src="images/Home/star_cloud.png"
                             alt="Star Cloud"
                         />
+
+
+                        {/* Group of birds flying  */}
+
+                        <motion.img 
+                        variants={bird}
+                        className={style.bird} 
+                        src="images/Home/flying_birds.png" 
+                        alt="Bird flying" 
+                        />
+
+                        
 
                         {/* ✨ Title Text */}
                         <div className={style.para}>
@@ -118,11 +202,19 @@ export default function Title_Card() {
                     <motion.div className={style.image_continer}>
                         <motion.img
                             variants={pencilAnim}
-                            transition={{
-                                duration: 1,
-                                ease: "easeInOut",
+                            initial="hidden"
+                            animate = "visible"
+                            whileInView={{  rotate: [0, 5,] }}
+                            transition={{rotate:{
+                            duration: 1.5,
+                            ease: "easeInOut",
+                            repeat: Infinity,
+                            repeatType: "reverse",
+                            },y:movement,
+                            opacity:movement,
+                            x:movement
                             }}
-                            src="images/pencil.png"
+                            src="images/Home/pencil.png"
                             alt="Pencil"
                         />
                     </motion.div>
