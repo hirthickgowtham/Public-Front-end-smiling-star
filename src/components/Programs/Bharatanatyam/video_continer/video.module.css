@@ -1,0 +1,162 @@
+
+
+
+
+
+.odd_video_continer{
+    display: flex;
+    flex-direction: row;
+    margin: 2.5em 1em; 
+    border:2px solid orange;
+    border-radius:10px;
+}
+
+
+.even_video_continer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2.5em 1em;
+    border:2px solid orange;
+    border-radius:10px;
+}
+
+.video{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.iframe{
+    width:100%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+
+.description{
+ 
+    width:55%;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.des_title{
+    width:100%;
+    height: auto;
+    padding:1em;
+}
+
+
+.des_para{
+    padding:0em 1em;
+}
+
+.des_para p{
+    font-size: 1.3em;
+   
+}
+
+.courts{
+    font-size:2em;
+    color:orange;
+   margin: 0;
+}
+
+
+
+/* media query styling */
+
+@media (min-width:1000px) and (max-width:1500px){
+
+    .des_para p{
+        font-size: 1em;
+    }
+
+    .des_title{
+        padding:.5em;
+    }
+
+
+    .description{
+        padding:.7em;
+    }
+}
+
+
+
+@media (min-width:600px) and (max-width:1000px){
+    .des_para p{
+        font-size: 1em;
+    }
+
+    .des_title{
+        padding:.5em;
+    }
+
+    .description{
+        padding:.7em;
+        width: 100%;
+    }
+
+    .odd_video_continer{
+        flex-direction: column;
+    }
+
+    .even_video_continer{
+        flex-direction: column;
+    }
+
+    .video{
+        width:100%;
+    }
+}
+
+
+
+
+@media (min-width:300px) and (max-width:600px){
+    .des_para p{
+        font-size: .7em;
+        
+    }
+
+    .des_title{
+        padding:.5em;
+    }
+    .des_para {
+        padding: 0em .5em;
+    }
+
+    .description{
+        padding:.5em;
+        width: 100%;
+    }
+
+    .odd_video_continer{
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .even_video_continer{
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .video{
+        width:100%;
+       
+    }
+
+    .des_title h3{
+        font-size: 1em;
+    }
+ 
+    
+    .iframe{
+        min-height: 200px;
+    }
+}
