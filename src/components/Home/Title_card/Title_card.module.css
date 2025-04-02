@@ -421,12 +421,6 @@
     transform: rotate(25deg);
 }
 
-.bird{
-    position: absolute;
-    width:200px;
-    top:10%;
-    left:30%;
-}
 
 
 .paper_rocket{

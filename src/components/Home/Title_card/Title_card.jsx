@@ -163,14 +163,6 @@ export default function Title_Card() {
                         />
 
 
-                        {/* Group of birds flying  */}
-
-                        <motion.img 
-                        variants={bird}
-                        className={style.bird} 
-                        src="images/Home/flying_birds.png" 
-                        alt="Bird flying" 
-                        />
 
                         
 
