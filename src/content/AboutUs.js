@@ -7,7 +7,9 @@ const aboutUsHeader = {
         similing_star:"/assets/AboutUs/similing star.png",
         kite:"/assets/AboutUs/vijay_remove.png",
         fly:"/assets/AboutUs/flyte-removebg-preview.png",
-        paper_rocket:"/assets/AboutUs/paperRocket.png"
+        paper_rocket:"/assets/AboutUs/paperRocket.png",
+        Rocket:"/public/assets/AboutUs/Rocket.png",
+        Cloud:"/public/assets/AboutUs/Cloud.png"
     }
 }
 
@@ -23,32 +25,32 @@ const Ourstory = {
 
 const OurValue = [
     {
-        image:"/assets/AboutUs/Ourvalues/wmremove-transformed.png",
+        image:"/public/assets/AboutUs/OurValues/wmremove-transformed.png",
         heading:"Compassionate Care",
         content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
     },
     {
-        image:"/assets/AboutUs/Ourvalues/education-removebg-preview.png",
+        image:"/public/assets/AboutUs/OurValues/education-removebg-preview.png",
         heading:"Educational Excellence",
         content:"We provide age-appropriate learning experiences that stimulate curiosity and foster a lifelong love of learning."
     },
     {
-        image:"/assets/AboutUs/Ourvalues/community.png",
+        image:"/public/assets/AboutUs/OurValues/community.png",
         heading:"Community Connection",
         content:"We build strong partnerships with families and the community to create a supportive network for each child."
     },
     {
-        image:"/assets/AboutUs/Ourvalues/growth_mindset-removebg-preview.png",
+        image:"/public/assets/AboutUs/OurValues/growth_mindset-removebg-preview.png",
         heading:"Growth Mindset",
         content:"We encourage children to embrace challenges, persist through obstacles, and see effort as a path to mastery."
     },
     {
-        image:"/assets/AboutUs/Ourvalues/environment.png",
+        image:"/public/assets/AboutUs/OurValues/environment.png",
         heading:"Joyful Environment",
         content:"We create spaces filled with laughter, play, and positive interactions to make learning a joyful experience."
     },
     {
-        image:"/assets/AboutUs/Ourvalues/indivual.png",
+        image:"/public/assets/AboutUs/OurValues/indivual.png",
         heading:"Individual Excellence",
         content:"We recognize and celebrate each child's unique strengths, talents, and abilities, helping them shine in their own way."
     }

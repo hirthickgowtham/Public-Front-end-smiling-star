@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Boldonse&family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 .main{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bgimg{
     width: 100%;
@@ -13,14 +18,20 @@
 .heading{
     position: absolute;
     top: 50%;
-    left: 45%;
     z-index: 1;
-    /* border: 2px solid red; */
 }
 .heading h1{
-    padding: 1rem;
     font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #ff8ffb 0%, #75e3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
 }
+.Cloud{
+    display: none;
+}
+
 .sun_cloud{
     position: absolute;
     top: 0;
@@ -73,13 +84,23 @@
 }
 .paperRocket{
     position: absolute;
-    bottom: 20%;
-    left: 66%;
+    bottom: 25%;
+    left: 60%;
+   transform-origin: center;
 }
 .paperRocket img{
     height: 100px;
     width: 100px;
 }
+.Rocket{
+    position: absolute;
+    left: 10%;
+}
+.Rocket img{
+    width: 300px;
+    height: 300px;
+}
+
 
 @keyframes rotateSun {
     from {
@@ -93,4 +114,181 @@
 @keyframes wobble {
     0% { transform: rotate(-10deg); }
     100% { transform: rotate(10deg); }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .kite img{
+        width: 200px;
+        height: 200px;
+        display: none;
+    }
+    
+    .sun_cloud{
+        left: 80%;
+    }
+.sun_cloud img{
+    width: 100px;
+    height: 100px;
+}
+.fly{
+    top: -1rem;
+    left: 60%;
+}
+.fly img{
+    width: 150px;
+    height: 150px;
+}
+.Rocket img{
+    width: 200px;
+    height: 200px;
+}
+.Rocket{
+    top: 10%;
+}
+.paperRocket{
+    left: 65%;
+    bottom: 24%;
+}
+.paperRocket img{
+    width: 75px;
+    height: 75px;
+}
+
+.Cloud{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+.Cloud img{
+    width: 200px;
+    height: 200px;
+}
+
+}
+
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .main{
+        height: 40vh;
+    }
+
+    .kite{
+        display: none;
+    }
+    .Cloud{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 7%;
+    }
+    .Cloud img{
+        width: 150px;
+        height: 150px;
+    }
+    .sun_cloud{
+        left: 70%;
+    }
+.sun_cloud img{
+    width: 100px;
+    height: 100px;
+}
+.fly{
+    top: 30%;
+    left: 55%;
+}
+
+.fly img{
+    width: 100px;
+    height: 100px;
+}
+.Rocket img{
+    width: 150px;
+    height: 150px;
+}
+.Rocket{
+    top: 10%;
+}
+.paperRocket{
+    left: 64%;
+    bottom: 26%;
+}
+.paperRocket img{
+    width: 75px;
+    height: 75px;
+}
+.heading h1{
+    font-size: 3.5rem;
+}
+}
+
+@media screen and (max-width: 427px){
+    .main{
+        height: 30vh;
+    }
+    
+    
+    .kite img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .kite{
+        display: none;
+        bottom: 10%;
+    }
+    
+    .sun_cloud{
+        left: 8%;
+        top: 3%;        
+    }
+.sun_cloud img{
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.fly{
+    left: 60%;
+}
+
+.fly img{
+    width: 75px;
+    height: 75px;
+}
+.Rocket img{
+    width: 100px;
+    height: 100px;
+}
+.Rocket{
+    top: 10%;
+    display: none;
+}
+.paperRocket{
+    left: 74%;
+    bottom: 25%;
+}
+.paperRocket img{
+    width: 50px;
+    height: 50px;
+}
+
+.heading{
+    background: none;
+}
+.heading h1{
+    font-size: 2.5rem;
+    background-color: none;
+}
+.Cloud{
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+.Cloud img{
+    width: 100px;
+    height: 100px;
+}
 }
