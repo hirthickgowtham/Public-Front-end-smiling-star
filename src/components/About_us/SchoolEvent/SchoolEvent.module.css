@@ -2,16 +2,17 @@
     padding: 0;
     margin: 0;
 }
+.topic{
+    text-align: center;
+    margin-top: 2rem;
+}
 
 .contain{
-    margin-top: 4rem;
-    /* border: 2px solid black; */
     padding: 1rem;
     display: flex;
     justify-content: center;
 }
 .main{
-    /* border: 2px solid red; */
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -20,14 +21,18 @@
 }
 
 .card{
-    border: 2px solid green;
+   box-shadow: 0 0 5px lightblue;
+   border-radius: 1rem;
     padding: 1rem;
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
+    position: relative;
+    text-decoration: none;
+    color: black ;
 }
 .LinkImage{
     width: 80%; 
@@ -43,4 +48,57 @@
 
 .card div h1{
     font-size: 1.5rem;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.logo{
+    opacity: 0;
+    position: absolute;
+    bottom: 50%;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(50%);
+
+}
+.card:hover .logo{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.card:hover .LinkImage{
+    transition: 1s;
+    filter: blur(2px);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .main{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .main{
+        width: 100%;
+    }
+    .logo{
+        bottom: 62%;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card div h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 427px){
+    .main{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
 }

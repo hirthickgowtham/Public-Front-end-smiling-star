@@ -2,6 +2,7 @@ import AboutUs_Header from "../../components/About_us/AboutUs_Title/AboutUs_Head
 import OurStory from "../../components/About_us/OurStory/OurStory"
 import OurValues from "../../components/About_us/OurValues/OurValues"
 import SchoolEvent from "../../components/About_us/SchoolEvent/SchoolEvent"
+import Footer from "../../components/Home/Footer/Footer"
 
 
 export default function About_us() {
@@ -12,7 +13,7 @@ export default function About_us() {
         <OurStory />
         <OurValues />
         <SchoolEvent />
-        <h1>About_us</h1>
+        <Footer />
         </>
     )
     

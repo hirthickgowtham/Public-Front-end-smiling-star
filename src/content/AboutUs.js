@@ -59,17 +59,23 @@ const Events = [
         {
             heading:"Events and celebrations",
             image:"/public/assets/AboutUs/SchoolEvents/img1.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
+            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            mediaLogo:"/public/assets/AboutUs/SchoolEvents/FaceBook.png",
+            link:"https://www.facebook.com/"
         },
         {
-            heading:"Photo Gallery",
+            heading:"Captured Smiles",
             image:"/public/assets/AboutUs/SchoolEvents/img2.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
+            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            mediaLogo:"/public/assets/AboutUs/SchoolEvents/Instagram.png",
+            link:"https://www.instagram.com/"
         },
         {
-            heading:"Video Gallery",
+            heading:"Little Stars in Action",
             image:"/public/assets/AboutUs/SchoolEvents/img3.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
+            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            mediaLogo:"/public/assets/AboutUs/SchoolEvents/YouTube.png",
+            link:"https://www.youtube.com/"
         }
 ]
 
