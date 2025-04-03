@@ -4,4 +4,27 @@ const AboutDaycare = {
     image:"/public/assets/Programs/AboutDayCare.png"
 }
 
-export {AboutDaycare}
+const DayCaregallery = 
+[
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image1.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image2.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image3.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image4.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image5.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/DayCare/image6.png"
+    }
+]
+
+
+export {AboutDaycare , DayCaregallery}
