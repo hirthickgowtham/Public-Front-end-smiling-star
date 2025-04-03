@@ -34,12 +34,8 @@ export default function Bharatanatyam() {
         <>
         <Header_baratham/>
         <AboutBaranatiyam />
-<<<<<<< HEAD
         <BarathanatiumGallery />
-        <You_tube/>
-=======
         <You_tube common={common} video = {video}/>
->>>>>>> 92493d6c976f2ae3c6acff132ddc274aa6dcb1cc
         <Footer/>
         </>
     )

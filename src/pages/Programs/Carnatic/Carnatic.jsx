@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-import CarnaticGallery from "../../../components/Programs/Carnatic/CarnaticGallery/CarnaticGallery"
-=======
-import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
-import Header_carnatic from "../../../components/Programs/Carnatic/Header_carnatic/Header_carnatic";
 
->>>>>>> 92493d6c976f2ae3c6acff132ddc274aa6dcb1cc
+import CarnaticGallery from "../../../components/Programs/Carnatic/CarnaticGallery/CarnaticGallery"
+import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
+import Header_carnatic from "../../../components/Programs/Carnatic/Header_carnatic/Header_carnatic"
 
 export default function Carnatic() {
 
@@ -35,13 +32,12 @@ export default function Carnatic() {
 
     return(
         <>
-<<<<<<< HEAD
-        <h1>Carnatic</h1>
-        <CarnaticGallery />
-=======
+
+        
         <Header_carnatic/>
+        <CarnaticGallery />
         <You_tube common={common} video = {video}/>
->>>>>>> 92493d6c976f2ae3c6acff132ddc274aa6dcb1cc
+
         </>
     )
     
