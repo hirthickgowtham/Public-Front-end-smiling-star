@@ -135,7 +135,7 @@ export default function Nav_bar() {
       <div className={style.small_content_continer}>
         <div className={style.small_logo}>
           <div className={style.image_continer}>
-            <img src="/images/logo.png" alt="Logo" width="50px" />
+            <img src="/images/Home/logo.png" alt="Logo" width="50px" />
           </div>
           <div className={style.name}>
             <p>Smiling Star</p>
