@@ -3,10 +3,9 @@ import Video from "../video_continer/video_continer"
 import style from "./you_tube_video.module.css"
 
 
-export default function You_tube(){
+export default function You_tube({common,video}){
 
-
-
+  
 
     return (
         <>
@@ -19,9 +18,13 @@ export default function You_tube(){
             </div>
 
             <div className={style.video_content}>
-                <Video index = {1}/>
-                <Video index = {2}/>
-                <Video index = {3}/>
+
+                {video.map((item,index)=>(
+
+                <Video index = {index} common = {common}  values = {item}/>
+
+                ))}
+                
             
             </div>
         </div>
