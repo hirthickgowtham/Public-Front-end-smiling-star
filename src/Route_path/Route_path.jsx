@@ -26,7 +26,7 @@ export default function Route_path() {
 
             {/* Programs */}
             <Route path="/programs/day_care" element={<Daycare/>} />
-            <Route path="/programs/bharatanatyam" element={<Bharatanatyam/>} />
+            <Route path="/programs/Barathanatiyam" element={<Bharatanatyam/>} />
             <Route path="/programs/carnatic" element={<Carnatic/>} />
             <Route path="/programs/hindi" element={<Hindi/>} />
 
