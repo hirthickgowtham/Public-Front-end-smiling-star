@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: row-reverse;
     margin: 2.5em 1em;
-    border:2px solid rgba(255, 166, 0, 0.911);
     border-radius:10px;
 }
 
@@ -44,8 +43,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(253,253,255);
-    background: linear-gradient(54deg, rgba(253,253,255,0.7567401960784313) 0%, rgba(216,210,222,0.7567401960784313) 13%, rgba(247,130,5,0.6110819327731092) 33%, rgba(247,130,5,0.6054796918767507) 48%, rgba(247,130,5,0.5858718487394958) 63%, rgba(247,130,5,0.5634628851540616) 77%, rgba(216,210,222,0.9051995798319328) 86%, rgba(250,250,250,0.7679446778711485) 100%);
     border-radius: 5px;
 }
 
