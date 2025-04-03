@@ -4,6 +4,26 @@ const Aboutbaranatiyam = {
     image:"/public/assets/Programs/barathanatium.png"
 }   
 
+const Barathanatiumgallery = [
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image1.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image2.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image3.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image4.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image5.png"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image6.png"
+    }
+]
 
-export {Aboutbaranatiyam}
+export {Aboutbaranatiyam,Barathanatiumgallery}
 

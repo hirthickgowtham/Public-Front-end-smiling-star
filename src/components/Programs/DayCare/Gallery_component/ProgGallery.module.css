@@ -9,9 +9,11 @@
 }
 .gal{
     width: 30%;
+    height: 300px;
 }
 .gal img{
     width: 100%;
+    height: 100%;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgb(255, 122, 193) ;
     }
