@@ -95,30 +95,30 @@ export default function Nav_bar() {
 
                 <div className={style.options}>
 
-                    <li className={style.option_text}>Home</li>
+                    <li className={style.option_text}><a href="/">Home</a></li>
 
 
-                    <li className={style.option_text}>About us</li>
+                    <li className={style.option_text}><a href="/About_us">About us</a></li>
 
                     <li
                     className="nav-item dropdown mx-3"
                     onClick={handleMouseEnter}
                    
                     >
-                        <div className="nav-link text-dark dropdown-toggle fs-6">
+                      <div className="nav-link text-dark dropdown-toggle fs-6 "  style={{ cursor: "pointer" }}>
                         Programs
                         </div>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/">Day Care</a></li>
-                            <li><a className="dropdown-item" href="/">Bharatanatyam</a></li>
-                            <li><a className="dropdown-item" href="/">Carnatic</a></li>
-                             <li><a className="dropdown-item" href="/">Hindi</a></li>
+                            <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
+                            <li><a className="dropdown-item" href="/programs/Barathanatiyam">Barathanatiyam</a></li>
+                            <li><a className="dropdown-item" href="/programs/carnatic">Carnatic</a></li>
+                             <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
                         </ul>
                     </li>
                     
 
-                    <li className={style.option_text}>Admission</li>
-                    <li className={style.option_text}>Locate us</li>
+                    <li className={style.option_text}><a href="/Enquire_form">Admission</a></li>
+                    <li className={style.option_text}><a href="/Locate_us">Locate us</a></li>
 
                 </div>
 
