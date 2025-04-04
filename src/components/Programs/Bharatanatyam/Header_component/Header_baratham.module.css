@@ -34,7 +34,6 @@
     -webkit-text-fill-color: transparent;
     display: inline-block;
     transition: -webkit-text-stroke 0.4s ease-in-out; 
-
 }
 
 .name:hover {

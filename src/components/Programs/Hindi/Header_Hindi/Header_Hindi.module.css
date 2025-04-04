@@ -1,0 +1,47 @@
+/* Main container */
+.main_container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70vh; /* Sufficient height */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(54deg,  
+        rgba(153, 51, 0, 0.9) 0%,       
+        rgba(255, 153, 51, 0.8) 30%,    
+        rgba(255, 235, 205, 0.9) 60%,  
+        rgba(153, 51, 0, 0.9) 100%     
+    );
+}
+
+/* Container for logo and text */
+.topic {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 0px; /* Balanced spacing */
+}
+
+/* Smaller text */
+.name {
+    position:relative;
+    right:40px;
+    font-size: 8.5em;  /* Reduced size */
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(54deg,  
+        #993300, 
+        #ff9900,  
+        #ffebcd,  
+        #993300  
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Larger image */
+.logo_hindi {
+    width: 400px; /* Increased size */
+    height: auto;
+}
