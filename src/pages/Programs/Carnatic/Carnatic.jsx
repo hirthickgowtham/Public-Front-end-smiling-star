@@ -2,6 +2,8 @@
 import CarnaticGallery from "../../../components/Programs/Carnatic/CarnaticGallery/CarnaticGallery"
 import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
 import Header_carnatic from "../../../components/Programs/Carnatic/Header_carnatic/Header_carnatic"
+import AboutCarnatic from "../../../components/Programs/Carnatic/AboutCarnatic/AboutCarnatic";
+import Footer from "../../../components/Home/Footer/Footer";
 
 export default function Carnatic() {
 
@@ -32,12 +34,11 @@ export default function Carnatic() {
 
     return(
         <>
-
-        
         <Header_carnatic/>
+        <AboutCarnatic />
         <CarnaticGallery />
         <You_tube common={common} video = {video}/>
-
+        <Footer />
         </>
     )
     

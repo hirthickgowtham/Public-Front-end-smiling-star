@@ -9,7 +9,7 @@ export default function DayCareGallery(){
     return(
         <>
             <div className={style.contain}>
-                <ProgGallery gallery={DayCaregallery}/>
+                <ProgGallery gallery={DayCaregallery} color={"lightblue"}/>
             </div>
         </>
     )

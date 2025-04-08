@@ -5,7 +5,7 @@ export default function CarnaticGallery(){
     return(
         <>
             <div className={style.contain}>
-               <ProgGallery gallery={Carnaticgallery}/> 
+               <ProgGallery gallery={Carnaticgallery} color={"rgba(61, 89, 253, 0.91)"}/> 
             </div>
         </>
     )
