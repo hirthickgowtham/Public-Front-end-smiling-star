@@ -5,7 +5,7 @@ export default function HindiGallery(){
     return(
         <>
             <div className={style.contain}>
-               <ProgGallery gallery={Hindigallery}/> 
+               <ProgGallery gallery={Hindigallery} color={"#FFB200"}/> 
             </div>
         </>
     )

@@ -9,13 +9,13 @@
 }
 .gal{
     width: 30%;
-    height: 300px;
+    /* height: 300px; */
+    
 }
 .gal img{
     width: 100%;
-    height: 100%;
     border-radius: 1rem;
-    box-shadow: 0 0 10px rgb(255, 122, 193) ;
+    /* box-shadow: 0 0 10px rgb(255, 122, 193) ; */
     }
 
     @media screen and (min-width: 769px) and (max-width: 1356px){

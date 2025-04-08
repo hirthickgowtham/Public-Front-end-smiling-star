@@ -36,25 +36,29 @@ const programs_content = [
             img:"/assets/Programs/daycare_img.png",
             program_name:"DayCare",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
-            last:"to explore the..."
+            last:"to explore the...",
+            route:"/programs/day_care"
         },
         {
             img:"/assets/Programs/bharadhanatiyam.png",
             program_name:"Bharathanatyam",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
-            last:"to explore the..."
+            last:"to explore the...",
+            route:"/programs/Barathanatiyam"
         },
         {
             img:"/assets/Programs/Hindi.png",
             program_name:"Hindi",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
-            last:"to explore the..."
+            last:"to explore the...",
+            route:"/programs/hindi"
         },
         {
             img:"/assets/Programs/image.png",
             program_name:"Carnatic",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
-            last:"to explore the..."
+            last:"to explore the...",
+            route:"/programs/carnatic"
         }
 
 ]
