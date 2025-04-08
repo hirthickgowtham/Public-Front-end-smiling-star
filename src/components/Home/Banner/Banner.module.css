@@ -6,20 +6,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .main img{
     width: 70%;
     height:90vh;
 }
+.shape{
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    animation: scaling 3s ease-in-out infinite;
+}
+.shape img{
+    width: 100px;
+    height: 100px;
+}
+.shape1{
+    position: absolute;
+    rotate: 180deg;
+    top: 5%;
+    right: 10%;
+    animation: scaling 3s ease-in-out infinite;
+}
+.shape1 img{
+    width: 100px;
+    height: 100px;
+    
+}
+@keyframes scaling {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
 
 @media(min-width:427px) and (max-width:768px){
     .main img{
         height: 60vh;
+    }
+    .hide{
+        display: none;
     }
 }
 
 @media(min-width:300px) and (max-width:426px){
     .main img{
         height: 30vh;
+    }
+    .hide{
+        display: none;
     }
 }

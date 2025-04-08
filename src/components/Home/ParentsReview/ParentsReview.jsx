@@ -3,6 +3,7 @@ import style from "./Slider.module.css";
 import { images } from "../../../content/Home";
 import Marquee from "react-fast-marquee";
 import Contact_button from "../../../Layout/Contact_us_button/contact_us_button";
+import { filler } from "../../../content/Home";
 
 export default function ParentsReview() {
   const [marqueeDirection, setMarqueeDirection] = useState("left"); // Default: horizontal
@@ -22,6 +23,12 @@ export default function ParentsReview() {
     <>
     <div className={style.heading}><Contact_button title={"Parents Review"}/></div>
      <div className={style.contain}>
+     <div className={`${style.blackBee} ${style.hide}`}>
+                        <img src={filler.blackBee} alt="color Bee" />
+      </div>
+      <div className={`${style.graps} ${style.hide}`}>
+                        <img src={filler.Graps} alt="color Bee" />
+                </div>
         <div className={style.main}>
             
             <div className={style.slider_container}>
