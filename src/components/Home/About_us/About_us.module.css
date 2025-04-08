@@ -64,6 +64,15 @@
 
 
 
+/* random images styling */
+
+.apple{
+    position: absolute;
+    right:0%;
+    width:200px;
+    transform: rotate(-45deg);
+}
+
 
 
 /* media query for about us component 1400px to 1700px*/
@@ -125,6 +134,7 @@
 
     .para{
         font-size: 1.3em;
+        max-width: 100%;
     }
 
     .topic{
@@ -137,6 +147,9 @@
         width:90%;
     }
 
+    .apple{
+        display: none;
+    }
 }
 
 
@@ -164,6 +177,7 @@
 
     .para{
         font-size: .9em;
+        max-width: 100%;
     }
 
     
@@ -177,6 +191,10 @@
         width: 95%;
     }
 
+    
+    .apple{
+        display: none;
+    }
 }
 
 
@@ -220,6 +238,10 @@
         width: 95%;
     }
 
+    
+    .apple{
+        display: none;
+    }
 }
 
 
@@ -228,11 +250,3 @@
 
 
 
-/* random images styling */
-
-.apple{
-    position: absolute;
-    right:2%;
-    width:200px;
-    transform: rotate(-45deg);
-}

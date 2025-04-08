@@ -393,12 +393,12 @@
 
 /* cartoon positioning  */
 
-.man_um{
+.paper_rocket{
     position: absolute;
     bottom:0%;
     left:3%;
     z-index: 1;
-    width:200px;
+    width:12%;
     transform: rotate(25deg);
 }
 
@@ -407,7 +407,7 @@
     bottom:75%;
     right:10%;
     z-index: 1;
-    width:150px;
+    width:10%;
     
 
 }
@@ -417,19 +417,10 @@
     top:10%;
     left:3%;
     z-index: 1;
-    width:250px;
+    width:14%;
     transform: rotate(25deg);
 }
 
-
-
-.paper_rocket{
-    position: absolute;
-    width:250px;
-    right:50%;
-    bottom:40%;
-    transform: rotate(50deg);
-}
 
 
 .butter_fly{
@@ -438,4 +429,89 @@
     bottom:10%;
     right:3%;
     transform: rotate(45deg);
+}
+
+
+
+
+
+
+/* media query for animation elements*/
+
+
+@media (min-width:1000px) and (max-width:1500px){
+    .paper_rocket{
+        bottom:35%;
+    }
+
+    
+}
+
+
+
+
+
+@media (min-width:700px) and (max-width:1000px){
+    .sun{
+        width:15%;
+    }
+
+    .star{
+        width: 19%;
+        top:13%;
+    }
+
+    .butter_fly{
+        display: none;
+    }
+
+    .paper_rocket{
+        width:14%;
+    }
+}
+
+
+
+@media (min-width:500px) and (max-width:700px){
+
+    .sun{
+        width:17%;
+        bottom:80%;
+    }
+
+    .star{
+        width: 25%;
+      
+    }
+
+    .butter_fly{
+        display: none;
+    }
+
+    .paper_rocket{
+        display: none;
+    }
+}
+
+
+
+@media (min-width:300px) and (max-width:500px){
+
+    .sun{
+        width: 23%;
+        bottom:80%;
+    }
+
+    .star{
+        width: 28%;
+        display: none;
+    }
+
+    .butter_fly{
+        display: none;
+    }
+
+    .paper_rocket{
+        display: none;
+    }
 }

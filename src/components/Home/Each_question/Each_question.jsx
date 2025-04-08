@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-export default function Each_question({ i }) {
+export default function Each_question({ i ,body}) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAnswer = () => setIsOpen(!isOpen);
@@ -19,7 +19,7 @@ export default function Each_question({ i }) {
       >
         <div className={style.question}>
           <p className={style.para}>
-            How often should I visit the dentist? How often should I visit the dentist?
+            {body.ques}
           </p>
 
           <div className={style.symbol}>
@@ -34,9 +34,7 @@ export default function Each_question({ i }) {
           className={style.answer}
         >
           <p className={classNames(style.para)}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident
-            quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum,
-            deleniti.
+            {body.ans}
           </p>
         </motion.div>
 
