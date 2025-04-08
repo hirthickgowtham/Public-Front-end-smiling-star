@@ -21,7 +21,7 @@
     z-index: 1;
 }
 .heading h1{
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(90deg, #ff8ffb 0%, #75e3ff 100%);
     -webkit-background-clip: text;
@@ -84,13 +84,13 @@
 }
 .paperRocket{
     position: absolute;
-    bottom: 25%;
-    left: 60%;
+    bottom: 15%;
+    left: 67%;
    transform-origin: center;
 }
 .paperRocket img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 .Rocket{
     position: absolute;

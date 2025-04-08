@@ -11,6 +11,7 @@
 
 .programContainer{
     width: 100%;
+    position: relative;
     /* background: linear-gradient(360deg, #ffffff 0%, #c4b8ff 37%, #bfb1f2 52%, #c1b7fb 61%, #f7f7f7 100%); */
     padding:2rem;
     display: flex;
@@ -39,11 +40,12 @@
         box-shadow: 0 0 0.5rem gray;
         gap: 1rem;
         border-radius: 10px;
+        transition: 0.7s;
 }
 
 .programs:hover{
     transition: 0.7s;
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1rem rgb(54, 188, 255);
 }
 
 .program_img{
@@ -90,8 +92,82 @@
     text-decoration: none;
     color: black ;
 }
+.colorBee{
+    position: absolute;
+    z-index: -1;
+    bottom: -20%;
+    right: 5%;
+}
+.colorBee img{
+    z-index: -1;
+    height: 300px;
+    width: 300px;
+    rotate: -10deg;
+    opacity: 0.5;
+    /* border: 2px solid black; */
+}
+.star{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    animation: rotateInfinite 5s linear infinite;
+}
+.star img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+}
+@keyframes rotateInfinite {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes swing {
+    0% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
 
+.spring{
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    animation: swing 5s ease-in-out infinite;
+}
+.spring img{
+    width: 250px;
+    height: 300px;
+    rotate: 20deg;
+    opacity: 0.5;
+}
 
+.flight{
+    position: absolute;
+    top: -25%;
+    right: 4%;
+}
+.flight img{
+    width: 200px;
+    height: 200px;
+}
+.book{
+    position: absolute;
+    display: none;
+}
+.book img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
 @media screen and (max-width: 1024px){
 
     .programHeadrer{
@@ -120,9 +196,36 @@
     .heading{
         font-size: 1.2rem;
     }
+    .star{
+        top: 10%;
+    }
+    .colorBee{
+        bottom: 0;
+        right: 3%;
+        /* display: none; */
+    }
+    .colorBee img{
+        width: 200px;
+        height: 200px;
+    }
+    .spring{
+        bottom: -10%;
+        rotate: 20deg;
+    }
+    .spring img{
+        width: 200px;
+        height: 200px;
+    }
+    .flight{
+        top: -10%;
+    }
+    .book{
+        display: block;
+        right: 5%;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 923px) {
     /* body {
       background-color: lightblue;
     } */
@@ -133,6 +236,9 @@
     }
     .heading{
         font-size: 1rem;
+    }
+    .hide{
+        display: none;
     }
   }
 
