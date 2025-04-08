@@ -67,7 +67,7 @@
 
 .item1{
     position:absolute;
-    width:175px;
+    width:14%;
     right:2%;
     top:15%;
     transform: rotate(25deg);
@@ -77,7 +77,7 @@
 
 .item2{
     position:absolute;
-    width:250px;
+    width:17%;
     left:2%;
     top:30%;
     transform: rotate(-25deg);
@@ -85,16 +85,110 @@
 
 .item3{
     position:absolute;
-    width:400px;
+    width:25%;
     bottom:0%;
-    left:5%;
+    left:3%;
     transform: rotate(-25deg);
 }
 
 .item4{
     position:absolute;
-    width:200px;
+    width:12%;
     bottom:20%;
-    right:7%;
+    right:6%;
     transform: rotate(25deg);
+}
+
+
+
+
+/* media query for question answer */
+
+
+
+@media (min-width:1000px) and (max-width:1400px){
+
+    .topic{
+        padding: 2em ;
+        width:65%;
+    }
+
+    .topic h2{
+
+        font-size: 4em;
+    }
+
+    .question_continer{
+        width:65%;
+    }
+}
+
+
+
+
+@media (min-width:700px) and (max-width:1000px){
+
+
+    .topic{
+        padding: 2em ;
+        width:85%;
+    }
+
+    .topic h2{
+
+        font-size: 3.5em;
+    }
+
+    .question_continer{
+        width:85%;
+    }
+
+    .item{
+        display: none;
+    }
+}
+
+
+
+@media (min-width:500px) and (max-width:700px){
+    
+    .topic{
+        padding: 2em ;
+        width:90%;
+    }
+
+    .topic h2{
+
+        font-size: 3em;
+    }
+
+    .question_continer{
+        width:90%;
+    }
+
+    .item{
+        display: none;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px){
+
+    .topic{
+        padding: 2em 1em;
+        width:100%;
+    }
+
+    .topic h2{
+
+        font-size: 2.5em;
+    }
+
+    .question_continer{
+        width:100%;
+    }
+
+    .item{
+        display: none;
+    }
+
 }

@@ -119,7 +119,7 @@ export default function Title_Card() {
             transition={paper_transction}
             src="images/Home_random/paper_rocket.png"
              alt="" 
-             className={style.man_um}
+             className={style.paper_rocket}
              />
           
             <motion.img
