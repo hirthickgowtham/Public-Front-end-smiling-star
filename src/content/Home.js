@@ -1,3 +1,17 @@
+//Filler
+const filler = {
+    star:"/public/assets/Filler/star.png",
+    colorBee:"/public/assets/Filler/colorbee.png",
+    blackBee:"/public/assets/Filler/blackBee.png",
+    Arrow:"/public/assets/Filler/Arrow.png",
+    Spring:"/public/assets/Filler/SprignArrow.png",
+    flight:"/public/assets/Filler/Fight.png",
+    Book:"/public/assets/Filler/Book.png",
+    Graps:"/public/assets/Filler/Graps.png",
+    Shape:"/public/assets/Filler/Shape.png"
+}
+
+
 
 //used in Parent Review
 
@@ -87,7 +101,6 @@ const footerData = {
           { name: "Home", link: "/",target:"_self" },
           { name: "About Us", link: "/" ,target:"_self"},
           { name: "Contact Us", link: "/" ,target:"_self"},
-          { name: "404", link: "/",target:"_self" },
         ],
       },
       {
@@ -109,4 +122,4 @@ const footerData = {
     ],
   };
 
-export {images,programs_content,footerData,Banner_img};
+export {images,programs_content,footerData,Banner_img,filler};
