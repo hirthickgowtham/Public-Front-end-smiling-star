@@ -11,6 +11,17 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.bulb{
+    position: absolute;
+    top: -20%;
+    left: 30%;
+    rotate: 25deg;
+}
+.bulb img{
+    width: 100px;
+    height:100px; 
 }
 .main{
     padding: 1rem;

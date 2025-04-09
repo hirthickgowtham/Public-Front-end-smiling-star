@@ -1,5 +1,7 @@
 import style from "./OurValues.module.css";
 import { OurValue } from "../../../content/AboutUs";
+import { About_filler } from "../../../content/AboutUs";
+import { motion as M } from "framer-motion";
 
 export default function OurValues() {
 
@@ -8,6 +10,35 @@ export default function OurValues() {
   return (
     <>
       <div className={style.contain}>
+        <div className={`${style.Arrow} ${style.hide}`}>
+            <img src={About_filler.Arrow} alt="our value" />
+        </div>
+        <M.div className={`${style.Bear} ${style.hide}`}
+            animate={{
+              rotate:[10,-10]
+            }}
+            transition={{
+              duration: 2, // Time for one full movement cycle
+              repeat: Infinity, // Infinite loop
+              ease: "easeInOut", // Smooth transition
+              repeatType: "mirror", // Moves back and forth 
+            }}
+        >
+            <img src={About_filler.bear} alt="our value" />
+        </M.div>
+        <M.div className={`${style.rabbit} ${style.hide}`}
+          animate={{
+            rotate:[5,-5]
+          }}
+          transition={{
+            duration: 2, // Time for one full movement cycle
+            repeat: Infinity, // Infinite loop
+            ease: "easeInOut", // Smooth transition
+            repeatType: "mirror", // Moves back and forth 
+          }}
+        >
+          <img src={About_filler.rabbit} alt="" />
+        </M.div>
         <h1>
           Our Values
         </h1>

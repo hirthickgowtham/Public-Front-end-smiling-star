@@ -6,12 +6,58 @@
     padding: 0;
 }
 .contain{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    position: relative;
 }
+.Arrow{
+    position: absolute;
+    top: -4%;
+    left: 37%;
+    animation: scaling 2s infinite ease-in-out;
+}
+.Arrow img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+}
+
+.Bear{
+    position: absolute;
+    left: 1%;
+    top: 20%;
+}
+.Bear img{
+    width:200px;
+    height: 200px;
+    opacity: 0.7;
+}
+.rabbit{
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+}
+.rabbit img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+}
+
+@keyframes scaling {
+    0%{
+        scale: 0.9;
+    }
+    50%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.9;
+    }
+}
+
 .main{
     /* border: 2px solid red; */
     padding: 1rem;

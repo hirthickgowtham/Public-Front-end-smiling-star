@@ -1,3 +1,10 @@
+const About_filler = {
+    Arrow:"/public/assets/Filler/Arrow.png",
+    bulb:"/public/assets/Filler/bulb.png",
+    bear:"/public/assets/Filler/bearImg.png",
+    rabbit:"/public/assets/Filler/Rabbit.png"
+}
+
 const aboutUsHeader = {
     images:{
         img:"/assets/AboutUs/half_cloud.png",
@@ -81,4 +88,4 @@ const Events = [
         }
 ]
 
-export {aboutUsHeader,Ourstory,OurValue,Events};
+export {aboutUsHeader,Ourstory,OurValue,Events,About_filler };
