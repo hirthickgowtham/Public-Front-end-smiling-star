@@ -13,7 +13,7 @@ export default function Home(){
 
     return(
         <>
-        <div>
+        <div className={style.main}>
           
             <div className={style.gradent_continer}>
                 <Title_Card/>

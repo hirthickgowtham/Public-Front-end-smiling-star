@@ -5,5 +5,38 @@
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
+    position: relative;
+}
+
+.item1{
+    position: absolute;
+    width:7%;
+    left:-1.5%;
+    top:15%;
+    /* transform: rotate(25deg); */
+    opacity: .7;
+    transform: scaleX(-1);
+}
+
+.item2{
+    position: absolute;
+    width:6%;
+    right:1%;
+    bottom:40%;
+    transform: rotate(35deg);
+    opacity: .8;
     
 }
+
+.item3{
+    position: absolute;
+    width:7%;
+    left:10%;
+    bottom:-5%;
+    opacity: .8;
+    transform: scaleX(-1);
+}
+
+
+
+

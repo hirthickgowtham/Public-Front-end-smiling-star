@@ -68,9 +68,10 @@
 
 .apple{
     position: absolute;
-    right:0%;
-    width:200px;
+    right:2%;
+    width:10%;
     transform: rotate(-45deg);
+
 }
 
 
