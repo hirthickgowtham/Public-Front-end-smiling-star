@@ -95,6 +95,7 @@
 .Rocket{
     position: absolute;
     left: 10%;
+    /* animation: curveDrop 1s ease-out forwards; */
 }
 .Rocket img{
     width: 300px;
@@ -115,6 +116,18 @@
     0% { transform: rotate(-10deg); }
     100% { transform: rotate(10deg); }
 }
+
+@keyframes curveDrop {
+    0% {
+      transform: translate(0, -500px);
+    }
+    50% {
+      transform: translate(-50px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px){

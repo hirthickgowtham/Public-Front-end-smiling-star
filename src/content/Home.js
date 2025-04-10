@@ -8,7 +8,8 @@ const filler = {
     flight:"/public/assets/Filler/Fight.png",
     Book:"/public/assets/Filler/Book.png",
     Graps:"/public/assets/Filler/Graps.png",
-    Shape:"/public/assets/Filler/Shape.png"
+    Shape:"/public/assets/Filler/Shape.png",
+    
 }
 
 
