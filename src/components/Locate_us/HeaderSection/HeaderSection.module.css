@@ -1,0 +1,32 @@
+.headerContainer {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f3f4f6;
+  }
+  
+  .mainHeading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
+  }
+  
+  .subHeading {
+    font-size: 1.25rem;
+    color: #374151;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .mainHeading::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #7b9fcb;
+    margin: 1rem auto 0;
+    border-radius: 2px;
+  }
+  

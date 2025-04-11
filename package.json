@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
     "framer-motion": "^12.6.2",
     "hamburger-react": "^2.5.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.487.0",
     "react": "^19.0.0",
     "react-bits": "^1.0.5",
     "react-dom": "^19.0.0",

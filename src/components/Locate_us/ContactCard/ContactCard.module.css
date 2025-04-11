@@ -1,0 +1,97 @@
+.cardWrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactCard {
+    display: flex;
+    flex-direction: row;
+    background: #f8fbff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 2rem;
+    max-width: 1150px;
+    width: 100%;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .right {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    margin-right: 0.75rem;
+    color: #007bff;
+    margin-top: 5px;
+  }
+  
+  .item p {
+    margin: 0.25rem 0 0;
+    color: #6c757d;
+  }
+  
+  .amenities {
+    margin-top: 1rem;
+  }
+  
+  .tags {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tags span {
+    background: #e5f1ff;
+    color: #007bff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+  }
+  
+  .facilities ul {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    color: #6c757d;
+  }
+  
+  .visit {
+    margin-top: 2rem;
+  }
+  
+  .tourButton {
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #0d99ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .tourButton:hover {
+    background-color: #007bdb;
+  }
+  

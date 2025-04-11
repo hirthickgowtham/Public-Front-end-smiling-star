@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
