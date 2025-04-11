@@ -1,0 +1,58 @@
+.mapWrapper {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .mapTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+  
+    background: linear-gradient(90deg, #2f8dda, #427674);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+    animation: fadeInMap 0.8s ease-in-out forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInMap {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .mapContainer {
+    height: 430px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .mapButton {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .mapButton:hover {
+    background-color: #357ae8;
+  }
+  
