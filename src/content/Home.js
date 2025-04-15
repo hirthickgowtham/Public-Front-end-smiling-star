@@ -100,16 +100,16 @@ const footerData = {
         title: "Quick Links",
         items: [
           { name: "Home", link: "/",target:"_self" },
-          { name: "About Us", link: "/" ,target:"_self"},
-          { name: "Contact Us", link: "/" ,target:"_self"},
+          { name: "About Us", link: "/About_us" ,target:"_self"},
+          { name: "Contact Us", link: "/Locate_us" ,target:"_self"},
         ],
       },
       {
         title: "Main Pages",
         items: [
-          { name: "About", link: "/" ,target:"_self"},
+          { name: "About", link: "/About_us" ,target:"_self"},
           { name: "Programs", link: "/",target:"_self" },
-          { name: "Admission", link: "/ " ,target:"_self"},
+          { name: "Admission", link: "/Enquire_form" ,target:"_self"},
         ],
       },
       {

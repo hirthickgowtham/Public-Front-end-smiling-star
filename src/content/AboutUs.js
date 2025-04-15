@@ -2,7 +2,9 @@ const About_filler = {
     Arrow:"/public/assets/Filler/Arrow.png",
     bulb:"/public/assets/Filler/bulb.png",
     bear:"/public/assets/Filler/bearImg.png",
-    rabbit:"/public/assets/Filler/Rabbit.png"
+    rabbit:"/public/assets/Filler/Rabbit.png",
+    SpringStar:"/public/assets/Filler/Spring 1.png",
+    Star:"/public/assets/Filler/star.png"
 }
 
 const aboutUsHeader = {

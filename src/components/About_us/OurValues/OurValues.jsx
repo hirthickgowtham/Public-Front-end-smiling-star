@@ -13,6 +13,9 @@ export default function OurValues() {
         <div className={`${style.Arrow} ${style.hide}`}>
             <img src={About_filler.Arrow} alt="our value" />
         </div>
+        <M.div className={`${style.Star} ${style.hide}`}>
+          <img src={About_filler.Star} alt="Star" />
+        </M.div>
         <M.div className={`${style.Bear} ${style.hide}`}
             animate={{
               rotate:[10,-10]
@@ -38,6 +41,19 @@ export default function OurValues() {
           }}
         >
           <img src={About_filler.rabbit} alt="" />
+        </M.div>
+        <M.div className={`${style.SpringStar} ${style.hide}`}
+          animate={{
+            rotate:[5,-5]
+          }}
+          transition={{
+            duration: 2, // Time for one full movement cycle
+            repeat: Infinity, // Infinite loop
+            ease: "easeInOut", // Smooth transition
+            repeatType: "mirror", // Moves back and forth 
+          }}
+        >
+          <img src={About_filler.SpringStar} alt="SpringStar" />
         </M.div>
         <h1>
           Our Values
