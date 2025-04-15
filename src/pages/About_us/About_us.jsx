@@ -10,10 +10,13 @@ export default function About_us() {
     return(
         <>
         <AboutUs_Header />
+        <div style={{background: "linear-gradient(360deg, #ffffff 0%, #ffe5fd 28%, #c2ebff 56%, #ffffff 100%, #ffffff 100%)"}}>
         <OurStory />
         <OurValues />
         <SchoolEvent />
+        </div>
         <Footer />
+     
         </>
     )
     
