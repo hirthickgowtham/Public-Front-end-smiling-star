@@ -168,15 +168,15 @@ export default function Nav_bar() {
                 Programs
                 </div>
                 <ul className="dropdown-menu w-100">
-                    <li><a className="dropdown-item" href="/">Day Care</a></li>
-                    <li><a className="dropdown-item" href="/">Bharatanatyam</a></li>
-                    <li><a className="dropdown-item" href="/">Carnatic</a></li>
-                    <li><a className="dropdown-item" href="/">Hindi</a></li>
+                    <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
+                    <li><a className="dropdown-item" href="/programs/Barathanatiyam">Bharatanatyam</a></li>
+                    <li><a className="dropdown-item" href="/programs/carnatic">Carnatic</a></li>
+                    <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
                 </ul>
              </li>
 
           <li className="nav-item dropdown mx-3 my-2 text-center">
-            <a className="nav-link text-dark fs-6" href="/Admission">
+            <a className="nav-link text-dark fs-6" href="/Enquire_form">
               Admission
             </a>
           </li>

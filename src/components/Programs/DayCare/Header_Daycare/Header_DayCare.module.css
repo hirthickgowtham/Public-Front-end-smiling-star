@@ -21,7 +21,7 @@
     width:100%;
     display: flex;
     justify-content: center;
-    padding-bottom:10em ;
+    padding-bottom:8em ;
     z-index: 1;
 }
 
@@ -62,13 +62,18 @@
 /* media query for header component */
 
 
-@media (min-width:1000px) and (max-width:1200px){
+@media (min-width:1000px) and (max-width:1450px){
     .name {
         font-size: 8.5em;
+        
     }
 
     .nadarajar{
         width:30%;
+    }
+
+    .topic{
+        padding-bottom: 7em;
     }
 }
 
