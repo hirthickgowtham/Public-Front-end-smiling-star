@@ -28,7 +28,7 @@ const Ourstory = {
     },
     text:{
         head:"Our Story",
-        content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates unde dolores delectus, voluptatum aperiam quas! Hic molestias quis quas, aliquid animi minima, fugit reprehenderit voluptatum molestiae quasi assumenda! In laboriosam unde molestiae natus nulla? Consequatur similique distinctio ullam numquam provident quisquam incidunt fugiat molestias, eaque libero amet odit ipsum optio cum porro, deserunt facere quibusdam. Vel dolorum deleniti eligendi, eos architecto eveniet eius nulla, tenetur doloremque odit ipsam voluptate velit fuga ex recusandae cupiditate officia ipsa laboriosam nesciunt assumenda obcaecati? Debitis nulla omnis incidunt recusandae. Porro, qui mollitia ipsa dolorem labore perspiciatis fugit minima adipisci reprehenderit explicabo, quae nulla in?"
+        content:"Welcome to Smiling Stars Day Care & Pre School, where every child is treated like a shining star ready to rise and shine! We provide a safe, joyful, and nurturing environment that encourages children to explore, learn, and grow through fun and creativity. Our curriculum blends early childhood education with cultural activities like Indian Carnatic music, Bharatanatyam, violin, and Hindi language classes, helping kids develop holistically. With loving and experienced teachers, we focus on building confidence, communication, social values, and foundational skills through a play-based learning approach. Located in New Saram, Puducherry, Smiling Stars is a trusted space where every little smile matters and each day is a step toward a brighter future."
     }
 }
 
@@ -69,22 +69,22 @@ const OurValue = [
 const Events = [
         {
             heading:"Events and celebrations",
-            image:"/public/assets/AboutUs/SchoolEvents/img1.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            image:"/public/assets/AboutUs/SchoolEvents/img1.jpg",
+            content:"We celebrate every special moment with color, laughter, and joy, making beautiful memories that light up our little stars’ hearts.",
             mediaLogo:"/public/assets/AboutUs/SchoolEvents/FaceBook.png",
             link:"https://www.facebook.com/"
         },
         {
             heading:"Captured Smiles",
             image:"/public/assets/AboutUs/SchoolEvents/img2.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            content:"Every giggle and sparkle is precious! Our gallery captures the sweet, shining smiles of our little ones as they grow and glow to sky.",
             mediaLogo:"/public/assets/AboutUs/SchoolEvents/Instagram.png",
             link:"https://www.instagram.com/"
         },
         {
             heading:"Little Stars in Action",
-            image:"/public/assets/AboutUs/SchoolEvents/img3.png",
-            content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves.",
+            image:"/public/assets/AboutUs/SchoolEvents/img3.jpg",
+            content:"From tiny footsteps to big dreams, we cherish every moment of learning, playing, and creating — where curiosity meets confidence!",
             mediaLogo:"/public/assets/AboutUs/SchoolEvents/YouTube.png",
             link:"https://www.youtube.com/"
         }

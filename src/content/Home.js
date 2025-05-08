@@ -19,26 +19,26 @@ const filler = {
 const images = [
     {
         img:"/assets/Parents Feedback/img1.png",
-        content:'"We struggled to find the right talent globally, but with their automated candidate ranking, we quickly identified top-notch candidates who perfectly fit our requirements."',
-        author:"vijay",
+        content:`"A good place for the tiny ones. It's safe and clean. The school has trained teachers to handle kids. Overall it's a suitable place for preschoolers and day care"`,
+        author:"J SANKARI MURUGA",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
         img:"/assets/Parents Feedback/img2.png",
-        content:'"We struggled to find the right talent globally, but with their automated candidate ranking, we quickly identified top-notch candidates who perfectly fit our requirements."',
-        author:"vijay",
+        content:`"It is very homely and security wise also good. School fees is reasonable. They are taking good care and my kid is enjoying his school time."`,
+        author:"Malathy",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
         img:"/assets/Parents Feedback/img3.png",
-        content:'"We struggled to find the right talent globally, but with their automated candidate ranking, we quickly identified top-notch candidates who perfectly fit our requirements."',
-        author:"vijay",
+        content:'"Very good school...my boy everyday like to go to at school..I give marks of school learning, maintenance and safety 💯...."',
+        author:"Pavithra Ganesan",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
         img:"/assets/Parents Feedback/img4.png",
-        content:'"We struggled to find the right talent globally, but with their automated candidate ranking, we quickly identified top-notch candidates who perfectly fit our requirements."',
-        author:"vijay",
+        content:'"Spacious environment, friendly staff, good playing and dinning area, teaching good activities, caring like a parents.."',
+        author:"Lavanya ramamurthy",
         professional :"Small Business Owner, Sarah's Boutique"
     },
 
@@ -48,14 +48,14 @@ const images = [
 
 const programs_content = [
         {
-            img:"/assets/Programs/daycare_img.png",
+            img:"/assets/Programs/daycare_img.jpg",
             program_name:"DayCare",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
             last:"to explore the...",
             route:"/programs/day_care"
         },
         {
-            img:"/assets/Programs/bharadhanatiyam.png",
+            img:"/assets/Programs/bharadhanatiyam.jpg",
             program_name:"Bharathanatyam",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
             last:"to explore the...",
@@ -69,7 +69,7 @@ const programs_content = [
             route:"/programs/hindi"
         },
         {
-            img:"/assets/Programs/image.png",
+            img:"/assets/Programs/image.jpg",
             program_name:"Carnatic",
             content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
             last:"to explore the...",

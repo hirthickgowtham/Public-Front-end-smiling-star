@@ -25,10 +25,10 @@ export default function Programs() {
                 </div>
                 <div className={`${style.book} ${style.hide}`}>
                         <img src={filler.Book} alt="color Bee" />
-                </div>
+                </div>  
                 <div className={style.programHeadrer}>
                     {programs_content.map((item,index)=>(
-                    <Link key={index} to={`${item.route}`} className={style.link}>
+                    <a key={index} href={`${item.route}`} className={style.link}>
                     <div className={style.programs}>
                         <div className={style.program_img}><img src={item.img} alt="img" /></div>
                         <div className={style.programContent}>
@@ -36,7 +36,7 @@ export default function Programs() {
                             <p>{item.content}</p>
                         </div>
                     </div>
-                    </Link>
+                    </a>
                     ))}
                 </div>
             </div>

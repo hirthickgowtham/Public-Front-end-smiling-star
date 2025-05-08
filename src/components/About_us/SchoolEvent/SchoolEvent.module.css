@@ -48,6 +48,10 @@
 .LinkImage{
     width: 80%; 
     overflow: hidden;
+    aspect-ratio: 4/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card div img{
@@ -55,6 +59,7 @@
     border-radius:1.2rem ;
     border-top-right-radius: 40%;
     border-bottom-left-radius:40% ;
+    object-fit: cover;
 }
 
 .card div h1{

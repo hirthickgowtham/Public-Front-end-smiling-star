@@ -24,9 +24,10 @@ export default function About_us(){
                         <h2>PreSchool</h2>
                     </div>
                     <div className={style.para}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facere, molestias ab et tenetur architecto est, voluptates accusantium voluptatem doloribus possimus facilis, neque commodi temporibus? Recusandae laborum maxime laudantium saepe!
-                        Natus expedita praesentium quibusdam voluptatum explicabo dolorum cumque. Quod assumenda corporis doloribus nesciunt sint eius nam tenetur voluptatibus repudiandae consequatur voluptates minus ea, accusamus tempora, obcaecati laborum odio, nulla necessitatibus.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eum reprehenderit ipsum corporis excepturi fuga, ipsa cumque delectus quos dicta nisi a obcaecati magnam? Possimus reiciendis delectus labore quibusdam nihil!
+                        At Smiling Stars Day Care & Pre School, we believe that childhood is a time to be cherished, celebrated, and guided with care. Our center is built on the foundation of love, laughter, and learning, where every child is encouraged to shine in their own special way. 
+                        We create a joyful environment that feels like a second home, filled with stories, songs, and smiles. 
+                        With a perfect balance of play, academics, and creative arts, our experienced educators help nurture young minds and gentle hearts. 
+                        Here, every moment becomes a memory and every child is prepared for a bright and confident tomorrow.
                     </div>
                 </div>
             </div>

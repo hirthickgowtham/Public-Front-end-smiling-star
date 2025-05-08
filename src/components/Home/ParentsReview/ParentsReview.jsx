@@ -47,7 +47,7 @@ export default function ParentsReview() {
                       <h4>{image.content}</h4>
                       <div>
                           <p className={style.parent_name}>{image.author}</p>
-                          <p>{image.professional}</p>
+                          {/* <p>{image.professional}</p> */}
                       </div>
                     </div>
                   </div>

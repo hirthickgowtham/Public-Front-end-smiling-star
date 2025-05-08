@@ -22,7 +22,7 @@ export default function Footer(){
                         <Link to={FD.brand.logo.link}><img src={FD.brand.logo.img} alt="img" className={style.logo}/></Link>
                         <h2>{FD.brand.tagline}</h2>
                         </div>
-                        <button>{FD.brand.button.text}</button>
+                        
                     </div>
                     <div className={style.right}>
                         {FD.links.map((sections,index)=>(
