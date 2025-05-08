@@ -111,8 +111,12 @@ export default function Nav_bar() {
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
                             <li><a className="dropdown-item" href="/programs/Barathanatiyam">Barathanatiyam</a></li>
-                            <li><a className="dropdown-item" href="/programs/carnatic">Carnatic</a></li>
-                             <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
+                            <li><a className="dropdown-item" href="/programs/carnatic">Carnatic music</a></li>
+                            <li><a className="dropdown-item" href="/programs/violin">Violin</a></li>
+                            <li><a className="dropdown-item" href="/programs/keyboard_piano">Piano</a></li>
+                            <li><a className="dropdown-item" href="/programs/tabla_mridangam">Tabla and Mridangam</a></li>
+                            <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
+
                         </ul>
                     </li>
                     
@@ -170,7 +174,10 @@ export default function Nav_bar() {
                 <ul className="dropdown-menu w-100">
                     <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
                     <li><a className="dropdown-item" href="/programs/Barathanatiyam">Bharatanatyam</a></li>
-                    <li><a className="dropdown-item" href="/programs/carnatic">Carnatic</a></li>
+                    <li><a className="dropdown-item" href="/programs/carnatic">Carnatic music</a></li>
+                    <li><a className="dropdown-item" href="/programs/violin">Violin</a></li>
+                    <li><a className="dropdown-item" href="/programs/keyboard_piano">Piano</a></li>
+                    <li><a className="dropdown-item" href="/programs/tabla_mridangam">Tabla and Mridangam</a></li>
                     <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
                 </ul>
              </li>

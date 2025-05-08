@@ -1,0 +1,112 @@
+
+
+
+/* main continer styling  */
+
+.main_continer{
+    position: relative;
+    display: flex;
+    width:100%;
+    height:70vh;
+    justify-content: center;
+    align-items:last baseline ;
+    background: rgb(180,180,180);
+    background: linear-gradient(54deg, rgba(180,180,180,0.38139005602240894) 0%, rgba(180,180,180,0.31416316526610644) 12%, rgba(247,130,5,0.29175420168067223) 33%, rgba(247,130,5,0.27494747899159666) 48%, rgba(247,130,5,0.2721463585434174) 63%, rgba(180,180,180,0.24413515406162467) 88%, rgba(180,180,180,0.3449754901960784) 100%);
+}
+
+
+/* styling topic  */
+
+.topic{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom:10em ;
+    z-index: 1;
+}
+
+
+.name {
+    font-size: 9em;
+    background: rgb(180,180,180);
+    background: linear-gradient(54deg, rgba(180,180,180,0.8631827731092436) 0%, rgba(180,180,180,0.7707457983193278) 12%, rgba(247,130,5,0.7259278711484594) 33%, rgba(247,130,5,0.711922268907563) 48%, rgba(247,130,5,0.7343312324929971) 63%, rgba(180,180,180,0.7371323529411764) 88%, rgba(180,180,180,0.8743872549019608) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    transition: -webkit-text-stroke 0.4s ease-in-out; 
+}
+
+.name:hover {
+    -webkit-text-stroke: 0.5px #f78205; 
+}
+
+.name:not(:hover) {
+    -webkit-text-stroke: 0px transparent; 
+    transition: -webkit-text-stroke 0.6s ease-in-out;
+}
+
+
+
+/* image stying and positioning  */
+
+.nadarajar{
+    position: absolute;
+    top:0%;
+    opacity: .7;
+}
+
+
+
+
+
+/* media query for header component */
+
+
+@media (min-width:1000px) and (max-width:1200px){
+    .name {
+        font-size: 7.5em;
+    }
+
+    .nadarajar{
+        width:35%;
+    }
+}
+
+
+@media (min-width:700px) and (max-width:1000px){
+    .name {
+        font-size: 6em;
+    }
+
+    .nadarajar{
+        width:45%;
+        top:5%;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:700px){
+    .name {
+        font-size: 4.5em;
+    }
+
+    .nadarajar{
+        width:55%;
+        top:15%;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px){
+    .name {
+        font-size: 2.8em;
+    }
+
+    .nadarajar{
+        width:55%;
+        top:6%;
+    }
+
+    .main_continer{
+        height: 50vh;
+    }
+}
