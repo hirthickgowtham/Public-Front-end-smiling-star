@@ -1,10 +1,36 @@
 import Footer from "../../../components/Home/Footer/Footer";
+import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
 import Piano_header from "../../../components/Programs/Piano/Piano_header";
 
 export default function Piano(){
+
+    const common = {
+        back_ground:" linear-gradient(164deg,rgba(36, 36, 38, 0.42) 0%, rgba(36, 36, 38, 0.36) 15%, rgba(247, 253, 255, 0.62) 32%, rgba(247, 253, 255, 0.64) 69%, rgba(36, 36, 38, 0.44) 89%, rgba(36, 36, 38, 0.38) 100%)",
+        border:"2.5px solid rgb(86, 86, 87)",
+    }
+
+    const video = [
+        {
+            video_link:"pVkDZueTBpY",
+            title:"Aragratrum",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+        },
+        {
+            video_link:"pVkDZueTBpY",
+            title:"Aragratrum",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+        },
+        {
+            video_link:"pVkDZueTBpY",
+            title:"Aragratrum",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+        }
+    ]
+
     return(
         <>
         <Piano_header/>
+        <You_tube common={common} video = {video}/>
         <Footer/>
         </>
     )
