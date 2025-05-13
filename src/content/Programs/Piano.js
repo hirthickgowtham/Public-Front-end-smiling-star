@@ -4,5 +4,14 @@ const Aboutpiano = {
     image:"/public/assets/Programs/PianoAbout.png",
 }
 
+const PianoGallery = [
+    {
+        image:"/public/assets/Programs/Gallery/Piano/image1.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Piano/image2.jpg"
+    }
+]
 
-export {Aboutpiano}
+
+export {Aboutpiano,PianoGallery}

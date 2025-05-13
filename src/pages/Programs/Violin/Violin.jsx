@@ -2,7 +2,7 @@ import Violin_header from "../../../components/Programs/Violin/Violin_header/Vio
 import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
 import Footer from "../../../components/Home/Footer/Footer";
 import AboutViolin from "../../../components/Programs/Violin/AboutViolin/AboutViolin";
-import BarathanatiumGallery from "../../../components/Programs/Bharatanatyam/BarathanatiumGallery/BarathanatiumGallery";
+import ViolinGallery from "../../../components/Programs/Violin/ViolinGallery/ViolinGallery";
 
 export default function Violin(){
 
@@ -35,7 +35,7 @@ export default function Violin(){
       
         <Violin_header/>
         <AboutViolin />
-        <BarathanatiumGallery />
+        <ViolinGallery />
         <You_tube common={common} video = {video}/>
         <Footer/>
         </>

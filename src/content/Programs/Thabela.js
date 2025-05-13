@@ -4,4 +4,28 @@ const Aboutthabela = {
     image:"/public/assets/Programs/TabelaAbout.png"
 }
 
-export {Aboutthabela}
+const ThablaGallery = [
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image1.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image2.jpg"
+    },
+       
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image3.jpg"
+    },
+       
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image4.jpg"
+    },
+       
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image5.jpg"
+    },   
+    {
+        image:"/public/assets/Programs/Gallery/Thabela/image6.jpg"
+    }
+]
+
+export {Aboutthabela,ThablaGallery as TG}

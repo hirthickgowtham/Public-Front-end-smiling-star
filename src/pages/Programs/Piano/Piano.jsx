@@ -2,6 +2,7 @@ import Footer from "../../../components/Home/Footer/Footer";
 import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
 import Piano_header from "../../../components/Programs/Piano/Piano_header";
 import AboutPiano from "../../../components/Programs/Piano/AboutPiano/AboutPiano";
+import PianoGallery from "../../../components/Programs/Piano/PianoGallery/PianoGallery";
 
 export default function Piano(){
 
@@ -32,6 +33,7 @@ export default function Piano(){
         <>
         <Piano_header/>
         <AboutPiano />
+        <PianoGallery />
         <You_tube common={common} video = {video}/>
         <Footer/>
         </>
