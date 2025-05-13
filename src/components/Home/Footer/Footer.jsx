@@ -1,16 +1,16 @@
 import style from "./footer.module.css";
-import { Link } from "react-router-dom";
 import { footerData as FD } from "../../../content/Home";
-import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 
 export default function Footer(){
     const footer_icon = [
-        <FaTwitter />,
-        <FaLinkedinIn />,
-        <FaFacebookF />
+        <FaFacebookF />,
+        <FaInstagram />,
+        <FaYoutube />
+       
     ]
 
     return(
@@ -19,7 +19,7 @@ export default function Footer(){
            <div className={style.footer}>
                     <div className={style.left}>
                         <div>
-                        <Link to={FD.brand.logo.link}><img src={FD.brand.logo.img} alt="img" className={style.logo}/></Link>
+                        <a href={FD.brand.logo.link}><img src={FD.brand.logo.img} alt="img" className={style.logo}/></a>
                         <h2>{FD.brand.tagline}</h2>
                         </div>
                         
@@ -30,10 +30,10 @@ export default function Footer(){
                             <h2>{sections.title}</h2>
                             {sections.items.map((sec,i)=>(
                                 <div key={i}>
-                                   <Link to={sec.link} target={sec.target}>
+                                   <a href={sec.link} target={sec.target}>
                                    {sections.title === "Follow Us" && <span style={{margin:"10px 15px 0 0",color:"blue"}}>{footer_icon[i]}</span>}
                                    {sec.name}
-                                   </Link>
+                                   </a>
                                 </div>
                             ))}
                         </div>

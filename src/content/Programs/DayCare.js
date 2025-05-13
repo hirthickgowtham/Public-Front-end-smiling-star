@@ -1,28 +1,28 @@
 const AboutDaycare = {
     heading:"DayCare In Our School",
-    content:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    content:"At our school, the Daycare program provides a safe, nurturing, and stimulating environment where toddlers can explore, learn, and grow. Understanding that early childhood is a critical stage for development, we offer a well-rounded space that encourages curiosity, creativity, and confidence through play-based activities, storytelling, motor skill exercises, and social interaction. Our caring educators focus on each child's emotional, intellectual, and physical well-being, ensuring they feel supported, engaged, and inspired every day. We believe in laying a strong foundation during these formative years, helping children take their first steps toward a lifelong love of learning.",
     image:"/public/assets/Programs/AboutDayCare.png"
 }
 
 const DayCaregallery = 
 [
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image1.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image1.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image2.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image2.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image3.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image3.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image4.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image6.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image5.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image5.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/DayCare/image6.png"
+        image:"/public/assets/Programs/Gallery/DayCare/image4.jpg"
     }
 ]
 

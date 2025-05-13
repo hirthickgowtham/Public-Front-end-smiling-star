@@ -50,28 +50,28 @@ const programs_content = [
         {
             img:"/assets/Programs/daycare_img.jpg",
             program_name:"DayCare",
-            content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
+            content:"At our Daycare, we create a safe, nurturing, and engaging environment where toddlers can learn and grow.",
             last:"to explore the...",
             route:"/programs/day_care"
         },
         {
             img:"/assets/Programs/bharadhanatiyam.jpg",
             program_name:"Bharathanatyam",
-            content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
+            content:"Bharatanatyam is not just a dance — it’s a storytelling art that connects children to Indian culture and discipline.",
             last:"to explore the...",
             route:"/programs/Barathanatiyam"
         },
         {
             img:"/assets/Programs/Hindi.png",
             program_name:"Hindi",
-            content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
+            content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age.",
             last:"to explore the...",
             route:"/programs/hindi"
         },
         {
             img:"/assets/Programs/image.jpg",
             program_name:"Carnatic",
-            content:"Children in this age group as identified as Toddlers.Children are born curious.They begin",
+            content:"Learning Hindi opens up a world of stories, songs, and culture for young minds. Our fun and interactive Hindi classes ...",
             last:"to explore the...",
             route:"/programs/carnatic"
         }
@@ -107,17 +107,16 @@ const footerData = {
       {
         title: "Main Pages",
         items: [
-          { name: "About", link: "/About_us" ,target:"_self"},
-          { name: "Programs", link: "/",target:"_self" },
+          { name: "Programs", link: "/programs/day_care",target:"_self" },
           { name: "Admission", link: "/Enquire_form" ,target:"_self"},
         ],
       },
       {
         title: "Follow Us",
         items: [
-          { name: "Twitter", link: "https://twitter.com",target:"_blank"},
-          { name: "LinkedIn", link: "https://linkedin.com",target:"_blank"},
-          { name: "Facebook", link: "https://facebook.com",target:"_blank"},
+          { name: "Facebook", link: "https://twitter.com",target:"_blank"},
+          { name: "Instagram", link: "https://linkedin.com",target:"_blank"},
+          { name: "YouTube", link: "https://facebook.com",target:"_blank"},
         ],
       },
     ],

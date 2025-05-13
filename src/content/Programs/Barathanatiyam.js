@@ -1,27 +1,27 @@
 const Aboutbaranatiyam = {
     heading:"Barathanatium in Our School",
-    content:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    content:"Our Bharatanatyam program introduces children to the rich cultural heritage of classical Indian dance in a joyful and age-appropriate manner. Through graceful movements, expressive gestures, and rhythmic patterns, students learn to tell stories while developing coordination, focus, and discipline. Our trained instructors guide children through the basics of adavus (steps), mudras (hand gestures), and bhavas (expressions), making each session both educational and enjoyable. By blending tradition with creativity, we aim to instill a deep appreciation for this timeless art form and nurture confidence, posture, and cultural pride in every young dancer.",
     image:"/public/assets/Programs/barathanatium.png"
 }   
 
 const Barathanatiumgallery = [
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image1.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image1.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image2.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image2.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image3.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image3.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image4.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image4.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image5.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image5.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image6.png"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image6.jpg"
     }
 ]
 

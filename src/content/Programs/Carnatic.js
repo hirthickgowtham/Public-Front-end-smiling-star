@@ -1,27 +1,27 @@
 const Aboutcarnatic = {
     heading:"Carnatic In Our School",
-    content:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    content:"Our Carnatic music program offers young learners a joyful introduction to the world of classical South Indian music, focusing on building a strong foundation in melody, rhythm, and voice training. Children are guided through the basics of swaras (notes), simple ragas, and beginner-level songs such as geethams and bhajans in a fun and engaging environment. With personalized attention and interactive sessions, our experienced instructors help students develop musical sensitivity, discipline, and confidence. This program not only nurtures their talent but also instills a deep appreciation for the rich tradition of Indian classical music from an early age.",
     image:"/public/assets/Programs/Carnatic.png"
 }
 
 const Carnaticgallery = [
     {
+        image:"/public/assets/Programs/Gallery/Carnatic/image1.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Carnatic/image3.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Carnatic/image4.jpg"
+    },
+    {
         image:"/public/assets/Programs/Gallery/Carnatic/image1.png"
     },
     {
-        image:"/public/assets/Programs/Gallery/Carnatic/image2.png"
+        image:"/public/assets/Programs/Gallery/Carnatic/image2.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Carnatic/image3.png"
-    },
-    {
-        image:"/public/assets/Programs/Gallery/Carnatic/image4.png"
-    },
-    {
-        image:"/public/assets/Programs/Gallery/Carnatic/image5.png"
-    },
-    {
-        image:"/public/assets/Programs/Gallery/Carnatic/image6.png"
+        image:"/public/assets/Programs/Gallery/Carnatic/image5.jpg"
     }
 ]
 
