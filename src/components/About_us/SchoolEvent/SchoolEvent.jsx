@@ -3,12 +3,14 @@ import { Events } from "../../../content/AboutUs";
 import BorderLink from "./BorderLink";
 import { About_filler } from "../../../content/AboutUs";
 import { motion as M } from "framer-motion";
+import ZoomInOnScroll from "../../Effect_comp/ZoomInOnScroll";
+import FadeInOnScroll from "../../Effect_comp/FadeInOnScroll";
 
 
 export default function SchoolEvent(){
     return(
         <>
-            <h1 className={style.topic}>Memories & Moments</h1>
+            <FadeInOnScroll duration="1"><h1 className={style.topic}>Memories & Moments</h1></FadeInOnScroll>
            <div className={style.contain}>
            <M.div className={`${style.bulb} ${style.hide}`}
                 animate={{
@@ -25,6 +27,7 @@ export default function SchoolEvent(){
             </M.div>
                 <div className={style.main}>
                     {Events.map((item,index)=>(
+                        <ZoomInOnScroll>
                         <BorderLink key={index} 
                          heading={item.heading}
                          image={item.image} 
@@ -32,6 +35,7 @@ export default function SchoolEvent(){
                          mediaLogo={item.mediaLogo}
                          link={item.link}
                          />
+                         </ZoomInOnScroll>
                     ))}
                 </div>
            </div>

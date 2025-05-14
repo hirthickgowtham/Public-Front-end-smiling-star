@@ -16,12 +16,12 @@
 .bulb{
     position: absolute;
     top: -20%;
-    left: 30%;
+    left: 25%;
     rotate: 25deg;
 }
 .bulb img{
-    width: 100px;
-    height:100px; 
+    width: 80px;
+    height:80px; 
 }
 .main{
     padding: 1rem;
@@ -35,7 +35,7 @@
    box-shadow: 0 0 5px lightblue;
    border-radius: 1rem;
     padding: 1rem;
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,12 +99,18 @@
         height: 70px;
         width: 70px;
     }
+    .hide{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 427px) and (max-width: 768px){
     .main{
         width: 90%;
-        flex-wrap: wrap;
+        flex-direction: column;
+        
+        width: 65%;
+        
     }
     .logo{
         bottom: 52%;
@@ -117,7 +123,8 @@
         font-size: 1rem;
     }
     .card{
-        width: 70%;
+        width: 100%;
+        align-self: center;
     }
     .hide{
         display: none;
@@ -130,7 +137,7 @@
         flex-wrap: wrap;
     }
     .card{
-        width: 90%;
+        width: 100%;
     }
     .hide{
         display: none;

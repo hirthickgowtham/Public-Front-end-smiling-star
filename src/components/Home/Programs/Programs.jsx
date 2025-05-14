@@ -2,6 +2,9 @@ import style from "./programs.module.css";
 import { programs_content } from "../../../content/Home";
 import { filler } from "../../../content/Home";
 import { Link } from "react-router-dom";
+import FadeInOnScroll from "../../Effect_comp/FadeInOnScroll";
+import SlideInOnScroll from "../../Effect_comp/SlideInOnScroll";
+
 
 import Contact_button from "../../../Layout/Contact_us_button/contact_us_button";
 
@@ -9,10 +12,10 @@ export default function Programs() {
 
     return(
         <>
-            <div className={style.heading}><Contact_button title={"Programs"}/></div>
+           <FadeInOnScroll><div className={style.heading}><Contact_button title={"Programs"}/></div></FadeInOnScroll> 
             <div className={style.programContainer}>
                 <div className={`${style.colorBee} ${style.hide}`}>
-                        <img src={filler.colorBee} alt="color Bee" />
+                        <SlideInOnScroll direction="left"><img src={filler.colorBee} alt="color Bee" /></SlideInOnScroll>
                 </div>
                 <div className={`${style.star} ${style.hide}`}>
                         <img src={filler.star} alt="color Bee" />
@@ -29,6 +32,7 @@ export default function Programs() {
                 <div className={style.programHeadrer}>
                     {programs_content.map((item,index)=>(
                     <a key={index} href={`${item.route}`} className={style.link}>
+                    <FadeInOnScroll>
                     <div className={style.programs}>
                         <div className={style.program_img}><img src={item.img} alt="img" /></div>
                         <div className={style.programContent}>
@@ -36,6 +40,7 @@ export default function Programs() {
                             <p>{item.content}</p>
                         </div>
                     </div>
+                    </FadeInOnScroll>
                     </a>
                     ))}
                 </div>

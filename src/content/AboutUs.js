@@ -61,7 +61,7 @@ const OurValue = [
     {
         image:"/public/assets/AboutUs/OurValues/indivual.png",
         heading:"Individual Excellence",
-        content:"We recognize and celebrate each child's unique strengths, talents, and abilities, helping them shine in their own way."
+        content:"We recognize and celebrate each child's unique strengths, talents, and abilities, helping them shine in ..."
     }
     
 ]

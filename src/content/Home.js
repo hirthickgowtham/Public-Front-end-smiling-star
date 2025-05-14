@@ -61,20 +61,42 @@ const programs_content = [
             last:"to explore the...",
             route:"/programs/Barathanatiyam"
         },
-        {
-            img:"/assets/Programs/Hindi.png",
-            program_name:"Hindi",
-            content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age.",
-            last:"to explore the...",
-            route:"/programs/hindi"
-        },
+        
         {
             img:"/assets/Programs/image.jpg",
             program_name:"Carnatic",
-            content:"Learning Hindi opens up a world of stories, songs, and culture for young minds. Our fun and interactive Hindi classes ...",
+            content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age",
             last:"to explore the...",
             route:"/programs/carnatic"
-        }
+        },
+         {
+            img:"/public/assets/Programs/Gallery/Violin/image1.jpg",
+            program_name:"Violin",
+            content:"Violin classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
+            last:"to explore the...",
+            route:"/programs/carnatic"
+        },
+         {
+            img:"/public/assets/Programs/Gallery/Piano/image1.jpg",
+            program_name:"Piano",
+            content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
+            last:"to explore the...",
+            route:"/programs/carnatic"
+        },
+         {
+            img:"/public/assets/Programs/Gallery/Thabela/image1.jpg",
+            program_name:"Tabla",
+            content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
+            last:"to explore the...",
+            route:"/programs/carnatic"
+        },
+        // {
+        //     img:"/assets/Programs/Hindi.png",
+        //     program_name:"Hindi",
+        //     content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age.",
+        //     last:"to explore the...",
+        //     route:"/programs/hindi"
+        // },
 
 ]
 

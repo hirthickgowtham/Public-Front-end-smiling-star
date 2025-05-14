@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 2rem;
     position: relative;
 }
@@ -91,23 +92,24 @@
     }
 }
 
-.main{
-    /* border: 2px solid red; */
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    width: 75%;
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 75%;
+  margin: 0 auto;
+  justify-items: center;
 }
+
 
 .card{
     border: 2px solid rgb(255, 160, 241);
     box-shadow: 0 0 5px gray;
     border-radius:1rem ;
-    width: 30%;
+    width: 10   0%;
     padding: 1rem;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,11 +138,12 @@
 }
 
 @media screen and (max-width: 427px){
-        .main{
-            width: 100%;
-        }
+        .main {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
         .card{
-            width: 90%;
+            width: 100%;
         }
         .hide{
             display:none;
@@ -149,42 +152,33 @@
 
 @media screen and (min-width: 427px) and (max-width: 768px){
     .card{
-        width: 60%;
-    }
-    .main{
         width: 100%;
-        /* overflow: hidden; */
     }
-    .hide{
-        display: none;
-    }
+    .main {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    justify-items: center;
+
+  }
+.hide{
+    display: none;
+}
+   
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-   .main{
+    .main {
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
-   }
+  }
    .card{
-    width: 45%;
+    width: 100%;
    }
    .Arrow{
     left: 30%;
     top: -3%;
    }
-   .Bear img{
-    height: 100px;
-    width: 100px;
-   }
-   .rabbit img{
-    height: 100px;
-    width: 100px;
-   }
-   .SpringStar{
-    bottom: -5%;
-    left: 3%;
-   }
-   .SpringStar img{
-    width: 100px;
-    height: 100px;
-   }
+  .hide{
+    display: none;
+  }
 }

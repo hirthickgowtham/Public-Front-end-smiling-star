@@ -2,6 +2,11 @@ import style from "./OurValues.module.css";
 import { OurValue } from "../../../content/AboutUs";
 import { About_filler } from "../../../content/AboutUs";
 import { motion as M } from "framer-motion";
+// import ZoomInOnScroll from "../../Effect_comp/ZoomInOnScroll";
+import PopInBounce from "../../Effect_comp/PopInBounce";
+import FadeInOnScroll from "../../Effect_comp/FadeInOnScroll";
+import SlideInOnScroll from "../../Effect_comp/SlideInOnScroll";
+
 
 export default function OurValues() {
 
@@ -14,7 +19,9 @@ export default function OurValues() {
             <img src={About_filler.Arrow} alt="our value" />
         </div>
         <M.div className={`${style.Star} ${style.hide}`}>
+          <SlideInOnScroll direction="left">
           <img src={About_filler.Star} alt="Star" />
+          </SlideInOnScroll>
         </M.div>
         <M.div className={`${style.Bear} ${style.hide}`}
             animate={{
@@ -27,7 +34,9 @@ export default function OurValues() {
               repeatType: "mirror", // Moves back and forth 
             }}
         >
-            <img src={About_filler.bear} alt="our value" />
+           <SlideInOnScroll>
+             <img src={About_filler.bear} alt="our value" />
+           </SlideInOnScroll>
         </M.div>
         <M.div className={`${style.rabbit} ${style.hide}`}
           animate={{
@@ -40,7 +49,9 @@ export default function OurValues() {
             repeatType: "mirror", // Moves back and forth 
           }}
         >
-          <img src={About_filler.rabbit} alt="" />
+          <SlideInOnScroll direction="left">
+            <img src={About_filler.rabbit} alt="" />
+          </SlideInOnScroll>
         </M.div>
         <M.div className={`${style.SpringStar} ${style.hide}`}
           animate={{
@@ -53,13 +64,18 @@ export default function OurValues() {
             repeatType: "mirror", // Moves back and forth 
           }}
         >
-          <img src={About_filler.SpringStar} alt="SpringStar" />
+          <SlideInOnScroll>
+            <img src={About_filler.SpringStar} alt="SpringStar" />
+          </SlideInOnScroll>
         </M.div>
+        <FadeInOnScroll duration="0.5">
         <h1>
           Our Values
         </h1>
+        </FadeInOnScroll>
         <div className={style.main}>
           {OurValue.map((item, i) => (
+          <PopInBounce>
             <div
               key={i}
               className={style.card}>
@@ -71,6 +87,7 @@ export default function OurValues() {
               </div>
               <div className={style.content}>{item.content}</div>
             </div>
+            </PopInBounce>
           ))}
         </div>
       </div>
