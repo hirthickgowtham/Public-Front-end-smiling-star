@@ -1,11 +1,12 @@
 
-
+import EnquiryForm from "../../components/Admission_page/enquiry/EnquiryForm"
 
 export default function Enquire_form() {
 
     return(
         <>
-        <h1>Enquire_form</h1>
+        <EnquiryForm />
+        
         </>
     )
     
