@@ -24,6 +24,7 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
   opacity: 0;
   animation: fadeIn 0.8s ease-out forwards;
+  justify-items: center;
 }
 
 .mainHeading::after {
