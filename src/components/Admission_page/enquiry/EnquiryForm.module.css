@@ -1,8 +1,12 @@
 /* Container Styles */
-
+.contain{
+    border: 1px solid white;
+   
+    background: linear-gradient(to bottom, #9ab2f4, #ffffff);
+}
 
 .form-container{
-    background: linear-gradient(to bottom, #9ab2f4, #ffffff); /* from dark blue to white */
+   /* from dark blue to white */
     border-radius: 10px;
 }
 .form-container {

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import enquirystyle from "./EnquiryForm.module.css";
+import axios from "axios"
 
 const EnrollmentForm = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    first_name: "",
+    last_name: "",
     email: "",
     mobile: "",
     pincode: "",
@@ -12,9 +13,10 @@ const EnrollmentForm = () => {
     state: "",
     city: "",
     location: "",
-    age: "",
+    programs: "",
+    age: 0,
     gender: "",
-    program: "",
+    checkit: "new"
   });
 
   const handleChange = (e) => {
@@ -26,42 +28,34 @@ const EnrollmentForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    console.log(formData)
+    formData.age = parseInt(formData.age);
     try {
-      const response = await fetch("https://your-api-endpoint.com/api/enroll", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await axios.post("http://localhost:5000/api/stu_enq/daycare/enquiry",formData)
 
-      const data = await response.json();
-      if (response.ok) {
-        alert("Form submitted successfully!");
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          mobile: "",
-          pincode: "",
-          country: "",
-          state: "",
-          city: "",
-          location: "",
-          age: "",
-          gender: "",
-          program: "",
-        });
-      } else {
-        alert(`Submission failed: ${data.message}`);
-      }
+      const data = response.data;
+      setFormData({
+        first_name: "",
+        last_name: "",
+        email: "",
+        mobile: "",
+        pincode: "",
+        country: "",
+        state: "",
+        city: "",
+        location: "",
+        programs: "",
+        age: 0,
+        gender: "",
+        checkit: "new"
+      }); 
     } catch (error) {
       alert("Error submitting form: " + error.message);
     }
   };
 
   return (
+    <div className={enquirystyle.contain}>
     <div className={enquirystyle["form-container"]}>
       <h1 className={enquirystyle.title}>Little Learners Daycare</h1>
       <p className={enquirystyle.subtitle}>Where every child's journey of discovery and growth begins with love and care</p>
@@ -72,8 +66,8 @@ const EnrollmentForm = () => {
 
         <form className={enquirystyle["form-grid"]} onSubmit={handleSubmit}>
           {[
-            ["First Name", "firstName", "text"],
-            ["Last Name", "lastName", "text"],
+            ["First Name", "first_name", "text"],
+            ["Last Name", "last_name", "text"],
             ["Email Address", "email", "email"],
             ["Mobile Number", "mobile", "tel"],
             ["Pincode", "pincode", "text"],
@@ -91,27 +85,31 @@ const EnrollmentForm = () => {
                 placeholder={label}
                 value={formData[name]}
                 onChange={handleChange}
+                required
               />
             </div>
           ))}
 
           <div className={enquirystyle["form-group"]}>
             <label>Gender</label>
-            <select name="gender" value={formData.gender} onChange={handleChange}>
+            <select name="gender" value={formData.gender} onChange={handleChange} required>
               <option value="">Select gender</option>
-              <option>Male</option>
-              <option>Female</option>
-              <option>Other</option>
+              <option value = "M">Male</option>
+              <option value = "F">Female</option>
             </select>
           </div>
 
           <div className={enquirystyle["form-group"]}>
             <label>Program</label>
-            <select name="program" value={formData.program} onChange={handleChange}>
+            <select name="programs" value={formData.program} onChange={handleChange} required>
               <option value="">Select program</option>
-              <option>Pre-K</option>
-              <option>Nursery</option>
-              <option>Kindergarten</option>
+              <option>bharatanatyam</option>
+              <option>hindiclass</option>
+              <option>daycare</option>
+              <option>carnatic</option>
+              <option>violin</option>
+              <option>tabla</option>
+              <option>piano</option>
             </select>
           </div>
 
@@ -122,6 +120,7 @@ const EnrollmentForm = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 };
