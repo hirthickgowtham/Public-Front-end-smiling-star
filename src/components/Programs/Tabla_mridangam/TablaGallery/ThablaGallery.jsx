@@ -6,7 +6,7 @@ export default function ThablaGallery(){
     return(
         <>
             <div className={style.contain}>
-                <ProgGallery gallery={TG} color={"sandle"}/>
+                <ProgGallery gallery={TG} color={"#EDBA1D"}/>
             </div>
         </>
     )
