@@ -1,0 +1,246 @@
+/* Container Styles */
+body{
+    background: linear-gradient(to bottom, #9ab2f4, #ffffff); /* from dark blue to white */
+}
+.form-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #4b2aad;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Card */
+  .form-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+  }
+  
+  .form-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4b2aad;
+  }
+  
+  .form-subtext {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  /* Grid */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: left;
+  }
+  
+  /* Form Groups */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    color: #4b2aad;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #f9f6ff;
+    transition: 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #8e61ff;
+    box-shadow: 0 0 0 2px rgba(142, 97, 255, 0.2);
+  }
+  
+  /* Submit */
+  .submit-wrapper {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .submit-btn {
+    background-color: #a88afc;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8e61ff;
+  }
+  
+  @media (max-width: 320px) {
+    
+      
+    .subtitle {
+      font-size: .7rem;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  .form-card {
+    padding: 10px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr; /* stack inputs vertically */
+    gap: 15px;
+  }
+
+  .title {
+    font-size: .8rem;
+  }
+
+  .form-heading {
+    font-size: 1.3rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+}
+
+  /* Small devices (mobile phones, less than 480px) */
+@media (max-width: 479px) {
+    
+      
+      .subtitle {
+        font-size: .8rem;
+        color: #666;
+        margin-bottom: 40px;
+      }
+
+    .form-container {
+      padding: 10px;
+    }
+  
+    .form-card {
+      padding: 20px;
+    }
+  
+    .form-grid {
+      grid-template-columns: 1fr; /* stack inputs vertically */
+      gap: 15px;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .form-heading {
+      font-size: 1.3rem;
+    }
+  
+    .submit-btn {
+      width: 100%;
+      padding: 14px 0;
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 480px to 767px) */
+  @media (min-width: 480px) and (max-width: 767px) {
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      
+      .subtitle {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 40px;
+      }
+
+
+    .form-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+  
+    .form-container {
+      padding: 15px;
+    }
+  
+    .form-card {
+      padding: 30px;
+    }
+  
+    .title {
+      font-size: 2.2rem;
+    }
+  
+    .form-heading {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* Large tablets and small laptops (768px to 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .form-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  
+    .form-container {
+      padding: 20px;
+    }
+  
+    .form-card {
+      padding: 35px;
+    }
+  
+    .title {
+      font-size: 2.4rem;
+    }
+  
+    .form-heading {
+      font-size: 1.45rem;
+    }
+  }
+  
+  /* For larger desktops (1024px and above) */
+  @media (min-width: 1024px) {
+    .form-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  
