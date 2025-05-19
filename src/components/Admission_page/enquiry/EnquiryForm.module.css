@@ -1,4 +1,9 @@
 /* Container Styles */
+.contain{
+    border: 1px solid white;
+    background-color: #9ab2f4;
+}
+
 .form-container{
     background: linear-gradient(to bottom, #9ab2f4, #ffffff); /* from dark blue to white */
 }
