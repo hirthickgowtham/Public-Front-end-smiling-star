@@ -1,3 +1,6 @@
+import {  spring } from "framer-motion";
+
+
 //Filler
 const filler = {
     star:"/public/assets/Filler/star.png",
@@ -144,4 +147,106 @@ const footerData = {
     ],
   };
 
-export {images,programs_content,footerData,Banner_img,filler};
+
+
+  // title card animation
+   // 🌟 Parent container animation controls all children smoothly
+    const containerAnim = {
+        hidden: { opacity: 0, y: 75 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+                ease: "easeInOut",
+                staggerChildren: 0.3, // Delay between child elements
+                when: "beforeChildren", // Parent animates first
+            },
+        },
+    };
+
+     // 🌞 Sun infinite rotation
+    const sunSpin = {
+        hidden: { rotate: 0, y: 50, opacity: 0 },
+        visible: { rotate: 360, y: 0, opacity: 1 },
+    };
+
+    // 🌟 Star cloud floating animation
+    const starCloud = {
+        hidden: { rotate: 0, y: 50, x: 30,opacity: 0},
+        visible: { rotate: 15, y: 0, x: 0 ,opacity: 1},
+    };
+
+    export const cloud_tansition = {
+        duration: 2,
+        ease: "easeInOut",
+        repeat: Infinity,
+        repeatType: "reverse",
+    }
+
+
+    // birds flying animation 
+
+    export const bird = {
+        hidden: { opacity: 0, y: 75 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+                ease: "easeInOut",
+            },
+        },
+    }
+
+    // ✏️ Pencil animation (fade-in + bounce loop)
+    export const pencilAnim = {
+        hidden: { y: 1000, opacity: 0,x:1000 },
+        visible: { y:0,opacity:1,x:0},
+    };
+
+    export const movement = {
+            delay:.7,
+            duration: 3,
+            ease: "easeInOut",
+            type:spring
+        }
+
+
+         // paper rocket animation
+
+    export const paper = {
+        hidden : {
+            rotate:20,opacity:0,y:100,x:-100
+        },
+        visible:{ 
+            rotate:0,opacity:1,y:0,x:0
+        }
+    }
+
+    export const paper_transction = {
+        opacity:{
+            delay:.8,
+            duration: 3,
+            ease: "linear",
+         
+        },
+       rotate: {
+            delay:.5,
+            duration: 3,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "reverse",
+        },
+    y:{
+        delay:1,
+        duration: 3,
+        ease: "easeInOut",
+    },x:{
+        delay:1,
+        duration: 3,
+        ease: "easeInOut",
+    }
+    }
+
+export {images,programs_content,footerData,Banner_img,filler,containerAnim,sunSpin,starCloud};

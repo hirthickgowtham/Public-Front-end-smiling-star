@@ -12,7 +12,7 @@ export default function Piano_header(){
 
             <div className={style.topic}>
 
-              <h1 className={style.name}>Piano Music</h1>
+              <h1 className={style.name}>Key Board</h1>
             </div>
         </div>
         </>

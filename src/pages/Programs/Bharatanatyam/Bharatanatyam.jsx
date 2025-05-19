@@ -14,17 +14,27 @@ export default function Bharatanatyam() {
     
         const video = [
             {
-                video_link:"pVkDZueTBpY",
+                video_link:"t7n4xxnLM_E",
                 title:"Aragratrum",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
             },
             {
-                video_link:"pVkDZueTBpY",
+                video_link:"VOogf99Jpu0",
                 title:"Aragratrum",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
             },
             {
-                video_link:"pVkDZueTBpY",
+                video_link:"G4ytPHS39Yk",
+                title:"Aragratrum",
+                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            },
+             {
+                video_link:"L_9Zo7DIruA",
+                title:"Aragratrum",
+                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            },
+            {
+                video_link:"2ARPpAJrhTk",
                 title:"Aragratrum",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
             }

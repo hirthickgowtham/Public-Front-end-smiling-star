@@ -8,28 +8,28 @@ export default function FA_question() {
 
     const question = [
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:"  Are the educators at Smiling star qualified and experienced?",
+        ans:"Yes, Smiling star educators are certified professionals with extensive experience in early childhood education. We maintain a low teacher-student ratio to ensure personalized attention."
     },
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:"  What sets Smiling star's curriculum apart from other preschools?",
+        ans:"Smiling star's curriculum is designed to provide a well-rounded education, emphasizing creativity, critical thinking, and emotional intelligence. It's tailored to each age group and encourages experiential learning."
     },
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:" Can I tour the Smiling star Preschool facility before enrolling my child?",
+        ans:"Yes, Smiling star encourages parents to visit our facilities to get a firsthand look at our nurturing environment. Please contact Smiling star center to schedule a tour."
     },
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:"How can parents stay involved in their child's education at Smiling star?",
+        ans:"Smiling star promotes parent-teacher collaboration through regular meetings, progress updates, and various involvement opportunities to keep parents informed and engaged."
     },
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:" What advantages does enrolling my child in preschool offer, and when should they get started?",
+        ans:"Preschool offers numerous benefits, including socialization, early learning skills, and cognitive development. It's recommended to start preschool between the ages of 2 to 3 years, but it can vary based on individual readiness."
     },
     {
-        ques:"  How often should I visit the dentist? How often should I visit the dentist?",
-        ans:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam soluta tempore? Qui provident quisquam hic est vitae veritatis, dolorem sit libero saepe fugiat autem in reiciendis consectetur? Ipsum, deleniti."
+        ques:"What form of educational philosophy does Smiling star Preschool follow?",
+        ans:"Smiling star Preschool follows a child-centric educational philosophy that focuses on holistic development. Our approach combines play-based learning, creativity, and a nurturing environment to foster a love for learning."
     },
     
 ]
