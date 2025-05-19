@@ -15,7 +15,7 @@ const Carnaticgallery = [
         image:"/public/assets/Programs/Gallery/Carnatic/image4.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Carnatic/image1.png"
+        image:"/public/assets/Programs/Gallery/Carnatic/image6.jpg"
     },
     {
         image:"/public/assets/Programs/Gallery/Carnatic/image2.jpg"

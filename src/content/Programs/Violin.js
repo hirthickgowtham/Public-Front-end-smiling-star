@@ -22,6 +22,21 @@ const ViolinGallery = [ {
         image:"/public/assets/Programs/Gallery/Violin/image4.jpg"
     }
 ]
+const Border_content = [
+       {
+            heading:"Captured Smiles",
+            image:"/public/assets/Programs/Gallery/Violin/media1.jpg",
+            content:"Every giggle and sparkle is precious! Our gallery captures the sweet, shining smiles of our little ones as they grow and glow to sky.",
+            mediaLogo:"/public/assets/AboutUs/SchoolEvents/Instagram.png",
+            link:"https://www.instagram.com/"
+        },
+        {
+            heading:"Little Stars in Action",
+            image:"/public/assets/Programs/Gallery/Violin/media2.jpg",
+            content:"From tiny footsteps to big dreams, we cherish every moment of learning, playing, and creating — where curiosity meets confidence!",
+            mediaLogo:"/public/assets/AboutUs/SchoolEvents/YouTube.png",
+            link:"https://www.youtube.com/@jsankarimuruga6204"
+        }
+]
 
-
-export {Aboutviolin,ViolinGallery as VG}
+export {Aboutviolin,ViolinGallery as VG,Border_content}

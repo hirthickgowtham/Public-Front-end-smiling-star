@@ -12,6 +12,9 @@ const Barathanatiumgallery = [
         image:"/public/assets/Programs/Gallery/Barathanatium/image2.jpg"
     },
     {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image8.jpg"
+    },
+    {
         image:"/public/assets/Programs/Gallery/Barathanatium/image3.jpg"
     },
     {
@@ -22,7 +25,11 @@ const Barathanatiumgallery = [
     },
     {
         image:"/public/assets/Programs/Gallery/Barathanatium/image6.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image7.jpg"
     }
+
 ]
 
 export {Aboutbaranatiyam,Barathanatiumgallery}
