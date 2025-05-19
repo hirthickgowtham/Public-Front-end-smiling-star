@@ -1,5 +1,5 @@
 /* Container Styles */
-body{
+.form-container{
     background: linear-gradient(to bottom, #9ab2f4, #ffffff); /* from dark blue to white */
 }
 .form-container {
