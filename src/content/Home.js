@@ -141,7 +141,7 @@ const footerData = {
         items: [
           { name: "Facebook", link: "https://twitter.com",target:"_blank"},
           { name: "Instagram", link: "https://linkedin.com",target:"_blank"},
-          { name: "YouTube", link: "https://facebook.com",target:"_blank"},
+          { name: "YouTube", link: "https://www.youtube.com/@srisaradhakalamandir3264",target:"_blank"},
         ],
       },
     ],

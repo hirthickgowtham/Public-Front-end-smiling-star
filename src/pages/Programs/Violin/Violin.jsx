@@ -3,6 +3,8 @@ import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/
 import Footer from "../../../components/Home/Footer/Footer";
 import AboutViolin from "../../../components/Programs/Violin/AboutViolin/AboutViolin";
 import ViolinGallery from "../../../components/Programs/Violin/ViolinGallery/ViolinGallery";
+import MediaViolin from "../../../components/Programs/Violin/MediaViolin/MediaViolin";
+
 
 export default function Violin(){
 
@@ -36,6 +38,7 @@ export default function Violin(){
         <Violin_header/>
         <AboutViolin />
         <ViolinGallery />
+        <MediaViolin />
         <You_tube common={common} video = {video}/>
         <Footer/>
         </>
