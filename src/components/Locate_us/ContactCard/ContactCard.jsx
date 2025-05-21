@@ -35,7 +35,7 @@ const ContactCard = () => {
               <p>golden.gate.kidspace@kidspace.com</p>
             </div>
           </div>
-
+    
         </div>
 
         <div className={styles.right}>

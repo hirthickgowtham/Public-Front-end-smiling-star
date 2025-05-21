@@ -107,7 +107,7 @@
         width: 50%;
     }
 }
-@media screen and (max-width:426px) {
+@media screen and (max-width:605px) {
     body{
         /* background-color: greenyellow; */
     }

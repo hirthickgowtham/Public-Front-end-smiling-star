@@ -5,3 +5,9 @@
     /* padding: 1rem; */
     margin-left: 5rem;
 }
+
+@media screen and (max-width:768px) {
+    .contain{
+        margin: 0;
+    }
+}

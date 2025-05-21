@@ -45,3 +45,34 @@
     width: 400px; /* Increased size */
     height: auto;
 }
+
+@media screen and (min-width:425px) and (max-width:731px){
+    .topic{
+        flex-direction: column;
+    }
+    .logo_hindi{
+        width: 200px;
+    }
+    .name{
+            font-size: 6rem;
+            right: 0;
+        }
+}
+
+@media screen and (max-width:424px){
+        .topic{
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+        }
+        .logo_hindi{
+            width: 150px;
+        }
+        .name{
+            font-size: 5rem;
+            right: 0;
+        }
+        .main_container{
+            height: 45vh;
+        }
+}

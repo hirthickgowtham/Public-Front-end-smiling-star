@@ -19,12 +19,11 @@
   
   .left {
     flex: 1;
-    min-width: 250px;
+    /* min-width: 250px; */
   }
   
   .right {
     flex: 1;
-    min-width: 250px;
   }
   
   .title {
@@ -37,6 +36,7 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
+    padding-right: 10px;
   }
   
   .icon {
@@ -95,3 +95,48 @@
     background-color: #007bdb;
   }
   
+
+  @media screen and (min-width:375px) and (max-width:430px){
+    .item p{
+      font-size: 0.8rem;
+      width: auto;
+      margin: 0;
+    }
+    .title{
+      font-size: 1rem;
+    }
+    .icon{
+      display: none;
+    }
+    .facilities ul{
+      font-size: .8rem;
+    }
+    .visit p{
+      font-size: .8rem;
+    }
+    .visit{
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width:375px){
+    .title{
+      font-size: 0.9rem;
+    }
+      .item p{
+      font-size: .6rem;
+      margin: 0;
+      width: auto;
+    }
+    .icon{
+      display: none;
+    }
+    .facilities ul{
+      font-size: .6rem;
+    }
+    .visit p{
+      font-size: .5rem;
+      
+    }
+   
+  }
