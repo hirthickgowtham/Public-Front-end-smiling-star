@@ -2,7 +2,7 @@ const faqs = [
   {
     question: "What are your operating hours?",
     answer:
-      "Our center operates from 7:00 AM to 6:00 PM, Monday through Friday. Please contact us directly for weekend or holiday schedules.",
+      "Our center operates from 9:00 AM to 4:00 PM, Monday to Friday.",
   },
   {
     question: "Do you offer tours of your facilities?",
@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "How do I enroll my child?",
     answer:
-      "Enrollment can be done in person. Our staff will guide you through the process and answer any questions you may have.",
+      "Enrollment can be completed online through our website. Simply fill out the admission form, and our staff will reach out to guide you through the next steps and answer any questions you may have.",
   },
 ];
 

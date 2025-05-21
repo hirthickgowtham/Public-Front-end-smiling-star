@@ -26,5 +26,28 @@ const DayCaregallery =
     }
 ]
 
+const common = {
+            back_ground:"linear-gradient(15deg, rgba(180,180,180,0.5130427170868348) 0%, rgba(180,180,180,0.5326505602240896) 11%, rgba(71,243,244,0.23012955182072825) 34%, rgba(71,243,244,0.23012955182072825) 48%, rgba(71,243,244,0.19371498599439774) 64%, rgba(180,180,180,0.5942752100840336) 88%, rgba(180,180,180,0.5830707282913166) 100%)",
+            border:"3px solid #199899",
+        }
+    
+        const video = [
+            {
+                video_link:"6q6cxPi8dHc",
+                title:"Aragratrum",
+                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            },
+            {
+                video_link:"VNN5zBsYMd0",
+                title:"Aragratrum",
+                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            },
+            {
+                video_link:"RYpv0UA41aA",
+                title:"Aragratrum",
+                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            }
+        ]
 
-export {AboutDaycare , DayCaregallery}
+
+export {AboutDaycare , DayCaregallery,common,video}

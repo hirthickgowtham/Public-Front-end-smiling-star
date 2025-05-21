@@ -1,18 +1,22 @@
 import React from 'react';
 import styles from './ContactCard.module.css';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+
 
 const ContactCard = () => {
+
+  const nav=useNavigate();
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.contactCard}>
         <div className={styles.left}>
-          <h2 className={styles.title}>Golden Gate KidSpace</h2>
+          <h2 className={styles.title}>Smiling Star Day Care</h2>
           <div className={styles.item}>
             <FaMapMarkerAlt className={styles.icon} />
             <div>
               <strong>Address</strong>
-              <p>321 Golden Gate Ave, San Francisco, CA 94102</p>
+              <p>46, First St, New Saram, Naveena Garden, Old Saram, Puducherry, 605013</p>
             </div>
           </div>
 
@@ -32,15 +36,6 @@ const ContactCard = () => {
             </div>
           </div>
 
-          <div className={styles.amenities}>
-            <strong>Amenities</strong>
-            <div className={styles.tags}>
-              <span>Multilingual Program</span>
-              <span>Dance Studio</span>
-              <span>Science Lab</span>
-              <span>Cafeteria</span>
-            </div>
-          </div>
         </div>
 
         <div className={styles.right}>
@@ -55,11 +50,11 @@ const ContactCard = () => {
           </div>
 
           <div className={styles.visit}>
-            <strong>Schedule a Visit</strong>
+            <strong>Start Your Journey</strong>
             <p>
-              Interested in touring this location? Schedule a visit with our staff.
+              Every great adventure begins with a first step. Start your little one’s journey in a space filled with love, learning, and laughter.
             </p>
-            <button className={styles.tourButton}>Book a Tour</button>
+            <button className={styles.tourButton} onClick={()=>nav("/Enquire_form")}>Enroll</button>
           </div>
         </div>
       </div>

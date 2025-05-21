@@ -24,16 +24,16 @@ const ViolinGallery = [ {
 ]
 const Border_content = [
        {
-            heading:"Captured Smiles",
+            heading:"Follow on Instagram",
             image:"/public/assets/Programs/Gallery/Violin/media1.jpg",
-            content:"Every giggle and sparkle is precious! Our gallery captures the sweet, shining smiles of our little ones as they grow and glow to sky.",
+            content:"Stay connected for music tips, lessons, and live updates.",
             mediaLogo:"/public/assets/AboutUs/SchoolEvents/Instagram.png",
-            link:"https://www.instagram.com/"
+            link:"https://www.instagram.com/violin_sankari/"
         },
         {
-            heading:"Little Stars in Action",
+            heading:"Subscribe on YouTube",
             image:"/public/assets/Programs/Gallery/Violin/media2.jpg",
-            content:"From tiny footsteps to big dreams, we cherish every moment of learning, playing, and creating — where curiosity meets confidence!",
+            content:"Watch tutorials, performances, and exclusive music content.",
             mediaLogo:"/public/assets/AboutUs/SchoolEvents/YouTube.png",
             link:"https://www.youtube.com/@jsankarimuruga6204"
         }

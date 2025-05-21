@@ -139,8 +139,8 @@ const footerData = {
       {
         title: "Follow Us",
         items: [
-          { name: "Facebook", link: "https://twitter.com",target:"_blank"},
-          { name: "Instagram", link: "https://linkedin.com",target:"_blank"},
+          { name: "Facebook", link: "https://facebook.com",target:"_blank"},
+          { name: "Instagram", link: "https://instagram.com",target:"_blank"},
           { name: "YouTube", link: "https://www.youtube.com/@srisaradhakalamandir3264",target:"_blank"},
         ],
       },

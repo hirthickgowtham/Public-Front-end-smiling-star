@@ -15,7 +15,7 @@ const MapSection = () => {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          const destination = "13.0827,80.2707"; // Chennai
+          const destination = "11.9404912,79.8147756"; // Chennai
 
           const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${destination}&travelmode=driving`;
 
@@ -51,7 +51,7 @@ const MapSection = () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const userLatLng = [position.coords.latitude, position.coords.longitude];
-        const shopLatLng = [13.0827, 80.2707]; // Chennai
+        const shopLatLng = [11.9404912, 79.8147756]; // smiling star
 
         const control = L.Routing.control({
           waypoints: [L.latLng(userLatLng), L.latLng(shopLatLng)],
