@@ -81,7 +81,7 @@ export default function Nav_bar() {
 
             <div className={style.content_continer}>
 
-                <div className={style.logo}>
+                <a className={style.logo} href='/'>
 
                     <div className={style.image_continer}>
                         <img src="/images/Home/logo.png" alt="Logo"   />
@@ -91,7 +91,7 @@ export default function Nav_bar() {
                         <p>Smiling Star</p>
                     </div>
 
-                </div>
+                </a>
 
 
                 <div className={style.options}>
@@ -138,14 +138,14 @@ export default function Nav_bar() {
 
 <div className={style.small_main_continer}>
       <div className={style.small_content_continer}>
-        <div className={style.small_logo}>
+        <a className={style.small_logo}>
           <div className={style.image_continer}>
             <img src="/images/Home/logo.png" alt="Logo" width="50px" />
           </div>
           <div className={style.name}>
             <p>Smiling Star</p>
           </div>
-        </div>
+        </a>
 
         <Hamburger size={width>500 ?24:20} toggled={open} toggle={setopen} />
       </div>

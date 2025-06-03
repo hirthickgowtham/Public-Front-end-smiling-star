@@ -12,13 +12,13 @@ const Barathanatiumgallery = [
         image:"/public/assets/Programs/Gallery/Barathanatium/image2.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image8.jpg"
-    },
-    {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image3.jpg"
-    },
-    {
         image:"/public/assets/Programs/Gallery/Barathanatium/image4.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image9.jpg"
+    },
+    {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image8.jpg"
     },
     {
         image:"/public/assets/Programs/Gallery/Barathanatium/image5.jpg"
@@ -27,7 +27,7 @@ const Barathanatiumgallery = [
         image:"/public/assets/Programs/Gallery/Barathanatium/image6.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image7.jpg"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image3.jpg"
     }
 
 ]

@@ -12,6 +12,7 @@ import Nav_bar from "../Layout/Nav_bar/Nav_bar";
 import Violin from "../pages/Programs/Violin/Violin";
 import Piano from "../pages/Programs/Piano/Piano";
 import Tabla_Mridangam from "../pages/Programs/Tabla_mridangam/Tabla_mridangam";
+import { CopyRight } from "../Layout/CopyRight/CopyRight";
 
 export default function Route_path() {
 
@@ -40,7 +41,7 @@ export default function Route_path() {
             <Route path="/Locate_us" element={<Locate_us/>} />
 
         </Routes>
-        
+        <CopyRight />
        </>
     )
     

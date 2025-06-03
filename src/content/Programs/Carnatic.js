@@ -9,9 +9,6 @@ const Carnaticgallery = [
         image:"/public/assets/Programs/Gallery/Carnatic/image1.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Carnatic/image3.jpg"
-    },
-    {
         image:"/public/assets/Programs/Gallery/Carnatic/image4.jpg"
     },
     {

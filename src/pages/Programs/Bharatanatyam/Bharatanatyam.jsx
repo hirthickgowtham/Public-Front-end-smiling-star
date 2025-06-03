@@ -16,17 +16,17 @@ export default function Bharatanatyam() {
             {
                 video_link:"t7n4xxnLM_E",
                 title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                description:"SRI SARADHA KALA MANDIR SALANGAI POOJAI 03/06/23"
             },
             {
                 video_link:"VOogf99Jpu0",
                 title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                description:"AADUM CHIDAMBARAMO - FEATURING SELVI M. LOKESHWARI, PERFORMED ON HER ARANGETTRAM"
             },
             {
                 video_link:"2ARPpAJrhTk",
                 title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                description:"DD Program J. Sankari Muruganantham"
             }
         ]
 

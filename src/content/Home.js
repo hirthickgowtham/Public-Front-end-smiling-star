@@ -58,7 +58,7 @@ const programs_content = [
             route:"/programs/day_care"
         },
         {
-            img:"/assets/Programs/bharadhanatiyam.jpg",
+            img:"/public/assets/Programs/bharadhanatiyam.png",
             program_name:"Bharathanatyam",
             content:"Bharatanatyam is not just a dance — it’s a storytelling art that connects children to Indian culture and discipline.",
             last:"to explore the...",
@@ -80,15 +80,15 @@ const programs_content = [
             route:"/programs/carnatic"
         },
          {
-            img:"/public/assets/Programs/Gallery/Piano/image1.jpg",
-            program_name:"Piano",
+            img:"/public/assets/Programs/Gallery/Piano/image3.jpg",
+            program_name:"KeyBoard",
             content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
             img:"/public/assets/Programs/Gallery/Thabela/image1.jpg",
-            program_name:"Tabla",
+            program_name:"Tabla and Mridangam",
             content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
             last:"to explore the...",
             route:"/programs/carnatic"
