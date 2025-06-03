@@ -34,18 +34,19 @@ const common = {
         const video = [
             {
                 video_link:"6q6cxPi8dHc",
-                title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                // title:" Summer Classes",
+                description:"At Smiling Star Day Care, we create a joyful and nurturing environment where children can learn, play, and grow.",
             },
             {
                 video_link:"VNN5zBsYMd0",
-                title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                // title:"Aragratrum",
+                description:"Join Smiling Star Day Care's 2022 Summer Classes for a season full of fun, creativity, and learning!Exciting new activities await your little ones in a safe and joyful environment."
+
             },
             {
                 video_link:"RYpv0UA41aA",
-                title:"Aragratrum",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+                // title:"Aragratrum",
+                description:"Discover the happy moments at Smiling Star Day Care through fun-filled activities and joyful learning.Every day is a new adventure for our little stars!"
             }
         ]
 

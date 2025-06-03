@@ -17,18 +17,18 @@ export default function Violin(){
     const video = [
         {
             video_link:"EQSVeW_38Ec",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            // title:"Aragratrum",
+            description:"THUNBAM NERGAYIL || BHARATHIDASAN SONG || VIOLIN || J SANKARI"
         },
         {
             video_link:"yS8flq7t3ik",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            // title:"Aragratrum",
+            description:"MARUVAARTHAI | ENPT | VIOLIN COVER | J SANKARI"
         },
         {
             video_link:"eDukv8OSyuk",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            // title:"Aragratrum",
+            description:"KANMANI ANBODU || ILAYARAJA || VIOLIN || J SANKARI"
         }
     ]
 

@@ -34,7 +34,7 @@ export default function Piano(){
         <Piano_header/>
         <AboutPiano />
         <PianoGallery />
-        <You_tube common={common} video = {video}/>
+        {/* <You_tube common={common} video = {video}/> */}
         <Footer/>
         </>
     )
