@@ -4,12 +4,13 @@ import Contact_button from '../Contact_us_button/contact_us_button';
 import Resize from '../../hooks/Resize';
 import Hamburger from "hamburger-react";
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 export default function Nav_bar() {
 
 
-
+  const navigate = useNavigate();
 
     const animation_prop = {
       start:{

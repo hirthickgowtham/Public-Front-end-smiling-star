@@ -24,7 +24,7 @@ const ContactCard = () => {
             <FaPhoneAlt className={styles.icon} />
             <div>
               <strong>Phone</strong>
-              <p>(415) 555-3456</p>
+              <p>0413-2241402</p>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ const ContactCard = () => {
             <FaEnvelope className={styles.icon} />
             <div>
               <strong>Email</strong>
-              <p>golden.gate.kidspace@kidspace.com</p>
+              <p>smilingstarspy@gmail.com</p>
             </div>
           </div>
     

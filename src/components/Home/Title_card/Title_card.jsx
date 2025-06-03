@@ -91,7 +91,7 @@ export default function Title_Card() {
                                     </div>
                                     <div className={style.contact_number_text}>
                                         <li className={style.button_text}>Contact us</li>
-                                        <li className={style.button_small_text}>(123) 456 798</li>
+                                        <li className={style.button_small_text}>0413-2241402</li>
                                     </div>
                                 </div>
                             </div>
