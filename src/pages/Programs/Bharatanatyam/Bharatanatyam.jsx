@@ -15,17 +15,17 @@ export default function Bharatanatyam() {
         const video = [
             {
                 video_link:"t7n4xxnLM_E",
-                title:"Aragratrum",
+                // title:"Aragratrum",
                 description:"SRI SARADHA KALA MANDIR SALANGAI POOJAI 03/06/23"
             },
             {
                 video_link:"VOogf99Jpu0",
-                title:"Aragratrum",
+                // title:"Aragratrum",
                 description:"AADUM CHIDAMBARAMO - FEATURING SELVI M. LOKESHWARI, PERFORMED ON HER ARANGETTRAM"
             },
             {
                 video_link:"2ARPpAJrhTk",
-                title:"Aragratrum",
+                // title:"Aragratrum",
                 description:"DD Program J. Sankari Muruganantham"
             }
         ]

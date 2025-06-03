@@ -15,13 +15,13 @@ export default function Carnatic() {
     const video = [
         {
             video_link:"1XQS0sLWres",
-            title:"Aragratrum",
+            // title:"Aragratrum",
             description:"Navaratri program at Saradambal temple 27/09/22"
         },
         {
             video_link:"82nulK1TXn4",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
+            // title:"Aragratrum",
+            description:"Independence day Program @DD 14/08/22"
         },
     ]
 
