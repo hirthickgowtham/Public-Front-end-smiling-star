@@ -14,7 +14,7 @@ export default function Popup({popupdata,status}){
         <div className={style.main}>
             
             <div className={style.popup} style={{display:status?'flex':'none'}}>
-                <img src={pop} alt="Done👍" />
+                <img className={style.image} src={pop} alt="Done👍" />
                 <div>{popupdata}</div>  
                 <div className={style.But}><button className={style.Button} onClick={()=>navigate("/")}> Go back to Home </button></div>
             </div>

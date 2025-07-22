@@ -20,7 +20,7 @@ const EnrollmentForm = () => {
     checkit: "new"
   });
 
-  const [status,setstatus] = useState(false);
+  const [status,setstatus] = useState(true);
   const [popupdata,setpopupdata] = useState("The form has been submitted successfully");
 
   const handleChange = (e) => {
