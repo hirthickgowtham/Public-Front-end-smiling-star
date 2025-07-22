@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import enquirystyle from "./EnquiryForm.module.css";
-import axios from "axios"
+import axios from "axios";
+import Popup from "../../Popup/Popup";
 
 const EnrollmentForm = () => {
   const [formData, setFormData] = useState({
@@ -19,6 +20,9 @@ const EnrollmentForm = () => {
     checkit: "new"
   });
 
+  const [status,setstatus] = useState(false);
+  const [popupdata,setpopupdata] = useState("The form has been submitted successfully");
+
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
@@ -32,8 +36,13 @@ const EnrollmentForm = () => {
     formData.age = parseInt(formData.age);
     try {
       const response = await axios.post("http://localhost:5000/api/stu_enq/daycare/enquiry",formData)
-
       const data = response.data;
+
+      if(data){
+          setpopupdata(data);
+          setstatus(true);
+      }
+
       setFormData({
         first_name: "",
         last_name: "",
@@ -50,6 +59,9 @@ const EnrollmentForm = () => {
         checkit: "new"
       }); 
     } catch (error) {
+      setstatus(false);
+      setpopupdata("The form has been submitted successfully");
+      
       alert("Error submitting form: " + error.message);
     }
   };
@@ -74,7 +86,7 @@ const EnrollmentForm = () => {
             ["Country", "country", "text"],
             ["State", "state", "text"],
             ["City", "city", "text"],
-            ["Location (Optional)", "location", "text"],
+            ["Location", "location", "text"],
             ["Child’s Age", "age", "number"],
           ].map(([label, name, type]) => (
             <div className={enquirystyle["form-group"]} key={name}>
@@ -119,9 +131,12 @@ const EnrollmentForm = () => {
             </button>
           </div>
         </form>
+         {status && <Popup popupdata={popupdata} status={status}/>} 
       </div>
+      
     </div>
     </div>
+ 
   );
 };
 
