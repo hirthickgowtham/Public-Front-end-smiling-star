@@ -7,6 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); For dim background overlay */
+    z-index: 1000;
 }
 
 .popup{
@@ -16,19 +18,21 @@
   padding: 20px 30px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px green;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
- 
+ z-index: 1001;
   
 }
 .Button{
-    color: lightblue;
+    color: white;
+    background-color: rgb(77, 119, 245);
     padding: 10px;
     border-radius:1rem ;
     align-self: center;
+    border: none;
 }
 
 

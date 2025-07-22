@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import enquirystyle from "./EnquiryForm.module.css";
 import axios from "axios";
 import Popup from "../../Popup/Popup";
+import { useEffect } from "react";
+import { useRef } from "react";
 
 const EnrollmentForm = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +22,9 @@ const EnrollmentForm = () => {
     checkit: "new"
   });
 
-  const [status,setstatus] = useState(true);
+  const [status,setstatus] = useState(false);
   const [popupdata,setpopupdata] = useState("The form has been submitted successfully");
+   const popupRef = useRef(null);
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -66,9 +69,25 @@ const EnrollmentForm = () => {
     }
   };
 
+    useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        setstatus(false);
+      }
+    };
+
+    if (status) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [status]);
+
   return (
     <div className={enquirystyle.contain}>
-    <div className={enquirystyle["form-container"]}>
+    <div className={enquirystyle["form-container"]} style={{opacity:status?0.4:1}}>
       <h1 className={enquirystyle.title}>Little Learners Daycare</h1>
       <p className={enquirystyle.subtitle}>Where every child's journey of discovery and growth begins with love and care</p>
 
@@ -131,10 +150,11 @@ const EnrollmentForm = () => {
             </button>
           </div>
         </form>
-         {status && <Popup popupdata={popupdata} status={status}/>} 
+         
       </div>
       
     </div>
+    {status && <Popup popupdata={popupdata} status={status} onClose={() => setstatus(false)} />} 
     </div>
  
   );
