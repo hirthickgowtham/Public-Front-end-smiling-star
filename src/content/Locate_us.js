@@ -12,7 +12,7 @@ const faqs = [
   {
     question: "What ages do you accept?",
     answer:
-      "We welcome children aged 4 to 14 years. Our programs are designed for different age groups and skill levels.",
+      "We welcome children aged 4 to 12 years. Our programs are designed for different age groups and skill levels.",
   },
   {
     question: "How do I enroll my child?",

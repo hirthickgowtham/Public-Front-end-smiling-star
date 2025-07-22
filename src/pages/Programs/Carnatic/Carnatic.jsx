@@ -14,14 +14,19 @@ export default function Carnatic() {
 
     const video = [
         {
-            video_link:"1XQS0sLWres",
+            video_link:"xOdDtgbHqXs",
             // title:"Aragratrum",
-            description:"Navaratri program at Saradambal temple 27/09/22"
+            description:"Nada neeranjanam-Tirupati Oct 4, 2020"
         },
         {
             video_link:"82nulK1TXn4",
             // title:"Aragratrum",
             description:"Independence day Program @DD 14/08/22"
+        },
+        {
+            video_link:"F53C86qb_sc",
+            // title:"Aragratrum",
+            description:"Nada neeranjanam 2017"
         },
     ]
 

@@ -1,4 +1,5 @@
 import style from "./video.module.css"
+import SlideInOnScroll from "../../../Effect_comp/SlideInOnScroll"
 
 
 
@@ -8,7 +9,7 @@ export default function Video({index,common,values}){
 
     return (<>
     
-
+<SlideInOnScroll direction={(index+1)%2 == 0 ? 'left':'right'}>
         <div className={(index+1)%2 == 0 ? style.even_video_continer:style.odd_video_continer}
         style={{border:common.border}}>
                 <div className={style.video}>
@@ -29,7 +30,7 @@ export default function Video({index,common,values}){
                     </div>
                 </div>
         </div>
-
+</SlideInOnScroll>
 
     </>)
 }

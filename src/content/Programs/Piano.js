@@ -6,9 +6,6 @@ const Aboutpiano = {
 
 const PianoGallery = [
     {
-        image:"/public/assets/Programs/Gallery/Piano/image1.jpg"
-    },
-    {
         image:"/public/assets/Programs/Gallery/Piano/image2.jpg"
     },
     {

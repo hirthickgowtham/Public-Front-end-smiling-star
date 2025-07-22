@@ -6,29 +6,35 @@ const Aboutbaranatiyam = {
 
 const Barathanatiumgallery = [
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image1.jpg"
+        image:"/public/assets/Programs/Gallery/Barathanatium/images10.jpg"
     },
-    {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image2.jpg"
+      {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image12.jpg"
     },
-    {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image4.jpg"
+     {
+        image:"/public/assets/Programs/Gallery/Barathanatium/images11.jpg"
     },
     {
         image:"/public/assets/Programs/Gallery/Barathanatium/image9.jpg"
     },
-    {
+    
+     {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image5.jpg"
+    },
+     {
         image:"/public/assets/Programs/Gallery/Barathanatium/image8.jpg"
     },
     {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image5.jpg"
+        image:"/public/assets/Programs/Gallery/Barathanatium/image14.jpg"
     },
-    {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image6.jpg"
+   
+    
+     {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image7.jpg"
     },
-    {
-        image:"/public/assets/Programs/Gallery/Barathanatium/image3.jpg"
-    }
+     {
+        image:"/public/assets/Programs/Gallery/Barathanatium/image4.jpg"
+    },
 
 ]
 

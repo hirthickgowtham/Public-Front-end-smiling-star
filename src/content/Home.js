@@ -87,7 +87,7 @@ const programs_content = [
             route:"/programs/carnatic"
         },
          {
-            img:"/public/assets/Programs/Tabela.jpg",
+            img:"/public/assets/Programs/Gallery/Thabela/image1.jpg",
             program_name:"Tabla and Mridangam",
             content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
             last:"to explore the...",
