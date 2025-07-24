@@ -4,6 +4,7 @@ import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/
 import Header_carnatic from "../../../components/Programs/Carnatic/Header_carnatic/Header_carnatic"
 import AboutCarnatic from "../../../components/Programs/Carnatic/AboutCarnatic/AboutCarnatic";
 import Footer from "../../../components/Home/Footer/Footer";
+import { videocarnatic } from "../../../content/Programs/Carnatic";
 
 export default function Carnatic() {
 
@@ -12,23 +13,7 @@ export default function Carnatic() {
         border:"2px solid rgba(61, 89, 253, 0.91)",
     }
 
-    const video = [
-        {
-            video_link:"xOdDtgbHqXs",
-            // title:"Aragratrum",
-            description:"Nada neeranjanam-Tirupati Oct 4, 2020"
-        },
-        {
-            video_link:"82nulK1TXn4",
-            // title:"Aragratrum",
-            description:"Independence day Program @DD 14/08/22"
-        },
-        {
-            video_link:"F53C86qb_sc",
-            // title:"Aragratrum",
-            description:"Nada neeranjanam 2017"
-        },
-    ]
+    
 
 
 
@@ -37,7 +22,7 @@ export default function Carnatic() {
         <Header_carnatic/>
         <AboutCarnatic />
         <CarnaticGallery />
-        <You_tube common={common} video = {video}/>
+        <You_tube common={common} video = {videocarnatic}/>
         <Footer />
         </>
     )

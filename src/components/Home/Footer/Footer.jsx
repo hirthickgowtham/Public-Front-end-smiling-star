@@ -15,7 +15,7 @@ export default function Footer(){
 
     return(
         <>
-           <div className={style.footMain}>
+           <div className={style.footMain} id="Contact_us">
            <div className={style.footer}>
                     <div className={style.left}>
                         <div>

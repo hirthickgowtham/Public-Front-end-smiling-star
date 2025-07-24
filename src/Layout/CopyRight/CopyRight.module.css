@@ -4,3 +4,10 @@
     padding:2px;
     /* border: 1px solid red; */
 }
+
+.created{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.278);
+}

@@ -82,7 +82,7 @@ export default function Title_Card() {
 
                         {/* 📲 Contact Section */}
                         <div className={style.contacts}>
-                            <a className={style.button} href="http://localhost:5173/Enquire_form"> <Button /></a>
+                            <a className={style.button} href="/Enquire_form"> <Button /></a>
                            
                             <div className={style.number}>
                                 <div className={style.button2}>

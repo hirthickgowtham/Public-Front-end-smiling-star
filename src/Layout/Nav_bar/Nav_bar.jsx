@@ -4,7 +4,7 @@ import Contact_button from '../Contact_us_button/contact_us_button';
 import Resize from '../../hooks/Resize';
 import Hamburger from "hamburger-react";
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 export default function Nav_bar() {
@@ -88,7 +88,7 @@ export default function Nav_bar() {
                     </div>
 
                     <div className={style.name}>
-                        <p>Smiling Star</p>
+                        <p>Smiling Stars</p>
                     </div>
 
                 </a>
@@ -128,7 +128,11 @@ export default function Nav_bar() {
                 </div>
 
                 {/* Button imported here */}
-                <Contact_button title="Contact Us"/>
+                <a href="#Contact_us" className={style.btu}>
+                  <Contact_button title="Contact Us"/>
+                </a>
+                
+             
 
             </div>
 
@@ -143,7 +147,7 @@ export default function Nav_bar() {
             <img src="/images/Home/logo.png" alt="Logo" width="50px" />
           </div>
           <div className={style.name}>
-            <p>Smiling Star</p>
+            <p>Smiling Stars</p>
           </div>
         </a>
 

@@ -25,7 +25,11 @@
 
 }
 
-
+.btu{
+    text-decoration: none;
+    width: 20%;
+   
+}
 
 /* logo continer styling  */
 .logo{

@@ -4,6 +4,26 @@ const Aboutcarnatic = {
     image:"/assets/Programs/Carnatic.png"
 }
 
+const videocarnatic = [
+        {
+            video_link:"xOdDtgbHqXs",
+            // title:"Aragratrum",
+            description:"Nada neeranjanam-Tirupati Oct 4, 2020"
+        },
+        {
+            video_link:"82nulK1TXn4",
+            // title:"Aragratrum",
+            description:"Independence day Program @DD 14/08/22"
+        },
+        {
+            video_link:"F53C86qb_sc",
+            // title:"Aragratrum",
+            description:"Nada neeranjanam 2017"
+        },
+    ]
+
+
+
 const Carnaticgallery = [
     {
         image:"/assets/Programs/Gallery/Carnatic/image1.jpg"
@@ -22,4 +42,4 @@ const Carnaticgallery = [
     }
 ]
 
-export {Carnaticgallery,Aboutcarnatic}
+export {Carnaticgallery,Aboutcarnatic,videocarnatic}

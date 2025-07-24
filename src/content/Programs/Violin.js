@@ -22,6 +22,25 @@ const ViolinGallery = [ {
         image:"/assets/Programs/Gallery/Violin/image4.jpg"
     }
 ]
+
+    const videoviolin = [
+        {
+            video_link:"EQSVeW_38Ec",
+            // title:"Aragratrum",
+            description:"THUNBAM NERGAYIL || BHARATHIDASAN SONG || VIOLIN || J SANKARI"
+        },
+        {
+            video_link:"yS8flq7t3ik",
+            // title:"Aragratrum",
+            description:"MARUVAARTHAI | ENPT | VIOLIN COVER | J SANKARI"
+        },
+        {
+            video_link:"eDukv8OSyuk",
+            // title:"Aragratrum",
+            description:"KANMANI ANBODU || ILAYARAJA || VIOLIN || J SANKARI"
+        }
+    ]
+
 const Border_content = [
        {
             heading:"Follow on Instagram",
@@ -39,4 +58,4 @@ const Border_content = [
         }
 ]
 
-export {Aboutviolin,ViolinGallery as VG,Border_content}
+export {Aboutviolin,ViolinGallery as VG,Border_content , videoviolin}
