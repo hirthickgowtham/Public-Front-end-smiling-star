@@ -3,15 +3,15 @@ import {  spring } from "framer-motion";
 
 //Filler
 const filler = {
-    star:"/public/assets/Filler/star.png",
-    colorBee:"/public/assets/Filler/colorbee.png",
-    blackBee:"/public/assets/Filler/blackBee.png",
-    Arrow:"/public/assets/Filler/Arrow.png",
-    Spring:"/public/assets/Filler/SprignArrow.png",
-    flight:"/public/assets/Filler/Fight.png",
-    Book:"/public/assets/Filler/Book.png",
-    Graps:"/public/assets/Filler/Graps.png",
-    Shape:"/public/assets/Filler/Shape.png",
+    star:"/assets/Filler/star.png",
+    colorBee:"/assets/Filler/colorbee.png",
+    blackBee:"/assets/Filler/blackBee.png",
+    Arrow:"/assets/Filler/Arrow.png",
+    Spring:"/assets/Filler/SprignArrow.png",
+    flight:"/assets/Filler/Fight.png",
+    Book:"/assets/Filler/Book.png",
+    Graps:"/assets/Filler/Graps.png",
+    Shape:"/assets/Filler/Shape.png",
     
 }
 
@@ -58,7 +58,7 @@ const programs_content = [
             route:"/programs/day_care"
         },
         {
-            img:"/public/assets/Programs/bharadhanatiyam.png",
+            img:"/assets/Programs/bharadhanatiyam.png",
             program_name:"Bharathanatyam",
             content:"Bharatanatyam is not just a dance — it’s a storytelling art that connects children to Indian culture and discipline.",
             last:"to explore the...",
@@ -73,21 +73,21 @@ const programs_content = [
             route:"/programs/carnatic"
         },
          {
-            img:"/public/assets/Programs/Gallery/Violin/image1.jpg",
+            img:"/assets/Programs/Gallery/Violin/image1.jpg",
             program_name:"Violin",
             content:"Violin classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
-            img:"/public/assets/Programs/Gallery/Piano/image3.jpg",
+            img:"/assets/Programs/Gallery/Piano/image3.jpg",
             program_name:"KeyBoard",
             content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
-            img:"/public/assets/Programs/Gallery/Thabela/image1.jpg",
+            img:"/assets/Programs/Gallery/Thabela/image1.jpg",
             program_name:"Tabla and Mridangam",
             content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
             last:"to explore the...",
