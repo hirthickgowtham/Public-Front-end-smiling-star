@@ -4,6 +4,29 @@ const Aboutbaranatiyam = {
     image:"/public/assets/Programs/barathanatium.png"
 }   
 
+const videobaranatiyam = [
+    {
+        video_link:"t7n4xxnLM_E",
+        // title:"Aragratrum",
+        description:"SRI SARADHA KALA MANDIR SALANGAI POOJAI 03/06/23"
+    },
+    {
+        video_link:"VOogf99Jpu0",
+        // title:"Aragratrum",
+        description:"AADUM CHIDAMBARAMO - FEATURING SELVI M. LOKESHWARI, PERFORMED ON HER ARANGETTRAM"
+    },
+    {
+        video_link:"2ARPpAJrhTk",
+        // title:"Aragratrum",
+        description:"DD Program J. Sankari Muruganantham"
+    },
+    {
+        video_link:"3Ut8HOW0Fyg",
+        // title:"Aragratrum",
+        description:"Puducherry Natiyanjali 02/03/22"
+    }
+]
+
 const Barathanatiumgallery = [
     {
         image:"/public/assets/Programs/Gallery/Barathanatium/images10.jpg"
@@ -38,5 +61,5 @@ const Barathanatiumgallery = [
 
 ]
 
-export {Aboutbaranatiyam,Barathanatiumgallery}
+export {Aboutbaranatiyam,Barathanatiumgallery , videobaranatiyam}
 

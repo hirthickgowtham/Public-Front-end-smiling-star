@@ -4,6 +4,7 @@ import Footer from "../../../components/Home/Footer/Footer";
 import AboutViolin from "../../../components/Programs/Violin/AboutViolin/AboutViolin";
 import ViolinGallery from "../../../components/Programs/Violin/ViolinGallery/ViolinGallery";
 import MediaViolin from "../../../components/Programs/Violin/MediaViolin/MediaViolin";
+import { videoviolin } from "../../../content/Programs/Violin";
 
 
 export default function Violin(){
@@ -14,23 +15,7 @@ export default function Violin(){
         border:"3px solid rgba(63, 94, 251, 0.61)",
     }
 
-    const video = [
-        {
-            video_link:"EQSVeW_38Ec",
-            // title:"Aragratrum",
-            description:"THUNBAM NERGAYIL || BHARATHIDASAN SONG || VIOLIN || J SANKARI"
-        },
-        {
-            video_link:"yS8flq7t3ik",
-            // title:"Aragratrum",
-            description:"MARUVAARTHAI | ENPT | VIOLIN COVER | J SANKARI"
-        },
-        {
-            video_link:"eDukv8OSyuk",
-            // title:"Aragratrum",
-            description:"KANMANI ANBODU || ILAYARAJA || VIOLIN || J SANKARI"
-        }
-    ]
+
 
     return(
         <>
@@ -39,7 +24,7 @@ export default function Violin(){
         <AboutViolin />
         <ViolinGallery />
         <MediaViolin />
-        <You_tube common={common} video = {video}/>
+        <You_tube common={common} video = {videoviolin}/>
         <Footer/>
         </>
     )

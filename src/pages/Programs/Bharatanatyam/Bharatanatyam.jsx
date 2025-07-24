@@ -3,6 +3,7 @@ import Header_baratham from "../../../components/Programs/Bharatanatyam/Header_c
 import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/you_tube_video";
 import AboutBaranatiyam from "../../../components/Programs/Bharatanatyam/AboutBarathanatium/AboutBarathanatium";
 import BarathanatiumGallery from "../../../components/Programs/Bharatanatyam/BarathanatiumGallery/BarathanatiumGallery";
+import { videobaranatiyam } from "../../../content/Programs/Barathanatiyam";
 
 
 export default function Bharatanatyam() {
@@ -12,35 +13,12 @@ export default function Bharatanatyam() {
             border:"3px solid rgba(255, 166, 0, 0.911)",
         }
     
-        const video = [
-            {
-                video_link:"t7n4xxnLM_E",
-                // title:"Aragratrum",
-                description:"SRI SARADHA KALA MANDIR SALANGAI POOJAI 03/06/23"
-            },
-            {
-                video_link:"VOogf99Jpu0",
-                // title:"Aragratrum",
-                description:"AADUM CHIDAMBARAMO - FEATURING SELVI M. LOKESHWARI, PERFORMED ON HER ARANGETTRAM"
-            },
-            {
-                video_link:"2ARPpAJrhTk",
-                // title:"Aragratrum",
-                description:"DD Program J. Sankari Muruganantham"
-            },
-            {
-                video_link:"3Ut8HOW0Fyg",
-                // title:"Aragratrum",
-                description:"Puducherry Natiyanjali 02/03/22"
-            }
-        ]
-
     return(
         <>
         <Header_baratham/>
         <AboutBaranatiyam />
         <BarathanatiumGallery />
-        <You_tube common={common} video = {video}/>
+        <You_tube common={common} video = {videobaranatiyam}/>
         <Footer/>
         </>
     )

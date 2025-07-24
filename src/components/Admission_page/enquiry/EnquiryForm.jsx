@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { useRef } from "react";
 
 const EnrollmentForm = () => {
+  const domain = Process.env.REACT_APP_BACKEND_URL;
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",
@@ -38,7 +39,7 @@ const EnrollmentForm = () => {
     console.log(formData)
     formData.age = parseInt(formData.age);
     try {
-      const response = await axios.post("http://localhost:5000/api/stu_enq/daycare/enquiry",formData)
+      const response = await axios.post(`${domain}api/enquiryForm`,formData)
       const data = response.data;
 
       if(data){

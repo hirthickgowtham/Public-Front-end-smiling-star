@@ -256,12 +256,16 @@
 
     .image_continer{
         padding: .8em 1em;
+      
     }
 
     image_continer img{
         margin: .8em 1em;
         width:90%;
+        
     }
+
+    
 }
 
 

@@ -3,6 +3,7 @@ import You_tube from "../../../components/Programs/Bharatanatyam/you_tube_video/
 import Piano_header from "../../../components/Programs/Piano/Piano_header";
 import AboutPiano from "../../../components/Programs/Piano/AboutPiano/AboutPiano";
 import PianoGallery from "../../../components/Programs/Piano/PianoGallery/PianoGallery";
+import { videopiano } from "../../../content/Programs/Piano";
 
 export default function Piano(){
 
@@ -11,30 +12,14 @@ export default function Piano(){
         border:"2.5px solid rgb(86, 86, 87)",
     }
 
-    const video = [
-        {
-            video_link:"pVkDZueTBpY",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
-        },
-        {
-            video_link:"pVkDZueTBpY",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
-        },
-        {
-            video_link:"pVkDZueTBpY",
-            title:"Aragratrum",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam, aut accusamus numquam iusto placeat obcaecati eum excepturi aspernatur quas reprehenderit hic laudantium animi adipisci vero rerum ipsam rem quae?"
-        }
-    ]
+
 
     return(
         <>
         <Piano_header/>
         <AboutPiano />
         <PianoGallery />
-        {/* <You_tube common={common} video = {video}/> */}
+        {/* <You_tube common={common} video = {videopiano}/> */}
         <Footer/>
         </>
     )

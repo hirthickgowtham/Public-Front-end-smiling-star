@@ -3,12 +3,12 @@
 .contact_button{
     list-style: none;
     margin: 0em 1em;
-    width: 20%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins";
-
+    text-decoration: none;
 }
 
 .cont_btn{
@@ -17,4 +17,5 @@
     color: #fff;
     background-color: #3072FF;
     font-weight: 500;
+   
 }
