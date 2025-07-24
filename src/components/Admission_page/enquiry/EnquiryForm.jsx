@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { useRef } from "react";
 
 const EnrollmentForm = () => {
-  const domain = Process.env.REACT_APP_BACKEND_URL;
+  const domain = import.meta.env.VITE_BACKEND_URL;
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",

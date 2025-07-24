@@ -93,15 +93,13 @@ const programs_content = [
             last:"to explore the...",
             route:"/programs/carnatic"
         },
-        // {
-        //     img:"/assets/Programs/Hindi.png",
-        //     program_name:"Hindi",
-        //     content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age.",
-        //     last:"to explore the...",
-        //     route:"/programs/hindi"
-        // },
+
 
 ]
+
+const youtube  = import.meta.env.VITE_YOUTUBE_LINK;
+const facebook  = import.meta.env.VITE_FACEBOOK_LINK;
+const instagram  = import.meta.env.VITE_INSTA_LINK;
 
 const Banner_img ={
   images:"/assets/Banner/Banner2.png"
@@ -139,9 +137,9 @@ const footerData = {
       {
         title: "Follow Us",
         items: [
-          { name: "Facebook", link: "https://facebook.com",target:"_blank"},
-          { name: "Instagram", link: "https://instagram.com",target:"_blank"},
-          { name: "YouTube", link: "https://www.youtube.com/@srisaradhakalamandir3264",target:"_blank"},
+          { name: "Facebook", link: `${facebook}`,target:"_blank"},
+          { name: "Instagram", link: `${instagram}`,target:"_blank"},
+          { name: "YouTube", link: `${youtube}`,target:"_blank"},
         ],
       },
     ],
