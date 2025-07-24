@@ -1,4 +1,4 @@
-import style from "./Tabla_Mridangam.module.css"
+import style from "./Tabla_mridangam.module.css"
 
 
 
