@@ -3,15 +3,15 @@ import {  spring } from "framer-motion";
 
 //Filler
 const filler = {
-    star:"/assets/Filler/star.png",
-    colorBee:"/assets/Filler/colorbee.png",
-    blackBee:"/assets/Filler/blackBee.png",
-    Arrow:"/assets/Filler/Arrow.png",
-    Spring:"/assets/Filler/SprignArrow.png",
-    flight:"/assets/Filler/Fight.png",
-    Book:"/assets/Filler/Book.png",
-    Graps:"/assets/Filler/Graps.png",
-    Shape:"/assets/Filler/Shape.png",
+    star:"/public/images/assets/Filler/star.png",
+    colorBee:"/public/images/assets/Filler/colorbee.png",
+    blackBee:"/public/images/assets/Filler/blackBee.png",
+    Arrow:"/public/images/assets/Filler/Arrow.png",
+    Spring:"/public/images/assets/Filler/SprignArrow.png",
+    flight:"/public/images/assets/Filler/Fight.png",
+    Book:"/public/images/assets/Filler/Book.png",
+    Graps:"/public/images/assets/Filler/Graps.png",
+    Shape:"/public/images/assets/Filler/Shape.png",
     
 }
 
@@ -21,25 +21,25 @@ const filler = {
 
 const images = [
     {
-        img:"/assets/Parents Feedback/img1.png",
+        img:"/public/images/assets/Parents Feedback/img1.png",
         content:`"A good place for the tiny ones. It's safe and clean. The school has trained teachers to handle kids. Overall it's a suitable place for preschoolers and day care"`,
         author:"J SANKARI MURUGA",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
-        img:"/assets/Parents Feedback/img2.png",
+        img:"/public/images/assets/Parents Feedback/img2.png",
         content:`"It is very homely and security wise also good. School fees is reasonable. They are taking good care and my kid is enjoying his school time."`,
         author:"Malathy",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
-        img:"/assets/Parents Feedback/img3.png",
+        img:"/public/images/assets/Parents Feedback/img3.png",
         content:'"Very good school...my boy everyday like to go to at school..I give marks of school learning, maintenance and safety 💯...."',
         author:"Pavithra Ganesan",
         professional :"Small Business Owner, Sarah's Boutique"
     },
     {
-        img:"/assets/Parents Feedback/img4.png",
+        img:"/public/images/assets/Parents Feedback/img4.png",
         content:'"Spacious environment, friendly staff, good playing and dinning area, teaching good activities, caring like a parents.."',
         author:"Lavanya ramamurthy",
         professional :"Small Business Owner, Sarah's Boutique"
@@ -51,14 +51,14 @@ const images = [
 
 const programs_content = [
         {
-            img:"/assets/Programs/daycare_img.jpg",
+            img:"/public/images/assets/Programs/daycare_img.jpg",
             program_name:"DayCare",
             content:"At our Daycare, we create a safe, nurturing, and engaging environment where toddlers can learn and grow.",
             last:"to explore the...",
             route:"/programs/day_care"
         },
         {
-            img:"/assets/Programs/bharadhanatiyam.png",
+            img:"/public/images/assets/Programs/bharadhanatiyam.png",
             program_name:"Bharathanatyam",
             content:"Bharatanatyam is not just a dance — it’s a storytelling art that connects children to Indian culture and discipline.",
             last:"to explore the...",
@@ -66,28 +66,28 @@ const programs_content = [
         },
         
         {
-            img:"/assets/Programs/image.jpg",
+            img:"/public/images/assets/Programs/image.jpg",
             program_name:"Carnatic",
             content:"Carnatic music lessons at our center help children discover the joy of melody, rhythm, and voice control from an early age",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
-            img:"/assets/Programs/Gallery/Violin/image1.jpg",
+            img:"/public/images/assets/Programs/Gallery/Violin/image1.jpg",
             program_name:"Violin",
             content:"Violin classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
-            img:"/assets/Programs/Gallery/Piano/image3.jpg",
+            img:"/public/images/assets/Programs/Gallery/Piano/image3.jpg",
             program_name:"KeyBoard",
             content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
             last:"to explore the...",
             route:"/programs/carnatic"
         },
          {
-            img:"/assets/Programs/Gallery/Thabela/image1.jpg",
+            img:"/public/images/assets/Programs/Gallery/Thabela/image1.jpg",
             program_name:"Tabla and Mridangam",
             content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
             last:"to explore the...",
@@ -102,14 +102,14 @@ const facebook  = import.meta.env.VITE_FACEBOOK_LINK;
 const instagram  = import.meta.env.VITE_INSTA_LINK;
 
 const Banner_img ={
-  images:"/assets/Banner/Banner2.png"
+  images:"/public/images/assets/Banner/Banner2.png"
 }
 
 //Footer
 const footerData = {
     brand: {
       logo: {
-        img:"/assets/footer/logo.png",
+        img:"/public/images/assets/footer/logo.png",
         link:"/",
       },
       tagline: "Innovative solutions, proven success & growth",

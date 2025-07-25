@@ -6,7 +6,7 @@
 /* main continer styling */
 .main_continer{
     padding:3em 6em;
-    background-image: url("images/Home/half_cloud.png");
+    background-image: url("/public/images/Home/half_cloud.png");
     background-repeat: no-repeat;
     background-size: cover;
   

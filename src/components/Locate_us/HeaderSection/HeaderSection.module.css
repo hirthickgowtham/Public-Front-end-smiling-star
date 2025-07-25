@@ -25,6 +25,7 @@
   opacity: 0;
   animation: fadeIn 0.8s ease-out forwards;
   justify-items: center;
+  text-align: center;
 }
 
 .mainHeading::after {
