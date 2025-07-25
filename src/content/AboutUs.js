@@ -34,32 +34,32 @@ const Ourstory = {
 
 const OurValue = [
     {
-        image:"/images/assets/AboutUs/OurValues/wmremove-transformed.png",
+        image:"/images/OurValues/wmremove-transformed.png",
         heading:"Compassionate Care",
         content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
     },
     {
-        image:"/images/assets/AboutUs/OurValues/education-removebg-preview.png",
+        image:"/images/OurValues/education-removebg-preview.png",
         heading:"Educational Excellence",
         content:"We provide age-appropriate learning experiences that stimulate curiosity and foster a lifelong love of learning."
     },
     {
-        image:"/images/assets/AboutUs/OurValues/community.png",
+        image:"/images/OurValues/community.png",
         heading:"Community Connection",
         content:"We build strong partnerships with families and the community to create a supportive network for each child."
     },
     {
-        image:"/images/assets/AboutUs/OurValues/growth_mindset-removebg-preview.png",
+        image:"/images/OurValues/growth_mindset-removebg-preview.png",
         heading:"Growth Mindset",
         content:"We encourage children to embrace challenges, persist through obstacles, and see effort as a path to mastery."
     },
     {
-        image:"/images/assets/AboutUs/OurValues/environment.png",
+        image:"/images/OurValues/environment.png",
         heading:"Joyful Environment",
         content:"We create spaces filled with laughter, play, and positive interactions to make learning a joyful experience."
     },
     {
-        image:"/images/assets/AboutUs/OurValues/indivual.png",
+        image:"/images/OurValues/indivual.png",
         heading:"Individual Excellence",
         content:"We recognize and celebrate each child's unique strengths, talents, and abilities, helping them shine in ..."
     }
