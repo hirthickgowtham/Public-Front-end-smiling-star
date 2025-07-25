@@ -1,30 +1,30 @@
 const About_filler = {
-    Arrow:"/public/images/assets/Filler/Arrow.png",
-    bulb:"/public/images/assets/Filler/bulb.png",
-    bear:"/public/images/assets/Filler/bearImg.png",
-    rabbit:"/public/images/assets/Filler/Rabbit.png",
-    SpringStar:"/public/images/assets/Filler/Spring 1.png",
-    Star:"/public/images/assets/Filler/star.png"
+    Arrow:"/images/assets/Filler/Arrow.png",
+    bulb:"/images/assets/Filler/bulb.png",
+    bear:`/images/assets/Filler/bearImg.png`,
+    rabbit:"/images/assets/Filler/Rabbit.png",
+    SpringStar:"/images/assets/Filler/Spring 1.png",
+    Star:"/images/assets/Filler/star.png"
 }
 
 const aboutUsHeader = {
     images:{
-        img:"/public/images/assets/AboutUs/half_cloud.png",
-        Tom_img:"/public/images/assets/AboutUs/TOM-removebg-preview.png",
-        sun_cloud:"/public/images/assets/AboutUs/sunn.jpg.png",
-        fly_bird:"/public/images/assets/AboutUs/Fly_bird.png",
-        similing_star:"/public/images/assets/AboutUs/similing star.png",
-        kite:"/public/images/assets/AboutUs/vijay_remove.png",
-        fly:"/public/images/assets/AboutUs/flyte-removebg-preview.png",
-        paper_rocket:"/public/images/assets/AboutUs/paperRocket.png",
-        Rocket:"/public/images/assets/AboutUs/Rocket.png",
-        Cloud:"/public/images/assets/AboutUs/Cloud.png"
+        img:"/images/assets/AboutUs/half_cloud.png",
+        Tom_img:"/images/assets/AboutUs/TOM-removebg-preview.png",
+        sun_cloud:"/images/assets/AboutUs/sunn.jpg.png",
+        fly_bird:"/images/assets/AboutUs/Fly_bird.png",
+        similing_star:"/images/assets/AboutUs/similing star.png",
+        kite:"/images/assets/AboutUs/vijay_remove.png",
+        fly:"/images/assets/AboutUs/flyte-removebg-preview.png",
+        paper_rocket:"/images/assets/AboutUs/paperRocket.png",
+        Rocket:"/images/assets/AboutUs/Rocket.png",
+        Cloud:"/images/assets/AboutUs/Cloud.png"
     }
 }
 
 const Ourstory = {
     images:{
-        left_image:"/public/images/assets/AboutUs/Ourstory/bg6.png"
+        left_image:"/images/assets/AboutUs/Ourstory/bg6.png"
     },
     text:{
         head:"Our Story",
@@ -34,32 +34,32 @@ const Ourstory = {
 
 const OurValue = [
     {
-        image:"/public/images/assets/AboutUs/OurValues/wmremove-transformed.png",
+        image:"/images/assets/AboutUs/OurValues/wmremove-transformed.png",
         heading:"Compassionate Care",
         content:"We nurture each child with love and respect, creating a safe emotional space for them to express themselves."
     },
     {
-        image:"/public/images/assets/AboutUs/OurValues/education-removebg-preview.png",
+        image:"/images/assets/AboutUs/OurValues/education-removebg-preview.png",
         heading:"Educational Excellence",
         content:"We provide age-appropriate learning experiences that stimulate curiosity and foster a lifelong love of learning."
     },
     {
-        image:"/public/images/assets/AboutUs/OurValues/community.png",
+        image:"/images/assets/AboutUs/OurValues/community.png",
         heading:"Community Connection",
         content:"We build strong partnerships with families and the community to create a supportive network for each child."
     },
     {
-        image:"/public/images/assets/AboutUs/OurValues/growth_mindset-removebg-preview.png",
+        image:"/images/assets/AboutUs/OurValues/growth_mindset-removebg-preview.png",
         heading:"Growth Mindset",
         content:"We encourage children to embrace challenges, persist through obstacles, and see effort as a path to mastery."
     },
     {
-        image:"/public/images/assets/AboutUs/OurValues/environment.png",
+        image:"/images/assets/AboutUs/OurValues/environment.png",
         heading:"Joyful Environment",
         content:"We create spaces filled with laughter, play, and positive interactions to make learning a joyful experience."
     },
     {
-        image:"/public/images/assets/AboutUs/OurValues/indivual.png",
+        image:"/images/assets/AboutUs/OurValues/indivual.png",
         heading:"Individual Excellence",
         content:"We recognize and celebrate each child's unique strengths, talents, and abilities, helping them shine in ..."
     }
@@ -69,23 +69,23 @@ const OurValue = [
 const Events = [
         {
             heading:"Events and celebrations",
-            image:"/public/images/assets/AboutUs/SchoolEvents/img1.jpg",
+            image:"/images/assets/AboutUs/SchoolEvents/img1.jpg",
             content:"We celebrate every special moment with color, laughter, and joy, making beautiful memories that light up our little stars’ hearts.",
-            mediaLogo:"/public/images/assets/AboutUs/SchoolEvents/FaceBook.png",
+            mediaLogo:"/images/assets/AboutUs/SchoolEvents/FaceBook.png",
             link:"https://www.facebook.com/"
         },
         {
             heading:"Captured Smiles",
-            image:"/public/images/assets/AboutUs/SchoolEvents/img2.png",
+            image:"/images/assets/AboutUs/SchoolEvents/img2.png",
             content:"Every giggle and sparkle is precious! Our gallery captures the sweet, shining smiles of our little ones as they grow and glow to sky.",
-            mediaLogo:"/public/images/assets/AboutUs/SchoolEvents/Instagram.png",
+            mediaLogo:"/images/assets/AboutUs/SchoolEvents/Instagram.png",
             link:"https://www.instagram.com/"
         },
         {
             heading:"Little Stars in Action",
-            image:"/public/images/assets/AboutUs/SchoolEvents/img3.jpg",
+            image:"/images/assets/AboutUs/SchoolEvents/img3.jpg",
             content:"From tiny footsteps to big dreams, we cherish every moment of learning, playing, and creating — where curiosity meets confidence!",
-            mediaLogo:"/public/images/assets/AboutUs/SchoolEvents/YouTube.png",
+            mediaLogo:"/images/assets/AboutUs/SchoolEvents/YouTube.png",
             link:"https://www.youtube.com/"
         }
 ]
