@@ -14,7 +14,7 @@ export default function You_tube({common,video}){
 
             <div className={style.title}>
                 
-                <h1>Activitices :</h1>
+                <h1>Activities :</h1>
             </div>
 
             <div className={style.video_content}>

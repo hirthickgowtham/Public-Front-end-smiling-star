@@ -46,14 +46,14 @@ const Border_content = [
             heading:"Follow on Instagram",
             image:"/images/assets/Programs/Gallery/Violin/media1.jpg",
             content:"Stay connected for music tips, lessons, and live updates.",
-            mediaLogo:"images/assets/AboutUs/SchoolEvents/Instagram.png",
+            mediaLogo:"/images/assets/AboutUs/SchoolEvents/Instagram.png",
             link:"https://www.instagram.com/violin_sankari/"
         },
         {
             heading:"Subscribe on YouTube",
             image:"/images/assets/Programs/Gallery/Violin/media2.jpg",
             content:"Watch tutorials, performances, and exclusive music content.",
-            mediaLogo:"images/assets/AboutUs/SchoolEvents/YouTube.png",
+            mediaLogo:"/images/assets/AboutUs/SchoolEvents/YouTube.png",
             link:"https://www.youtube.com/@jsankarimuruga6204"
         }
 ]

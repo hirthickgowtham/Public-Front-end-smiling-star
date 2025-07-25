@@ -1,5 +1,5 @@
 const Aboutbaranatiyam = {
-    heading:"Barathanatium in Our School",
+    heading:"Bharatanatyam in Our School",
     content:"Our Bharatanatyam program introduces children to the rich cultural heritage of classical Indian dance in a joyful and age-appropriate manner. Through graceful movements, expressive gestures, and rhythmic patterns, students learn to tell stories while developing coordination, focus, and discipline. Our trained instructors guide children through the basics of adavus (steps), mudras (hand gestures), and bhavas (expressions), making each session both educational and enjoyable. By blending tradition with creativity, we aim to instill a deep appreciation for this timeless art form and nurture confidence, posture, and cultural pride in every young dancer.",
     image:"/images/assets/Programs/barathanatium.png"
 }   

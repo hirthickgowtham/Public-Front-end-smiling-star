@@ -12,7 +12,7 @@ export default function Header_baratham(){
 
             <div className={style.topic}>
 
-              <h1 className={style.name}>Barathanatiyam</h1>
+              <h1 className={style.name}>Bharatanatyam</h1>
             </div>
         </div>
         </>

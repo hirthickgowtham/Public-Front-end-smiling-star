@@ -111,7 +111,7 @@ export default function Nav_bar() {
                         </div>
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
-                            <li><a className="dropdown-item" href="/programs/Barathanatiyam">Barathanatiyam</a></li>
+                            <li><a className="dropdown-item" href="/programs/Barathanatiyam">Bharatanatyam</a></li>
                             <li><a className="dropdown-item" href="/programs/carnatic">Carnatic music</a></li>
                             <li><a className="dropdown-item" href="/programs/violin">Violin</a></li>
                             <li><a className="dropdown-item" href="/programs/keyboard_piano">Key Board</a></li>
