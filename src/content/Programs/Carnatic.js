@@ -39,6 +39,9 @@ const Carnaticgallery = [
     },
     {
         image:"/images/assets/Programs/Gallery/Carnatic/image5.jpg"
+    },
+    {
+        image:"/images/assets/Programs/Gallery/Carnatic/image10.jpg"
     }
 ]
 
