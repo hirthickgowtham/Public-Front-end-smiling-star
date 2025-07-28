@@ -77,21 +77,21 @@ const programs_content = [
             program_name:"Violin",
             content:"Violin classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
             last:"to explore the...",
-            route:"/programs/carnatic"
+            route:"/programs/violin"
         },
          {
             img:"/images/assets/Programs/Gallery/Piano/image3.jpg",
             program_name:"KeyBoard",
             content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
             last:"to explore the...",
-            route:"/programs/carnatic"
+            route:"/programs/keyboard_piano"
         },
          {
             img:"/images/assets/Programs/Gallery/Thabela/image1.jpg",
             program_name:"Tabla and Mridangam",
             content:"Tabla training at our center introduces children to the rich tradition of Indian percussion, enhancing their sense of rhythm",
             last:"to explore the...",
-            route:"/programs/carnatic"
+            route:"/programs/tabla_mridangam"
         },
 
 
