@@ -74,17 +74,17 @@ const programs_content = [
         },
          {
             img:"/images/assets/Programs/Gallery/Violin/image1.jpg",
-            program_name:"Violin",
-            content:"Violin classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
+            program_name:"Violin/keyboard",
+            content:"Violin and keyboard classes at our center help children explore melody, pitch, and coordination, introducing them to the expressive world",
             last:"to explore the...",
-            route:"/programs/violin"
+            route:"/programs/violin-keyboard"
         },
          {
             img:"/images/assets/Programs/Gallery/Piano/image3.jpg",
-            program_name:"KeyBoard",
-            content:"Our piano lessons allow children to develop musical creativity, finger coordination, and rhythm, offering a joyful foundation",
+            program_name:"Arts",
+            content:"Our Arts program is designed to spark creativity and self-expression in young minds through a rich exploration of visual arts.",
             last:"to explore the...",
-            route:"/programs/keyboard_piano"
+            route:"/programs/arts"
         },
          {
             img:"/images/assets/Programs/Gallery/Thabela/image1.jpg",

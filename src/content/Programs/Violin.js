@@ -1,6 +1,8 @@
 const Aboutviolin = {
-    heading:"Violin in our School",
-    content:"Our Carnatic music program offers young learners a joyful introduction to the world of classical South Indian music, focusing on building a strong foundation in melody, rhythm, and voice training. Children are guided through the basics of swaras (notes), simple ragas, and beginner-level songs such as geethams and bhajans in a fun and engaging environment. With personalized attention and interactive sessions, our experienced instructors help students develop musical sensitivity, discipline, and confidence. This program not only nurtures their talent but also instills a deep appreciation for the rich tradition of Indian classical music from an early age.",
+    heading:"Violin:",
+    content:`The Violin Program offers a supportive, inspiring, and creative environment where children can explore, learn, and grow through music. Recognizing that early exposure to music enhances cognitive and emotional development, the program provides a well-rounded space that encourages curiosity, discipline, and confidence through hands-on learning, ear training, rhythm exercises, and performance opportunities.
+
+Caring instructors focus on each child’s emotional, intellectual, and musical growth, ensuring they feel supported, challenged, and encouraged every step of the way. The program is designed to lay a strong foundation in musical skills while nurturing a lifelong love for the violin and the joy of self-expression through music.`,
     image:"/images/assets/Programs/ViolinAbout.png",
 }
 const ViolinGallery = [ {

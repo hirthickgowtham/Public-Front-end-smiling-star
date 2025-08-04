@@ -1,7 +1,9 @@
 const Aboutpiano = {
-    heading:"Keyboard in our School",
-    content:"Our Carnatic music program offers young learners a joyful introduction to the world of classical South Indian music, focusing on building a strong foundation in melody, rhythm, and voice training. Children are guided through the basics of swaras (notes), simple ragas, and beginner-level songs such as geethams and bhajans in a fun and engaging environment. With personalized attention and interactive sessions, our experienced instructors help students develop musical sensitivity, discipline, and confidence. This program not only nurtures their talent but also instills a deep appreciation for the rich tradition of Indian classical music from an early age.",
-    image:"/images/assets/Programs/AboutPiano.png",
+    heading:"Arts",
+    content:`Our Arts program is designed to spark creativity and self-expression in young minds through a rich exploration of visual arts. From drawing and painting to basic crafts and color theory, children are introduced to fundamental artistic concepts in a supportive and inspiring environment.
+            Through hands-on activities, they learn to observe the world more closely, express their thoughts visually, and gain confidence in their creative abilities. Our experienced instructors encourage experimentation and curiosity while nurturing each child’s unique artistic voice.
+            By blending technique with imagination, this program not only builds foundational art skills but also fosters patience, focus, and a lifelong appreciation for the visual arts. Whether your child is a budding artist or simply enjoys creative play, our Arts program opens the door to joyful learning through color, form, and expression.`,
+    image:"/images/assets/Programs/Artsaboutus.png",
 }
 
 const PianoGallery = [
@@ -9,8 +11,11 @@ const PianoGallery = [
         image:"/images/assets/Programs/Gallery/Piano/image2.jpg"
     },
     {
-        image:"/images/assets/Programs/Gallery/Piano/image3.jpg"
-    }
+        image:"/images/assets/Programs/Gallery/Piano/image3.png"
+    },
+    {
+        image:"/images/assets/Programs/Gallery/Piano/image4.png"
+    },
 ]
     const videopiano = [
         {

@@ -66,27 +66,33 @@ const OurValue = [
     
 ]
 
+
+const youtube  = import.meta.env.VITE_YOUTUBE_LINK;
+const facebook  = import.meta.env.VITE_FACEBOOK_LINK;
+const instagram  = import.meta.env.VITE_INSTA_LINK;
+
+
 const Events = [
         {
             heading:"Events and celebrations",
             image:"/images/assets/AboutUs/SchoolEvents/img1.jpg",
             content:"We celebrate every special moment with color, laughter, and joy, making beautiful memories that light up our little stars’ hearts.",
             mediaLogo:"/images/assets/AboutUs/SchoolEvents/FaceBook.png",
-            link:"https://www.facebook.com/"
+            link:`${facebook}`
         },
         {
             heading:"Captured Smiles",
-            image:"/images/assets/AboutUs/SchoolEvents/img2.png",
+            image:"/images/assets/AboutUs/SchoolEvents/img2.jpg",
             content:"Every giggle and sparkle is precious! Our gallery captures the sweet, shining smiles of our little ones as they grow and glow to sky.",
             mediaLogo:"/images/assets/AboutUs/SchoolEvents/Instagram.png",
-            link:"https://www.instagram.com/"
+            link:`${instagram}`
         },
         {
             heading:"Little Stars in Action",
             image:"/images/assets/AboutUs/SchoolEvents/img3.jpg",
             content:"From tiny footsteps to big dreams, we cherish every moment of learning, playing, and creating — where curiosity meets confidence!",
             mediaLogo:"/images/assets/AboutUs/SchoolEvents/YouTube.png",
-            link:"https://www.youtube.com/"
+            link:`${youtube}`
         }
 ]
 

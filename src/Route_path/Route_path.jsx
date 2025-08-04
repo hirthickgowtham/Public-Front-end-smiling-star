@@ -32,8 +32,8 @@ export default function Route_path() {
             <Route path="/programs/day_care" element={<Daycare/>} />
             <Route path="/programs/Barathanatiyam" element={<Bharatanatyam/>} />
             <Route path="/programs/carnatic" element={<Carnatic/>} />
-            <Route path="/programs/violin" element={<Violin/>} />
-            <Route path="/programs/keyboard_piano" element={<Piano/>} />
+            <Route path="/programs/violin-keyboard" element={<Violin/>} />
+            <Route path="/programs/arts" element={<Piano/>} />
             <Route path="/programs/tabla_mridangam" element={<Tabla_Mridangam/>} />
             <Route path="/programs/hindi" element={<Hindi/>} />
 

@@ -1,6 +1,7 @@
 const AboutDaycare = {
-    heading:"DayCare In Our School",
-    content:"At our school, the Daycare program provides a safe, nurturing, and stimulating environment where toddlers can explore, learn, and grow. Understanding that early childhood is a critical stage for development, we offer a well-rounded space that encourages curiosity, creativity, and confidence through play-based activities, storytelling, motor skill exercises, and social interaction. Our caring educators focus on each child's emotional, intellectual, and physical well-being, ensuring they feel supported, engaged, and inspired every day. We believe in laying a strong foundation during these formative years, helping children take their first steps toward a lifelong love of learning.",
+    heading:"DayCare:",
+    content:`The Daycare program offers a safe, nurturing, and stimulating environment where toddlers can explore, learn, and grow. Recognizing that early childhood is a crucial stage of development, the program provides a well-rounded space that encourages curiosity, creativity, and confidence through play-based activities, storytelling, motor skill exercises, and social interaction.
+            Caring educators focus on each child’s emotional, intellectual, and physical well-being, ensuring they feel supported, engaged, and inspired every day. The goal is to lay a strong foundation during these formative years, helping children take their first steps toward a lifelong love of learning.`,
     image:"/images/assets/Programs/AboutDayCare.png"
 }
 

@@ -8,11 +8,11 @@ export default function Piano_header(){
         <>
 
         <div className={style.main_continer}>
-            <img src="/images/programs/Piano/Piano_center (2).png" alt=""   className={style.nadarajar}  />
+            <img src="/images/programs/ArtsCenter.png" alt=""   className={style.nadarajar}  />
 
             <div className={style.topic}>
 
-              <h1 className={style.name}>Key Board</h1>
+              <h1 className={style.name}>Arts</h1>
             </div>
         </div>
         </>

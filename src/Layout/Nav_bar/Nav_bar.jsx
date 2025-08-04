@@ -113,8 +113,8 @@ export default function Nav_bar() {
                             <li><a className="dropdown-item" href="/programs/day_care">Day Care</a></li>
                             <li><a className="dropdown-item" href="/programs/Barathanatiyam">Bharatanatyam</a></li>
                             <li><a className="dropdown-item" href="/programs/carnatic">Carnatic music</a></li>
-                            <li><a className="dropdown-item" href="/programs/violin">Violin</a></li>
-                            <li><a className="dropdown-item" href="/programs/keyboard_piano">Key Board</a></li>
+                            <li><a className="dropdown-item" href="/programs/violin-keyboard">Violin/Key Board</a></li>
+                            <li><a className="dropdown-item" href="/programs/arts">Arts</a></li>
                             <li><a className="dropdown-item" href="/programs/tabla_mridangam">Tabla and Mridangam</a></li>
                             <li><a className="dropdown-item" href="/programs/hindi">Hindi</a></li>
 

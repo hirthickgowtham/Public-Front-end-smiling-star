@@ -34,65 +34,10 @@ const EnrollmentForm = () => {
     }));
   };
 
-    const validateForm = () => {
-    const {
-      first_name, last_name, email, mobile, pincode, country,
-      state, city, location, programs, age, gender
-    } = formData;
-
-    for (let key in formData) {
-      if (!formData[key] && key !== "checkit") {
-        return `Please fill in the ${key.replace("_", " ")}`;
-      }
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      return "Please enter a valid email address";
-    }
-
-    const mobileRegex = /^[6-9]\d{9}$/;
-    if (!mobileRegex.test(mobile)) {
-      return "Please enter a valid 10-digit mobile number";
-    }
-
-    const parsedAge = parseInt(age);
-    if (isNaN(parsedAge) || parsedAge < 4 || parsedAge > 12) {
-      return "Age must be between 4 and 12 years";
-    }
-
-    return null;
-  };
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
-
-  const error = validateForm();
-  if (error) {
-    alert(error);
-    return;
-  }
-      const cleanFormData = {
-      ...formData,
-      age: parseInt(formData.age),
-      first_name: formData.first_name.trim(),
-      last_name: formData.last_name.trim(),
-      email: formData.email.trim().toLowerCase(),
-      mobile: formData.mobile.trim(),
-      pincode: formData.pincode.trim(),
-      country: formData.country.trim(),
-      state: formData.state.trim(),
-      city: formData.city.trim(),
-      location: formData.location.trim(),
-      programs: formData.programs.trim(),
-      gender: formData.gender.trim(),
-      checkit: "new"
-    };
-
-
-    
+    console.log(formData)
+    formData.age = parseInt(formData.age);
     try {
       const response = await axios.post(`${domain}api/enquiryForm`,formData)
       const data = response.data;
@@ -190,13 +135,13 @@ const EnrollmentForm = () => {
             <label>Program</label>
             <select name="programs" value={formData.program} onChange={handleChange} required>
               <option value="">Select program</option>
-              <option>bharatanatyam</option>
-              <option>hindiclass</option>
-              <option>daycare</option>
-              <option>carnatic</option>
-              <option>violin</option>
-              <option>tabla</option>
-              <option>piano</option>
+              <option value = "bharatanatyam">bharatanatyam</option>
+              <option value="hindiclass">hindiclass</option>
+              <option value="daycare">daycare</option>
+              <option value="carnatic">carnatic</option>
+              <option value="violin">violin/keyboard</option>
+              <option value="tabla">tabla</option>
+              <option value="arts">arts</option>
             </select>
           </div>
 
@@ -204,7 +149,7 @@ const EnrollmentForm = () => {
         </form>
 
          <div className={enquirystyle["submit-wrapper"]}>
-            <button type="submit" className={enquirystyle["submit-btn"]}>
+            <button type="submit" onClick={handleSubmit} className={enquirystyle["submit-btn"]}>
               Submit Enquiry
             </button>
           </div>
@@ -219,3 +164,4 @@ const EnrollmentForm = () => {
 };
 
 export default EnrollmentForm;
+
