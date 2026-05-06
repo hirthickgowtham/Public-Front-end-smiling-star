@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./Popup.module.css";
+import styles from "./PopUp.module.css";
 
 const Popup = ({ initialDelay = 3000, interval = 10000, imageUrl }) => {
   const [show, setShow] = useState(false);
